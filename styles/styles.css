@@ -1,3 +1,9 @@
+/* mobile */
+
+
+
+/* fin mobile */
+
 
 /* desktop */
 @media only screen and (min-width: 1024px ) and (orientation:landscape){
@@ -39,11 +45,11 @@
     .barNav {
         position: relative;
         background-color: #1ad4f6;
-        width: 100%;
+        width: 99%;
         height: 4em;
         top: 0px;
-        filter: drop-shadow(2px 4px 6px rgb(0, 0, 0));
-        z-index: 500;   
+        border-radius: 0 2rem 0 0;
+        filter: drop-shadow(2px 4px 6px rgb(0, 0, 0));  
     }
     
     .barDecoration{
@@ -57,9 +63,10 @@
         display: flex;
         list-style-type: none;
         background-color: #F81878;
-        padding: .8rem 1.5rem;
+        padding: .9rem 1.5rem 0.8rem;
         margin-top: 4rem;
-        border-radius: 3rem 0 0 3rem;
+        border-top: 1px solid #000000;
+        border-radius: 2rem 0 2rem 2rem;
     }
     
     .LinkNav {
@@ -76,8 +83,26 @@
     }
     
     .LinkNav:hover{
-        color: #949494c9;        
+        color: #b6b6b6c9;        
     }
+
+    /* efecto boton presionado para indicar pagina actual */
+    #index{
+        color: #777777c9;   
+    }
+    #contacto{
+        color: #777777c9;   
+    }
+    #cursos{
+        color: #777777c9;     
+    }
+    #examenes{
+        color: #777777c9;   
+    }
+    #nosotros{
+        color: #777777c9;   
+    }
+
     
     .logo-index {
         position: absolute;
@@ -209,5 +234,7 @@
     }
 
 }
+
+/* fin destkop */
 
 
