@@ -4,23 +4,25 @@
         background-color: #f8f3f0;
         display: grid;
         grid-template-areas:
-        "header header header header"
-        "image image image image"
-        "section section aside aside"
-        "footer footer footer footer";
+        "header"
+        "image"
+        "section"
+        "aside"
+        "footer";
         grid-template-columns: auto;
-        grid-template-rows: 4rem auto auto 4rem;
+        grid-template-rows: 20rem 20rem 20rem 15rem 2rem ;
     }
 
     .body{
         background-color: #f8f3f0;
         display: grid;
         grid-template-areas:
-        "header header header header"
-        "section section section section"
-        "footer footer footer footer";
+        "header"
+        "section"
+        "aside"
+        "footer";
         grid-template-columns: auto;
-        grid-template-rows: 4rem auto 4rem;
+        grid-template-rows: auto;
     }
 
     header{
@@ -38,10 +40,11 @@
     .barNav {
         position: relative;
         background-color: #1ad4f6;
-        width: 99%;
+        width: 100%;
         height: 4em;
         top: 0px;
         border-radius: 0 2rem 0 0;
+        
         filter: drop-shadow(2px 4px 6px rgb(0, 0, 0));  
     }
     
@@ -49,28 +52,28 @@
         display: flex;
         align-items: center;
         justify-content: end;
-        margin: 0;
+        
     }
     
     .listNav {
-        display: flex;
+        display: block;
         list-style-type: none;
         background-color: #F81878;
-        padding: .9rem 1.5rem 0.8rem;
+        padding: .8rem 1.3rem 0.7rem;
         margin-top: 4rem;
         border-top: 1px solid #000000;
-        border-radius: 2rem 0 2rem 2rem;
+        border-radius: 0 0rem 1rem 1rem;
     }
     
     .LinkNav {
+        display: block;
         color: #333333;
         padding: 0.3rem 1.5rem;
-        margin: 10px;
+        margin: 0.5rem;
         font-family: Verdana, Tahoma, sans-serif;
         text-decoration: none;
         font-size: 1rem;
         font-weight: bold;
-        display: inline;
         border-radius: 0.3rem;
         background-color: #f8f3f0;
     }
@@ -104,7 +107,7 @@
         border-top: solid 2px;
         border-left: solid 2px;
         border-color: rgba(0, 0, 0, 0.425);
-        width: 9rem;
+        width: 6rem;
         animation: rotacion 1.8s 1;
     }
 
@@ -120,12 +123,12 @@
     
     .carrousel{
         display: flex;
-        justify-content: center;
+        justify-content: left;
     }
     
     .imagenPrincipal {
-        margin-top: 7rem;
-        width: 60rem;
+        margin-top: 8rem;
+        width: 80%;
     }
     
     .content-index {
@@ -141,7 +144,7 @@
     .content {
         position: relative;
         padding: 2rem;
-        margin: 12rem;
+        margin: 20rem 5rem;
         background-color: #e7e7e7;
         font-family: Verdana, Tahoma, sans-serif;
         font-size: medium;
@@ -225,11 +228,12 @@
         }
 
     }
-
-
-
 }
 /* fin mobile */
+
+
+
+
 
 
 /* desktop */
@@ -272,7 +276,7 @@
     .barNav {
         position: relative;
         background-color: #1ad4f6;
-        width: 99%;
+        width: 98%;
         height: 4em;
         top: 0px;
         border-radius: 0 2rem 0 0;
@@ -426,6 +430,7 @@
         width: 100%;
         height: 6rem;
         bottom: 0px;
+        margin-top: 8rem;
         grid-area: footer;
     }
 
