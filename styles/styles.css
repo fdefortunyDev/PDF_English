@@ -22,7 +22,7 @@
         "aside"
         "footer";
         grid-template-columns: auto;
-        grid-template-rows: auto;
+        grid-template-rows: 20rem 20rem 20rem 2rem ;
     }
 
     header{
