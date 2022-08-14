@@ -80,7 +80,7 @@
     }
     
     .LinkNav:hover{
-        color: #b6b6b6c9;        
+        color: #7a7a7a;        
     }
 
     /* efecto boton presionado para indicar pagina actual */
@@ -320,7 +320,7 @@
     }
     
     .LinkNav:hover{
-        color: #929292;        
+        border: 1px solid       
     }
 
     /* efecto boton presionado para indicar pagina actual */
@@ -394,12 +394,22 @@
     
     .content {
         position: relative;
-        padding: 2rem;
-        margin: 12rem;
+        padding: 5rem;
+        margin: 12rem 45rem 0 5rem;
         background-color: #e7e7e7;
         font-family: Verdana, Tahoma, sans-serif;
         font-size: medium;
         filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+        grid-area: parrafo;
+    }
+
+    .content-mt-l{
+        margin: 2rem 45rem 0 5rem;
+        
+    }
+
+    .content-mt-r{
+        margin: 2rem 45rem 0 5rem;
     }
     
     .aside{
