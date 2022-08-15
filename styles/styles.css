@@ -10,9 +10,9 @@
         "section"
         "aside"
         "footer";
-        grid-template-columns: 1fr 2fr auto auto 1fr ;
-        grid-template-rows: auto ;
-    }
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        }
 
     .body{
         background-color: #f8f3f0;
@@ -36,6 +36,10 @@
 
     section{
         grid-area: section;
+    }
+
+    aside{
+        grid-area: aside;
     }
     
     .barNav {
@@ -77,10 +81,12 @@
         font-weight: bold;
         border-radius: 0.3rem;
         background-color: #f8f3f0;
+        border: 1px solid #929292;   ;
+        filter: drop-shadow(3px 3px 1px rgb(0, 0, 0));
     }
-    
+
     .LinkNav:hover{
-        color: #7a7a7a;        
+        border: 1px solid       
     }
 
     /* efecto boton presionado para indicar pagina actual */
@@ -153,7 +159,6 @@
     
     .aside{
         margin: 2rem;
-        grid-area: aside;
     }
     
     .aside div img {
@@ -170,19 +175,20 @@
     .aside div span a{
         display: block;
         position: relative;
-        margin: 1rem 1.5rem 6rem 0;
-        padding: 1rem;
-        height: 1.5rem;
-        width: 100%;
+        margin: 0 3rem 5rem 3rem;
+        padding-top: 1.1rem;
+        width: 50rem;
+        height: 4rem;
         text-decoration: none;
-        font-family: Verdana, Tahoma, sans-serif;
-        font-size: 1.2rem;
-        color: #000000;
+        font-size: 2rem;
+        color: #0f0d57;
+        font-family: 'Ibarra Real Nova', serif;
+        justify-content: center;
         text-align: center;
         font-weight: bolder;
         background-color:#e7e7e7;
         border-radius: 2rem;
-        filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+        filter: drop-shadow(4px 2px 6px rgb(0, 0, 0));
     }
     
     .copyright {
@@ -256,13 +262,10 @@
 
     .body{
         background-color: #f8f3f0;
-        display: grid;
-        grid-template-areas:
-        "header header header header"
-        "section section section section"
-        "footer footer footer footer";
-        grid-template-columns: auto;
-        grid-template-rows: 4rem auto 4rem;
+    }
+
+    .spacing{
+        margin-top:1rem;
     }
 
     header{
@@ -381,6 +384,7 @@
         margin-top: 7rem;
         width: 60rem;
     }
+
     
     .content-index {
         position: relative;
@@ -391,25 +395,99 @@
         font-size: medium;
         filter: drop-shadow(0 0 1px rgb(0, 0, 0));
     }
+
+
+    .image-workshop{
+        position: absolute;
+        display: inline-flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 24.5rem;
+        margin-left: 47rem;
+        border: 1px solid #929292;
+        filter: drop-shadow(0 0 1px #929292);
+        z-index: -20;
+    }
+
+
+    .image-courses{
+        position: absolute;
+        display: inline-flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 30rem;
+        height: 32rem;
+        margin-left: 47rem;
+        border: 1px solid #929292;
+        filter: drop-shadow(0 0 1px #929292);
+        z-index: -20;
+    }
+
+
+    .content-courses{
+        position: relative;
+        margin: 12rem 45rem 1rem 11rem;
+        padding: 2rem;
+        width: 30rem;
+        height: 28rem;
+        background-color: #e7e7e7;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+        filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+    }
+
+
+    .content-nosotros {
+        position: relative;
+        margin: 12rem 45rem 1rem 11rem;
+        padding: 2rem;
+        width: 30rem;
+        height: 40rem;
+        background-color: #e7e7e7;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+        filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+    }
+    
     
     .content {
         position: relative;
-        padding: 5rem;
-        margin: 12rem 45rem 0 5rem;
+        margin: 15rem 45rem 1rem 11rem;
+        padding: 2rem;
+        width: 30rem;
+        height: 17rem;
         background-color: #e7e7e7;
         font-family: Verdana, Tahoma, sans-serif;
-        font-size: medium;
+        font-size: 0.9rem;
         filter: drop-shadow(0 0 1px rgb(0, 0, 0));
-        grid-area: parrafo;
     }
 
     .content-mt-l{
-        margin: 2rem 45rem 0 5rem;
-        
+        margin: 2rem 45rem 1rem 11rem;
     }
 
-    .content-mt-r{
-        margin: 2rem 45rem 0 5rem;
+    .content hr{
+        width: 11rem;
+    }
+
+    h1{
+        font-size: 3rem ;
+        color: #0f0d57;
+        font-family: 'Ibarra Real Nova', serif;
+        text-align: center;
+    }
+    h3{
+        font-size: 2rem ;
+        text-decoration: 8px overline dotted #777777;
+        color: #0f0d57;
+        font-family: 'Ibarra Real Nova', serif;
+        text-align: center;
+        
+    }
+    h4{
+        font-size: 1rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #0f0d57af;
     }
     
     .aside{
@@ -429,12 +507,11 @@
         display: block;
         position: relative;
         margin: 0 3rem 5rem 3rem;
-        padding: 1rem;
-        height: 1.5rem;
+        height: 2.5rem;
         text-decoration: none;
-        font-family: Verdana, Tahoma, sans-serif;
-        font-size: 1.2rem;
-        color: #000000;
+        font-size: 2rem;
+        color: #0f0d57;
+        font-family: 'Ibarra Real Nova', serif;
         justify-content: center;
         text-align: center;
         font-weight: bolder;
