@@ -339,7 +339,7 @@
         background-color: #f8f3f0;
     }
 
-    .spacing{
+    .space{
         margin-top:1rem;
     }
 
@@ -580,12 +580,22 @@
     .content-examenes img{
         display:inline-flex;
         margin: 2rem;
-        width: 14rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     #cambridge{
-        width: 25rem;
-        padding-left: 2.5rem;
+        width: 20rem;
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom{
+        position: absolute;
+        bottom: 1rem;
     }
 /* /////////////////////////////////////// */
 
@@ -595,12 +605,13 @@
         margin: 12rem 45rem 1rem 11rem;
         padding: 2rem;
         width: 30rem;
-        height: 40rem;
+        height: 30rem;
         background-color: #e7e7e7;
         font-family: Verdana, Tahoma, sans-serif;
         font-size: 0.9rem;
         filter: drop-shadow(0 0 1px rgb(0, 0, 0));
     }
+
     
     /* /////////////////////////////////////// */
 
@@ -654,6 +665,10 @@
         font-size: 1rem;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: #0f0d57af;
+    }
+
+    .short-hr{
+        width: 10rem;
     }
     
     .aside{
