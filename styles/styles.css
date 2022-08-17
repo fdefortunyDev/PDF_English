@@ -52,7 +52,7 @@
         position: relative;
         background-color: #1ad4f6;
         width: 100%;
-        height: 3em;
+        height: 3rem;
         top: 0px;
         border-radius: 0 2rem 0 0;
         filter: drop-shadow(2px 4px 6px rgb(0, 0, 0));  
@@ -61,7 +61,7 @@
     .barDecoration{
         display: flex;
         align-items: center;
-        justify-content: end;
+        justify-content: center;
         
     }
     
@@ -69,6 +69,7 @@
         display: block;
         list-style-type: none;
         background-color: #F81878;
+        margin-left: 65%;
         padding: .2rem .5rem;
         margin-top: 3rem;
         border-top: 1px solid #000000;
@@ -172,7 +173,7 @@
     }
     
     .imagenPrincipal {
-        margin-top: 8rem;
+        margin-top: 9rem;
         width: 80%;
     }
 
@@ -283,8 +284,6 @@
         position: relative;
         background-color: #000000;
         width: 100%;
-        height: 6rem;
-        bottom: 0px;
         grid-area: footer;
     }
 
@@ -296,7 +295,7 @@
     }
     
     .listFooter{
-        display: flex;
+        display: block;
         list-style: none;
     }
 
@@ -307,7 +306,7 @@
         margin: 0 .5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-decoration: none;
-        font-size: .7rem;
+        font-size: .8rem;
         font-weight: bold;
     }
 
