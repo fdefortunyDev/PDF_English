@@ -397,7 +397,7 @@
         list-style-type: none;
         background-color: #F81878;
         padding: 1rem 1.5rem;
-        margin-top: 4rem;
+        margin-top: 11.3rem;
         border-top: 1px solid #000000;
         border-radius: 2rem 0 2rem 2rem;
     }
@@ -459,13 +459,8 @@
         border-color: rgba(0, 0, 0, 0.425);
         width: 9rem;
         animation: rotacion 1.8s 1;
-        animation-duration: 1.8s;
     }
 
-    .logo-index{
-        animation: rotacion 1.8s 1;
-    
-    }
 
     .logo {
         position: absolute;
