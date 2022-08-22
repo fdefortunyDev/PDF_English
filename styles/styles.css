@@ -156,7 +156,7 @@
 
     h3{
         font-size: 1.2rem ;
-        text-decoration: 8px overline dotted #777777;
+        text-decoration: 1px overline;
         color: #0f0d57;
         font-family: 'Ibarra Real Nova', serif;
         text-align: center;
@@ -673,7 +673,7 @@
         color: #0f0d57;
         font-family: 'Ibarra Real Nova', serif;
         text-align: center;
-        text-decoration: 1px overline #0f0d57;
+        text-decoration: 1px overline;
     }
 
     h2{
@@ -686,7 +686,7 @@
 
     h3{
         font-size: 2.5rem ;
-        text-decoration: 8px overline dotted #777777;
+        text-decoration: 1px overline;
         color: #0f0d57;
         font-family: 'Ibarra Real Nova', serif;
         text-align: center;
