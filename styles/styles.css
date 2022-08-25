@@ -72,7 +72,7 @@
         position: absolute;
         right: 0px;
         padding: .2rem .5rem;
-        margin-top: 16.2rem;
+        margin-top: 3rem;
         border-top: 1px solid #000000;
         border-radius: 0 0 2rem 2rem;
     }
@@ -223,6 +223,21 @@
         filter: drop-shadow(0 0 1px rgb(0, 0, 0));
     }
 
+    
+    .content-faq{
+        position: relative;
+        margin: 20rem 0 4rem 0;
+        padding: 2rem;
+        background-color: #e7e7e7;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+        filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+    }
+    
+    .center{
+        justify-content: center;
+    }
+
     .div-courses{
         display: block;
         position: relative;
@@ -291,13 +306,14 @@
     .menuFooter {
         margin: 0px 10px;
         padding: 2rem;
-        display: flex;
+        display: block;
         justify-content: center;
+        list-style: none;
+        text-align: center;
     }
     
     .listFooter{
         display: block;
-        list-style: none;
     }
 
 
@@ -327,6 +343,17 @@
     }
 
 /* fin mobile */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -397,7 +424,7 @@
         list-style-type: none;
         background-color: #F81878;
         padding: 1rem 1.5rem;
-        margin-top: 11.3rem;
+        margin-top: 4rem;
         border-top: 1px solid #000000;
         border-radius: 2rem 0 2rem 2rem;
     }
@@ -659,13 +686,18 @@
 
     .content-faq{
         position: relative;
-        margin: 15rem 45rem 1rem 11rem;
+        margin: 15rem 0 1rem 0;
+        width: 90%;
         padding: 2rem;
-        width: 30rem;
         background-color: #e7e7e7;
         font-family: Verdana, Tahoma, sans-serif;
         font-size: 0.9rem;
+        justify-content: center;
         filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+    }
+
+    .center{
+        justify-content: center;
     }
 
     h1{
@@ -766,6 +798,7 @@
         margin: 0px 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-decoration: none;
+        list-style: none;
         font-size: medium;
         font-weight: bold;
     }
