@@ -72,7 +72,7 @@ aside{
     position: absolute;
     right: 0px;
     padding: .2rem .5rem;
-    margin-top: 3rem;
+    margin-top: 15.3rem;
     border-top: 1px solid #000000;
     border-radius: 0 0 2rem 2rem;
 }
@@ -122,7 +122,7 @@ aside{
     border-top: solid 2px;
     border-left: solid 2px;
     border-color: rgba(0, 0, 0, 0.425);
-    width: 9rem;
+    width: 8rem;
     animation: rotacion 1.8s 1;
 }
 
@@ -139,15 +139,15 @@ aside{
 
 
 h1{
-    font-size: 1.4rem ;
+    font-size: 2.5rem ;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
-    text-decoration: 1px overline;
+    text-decoration: 1px overline #a8a8a8;
 }
 
 h2{
-    font-size: 1rem ;
+    font-size: 2rem ;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
@@ -155,8 +155,8 @@ h2{
 }
 
 h3{
-    font-size: 1.2rem ;
-    text-decoration: 1px overline;
+    font-size: 2.1rem ;
+    text-decoration: 1px overline #a8a8a8;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
@@ -174,7 +174,7 @@ h4{
 }
 
 .imagenPrincipal {
-    margin-top: 9rem;
+    margin-top: 12rem;
     width: 80%;
 }
 
@@ -193,9 +193,9 @@ h4{
 
 .content-index {
     position: relative;
-    margin: 1rem 1rem 2rem;
+    margin: 3rem 2rem 5rem 2rem;
     padding: 2rem;
-    background-color: #e7e7e7;
+    background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: medium;
     filter: drop-shadow(0 0 1px rgb(0, 0, 0));
@@ -204,20 +204,35 @@ h4{
 .content {
     position: relative;
     padding: 2rem;
-    background-color: #e7e7e7;
+    background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: medium;
     filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
+.content-nosotros {
+    position: relative;
+    margin: 17rem 2rem 5rem 2rem;
+    padding: 2rem;
+    height: auto;
+    background-color: #f8f3f0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+}
+
+.content-nosotros ul li{
+    margin-top: 2rem;
+}
+
+
 .content-courses{
     display: block;
     position: relative;
-    margin: 2rem 5rem 2rem;
+    margin: 17rem 2rem 2rem;
     padding: 2rem;
-    width: 30rem;
     height: auto;
-    background-color: #e7e7e7;
+    background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     filter: drop-shadow(0 0 1px rgb(0, 0, 0));
@@ -228,13 +243,46 @@ h4{
     position: relative;
     margin: 20rem 0 4rem 0;
     padding: 2rem;
-    background-color: #e7e7e7;
+    background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
+.content-contacto {
+    position: relative;
+    margin: 17rem 10rem 5rem;
+    padding: 2rem;
+    height: auto;
+    background-color: #f8f3f0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+}
+
+
+
+.content-examenes {
+    position: relative;
+    margin: 17rem 2rem 10rem 2rem;
+    padding: 2rem;
+    height: auto;
+    background-color: #f8f3f0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+}
+
+.content-examenes img{
+    display:inline-flex;
+    margin: 4rem 1rem 2rem;
+    width: 40%;
+    height: 40%;
+    justify-content: center;
+}
+
 .center{
+    display: flex;
     justify-content: center;
 }
 
@@ -255,7 +303,7 @@ h4{
 
 
 .aside{
-    margin: 1rem;
+    margin: 5rem;
 }
 
 .aside div img {
@@ -272,12 +320,12 @@ h4{
 .aside div span a{
     display: block;
     position: relative;
-    margin: 0 0 5rem 0;
+    margin: 0 0 8rem 0;
     padding-top: .2rem;
     width: 100%;
     height: 2%;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     justify-content: center;
@@ -314,6 +362,7 @@ h4{
 
 .listFooter{
     display: block;
+    list-style: none;
 }
 
 
@@ -364,17 +413,17 @@ h4{
 
 /* desktop */
 @media only screen and (min-width: 1024px) and (orientation:landscape){
-.body-index{
-    background-color: #f8f3f0;
-    display: grid;
-    grid-template-areas:
-    "header header header header"
-    "image image image image"
-    "section section aside aside"
-    "footer footer footer footer";
-    grid-template-columns: 35% 35% 15% 15%;
-    grid-template-rows: auto auto auto 5%;
-}
+.body-index {
+        background-color: #f8f3f0;
+        display: grid;
+        grid-template-areas:
+            "header header header header"
+            "image image image image"
+            "section section aside aside"
+            "footer footer footer footer";
+        grid-template-columns: 35% 35% 15% 15%;
+        grid-template-rows: auto auto auto 5%;
+    }
 
 .body{
     background-color: #f8f3f0;
@@ -424,7 +473,7 @@ section{
     list-style-type: none;
     background-color: #F81878;
     padding: 1rem 1.5rem;
-    margin-top: 4rem;
+    margin-top: 8.5rem;
     border-top: 1px solid #000000;
     border-radius: 2rem 0 2rem 2rem;
 }
@@ -439,13 +488,13 @@ section{
     font-weight: bold;
     display: inline;
     border-radius: 0.3rem;
-    background-color: #d6d6d6;
+    background-color: #f0f0f0;
     border: 1px solid #929292;   ;
     filter: drop-shadow(3px 3px 1px rgb(0, 0, 0));
 }
 
 .LinkNav:hover{
-    border: 1px solid       
+    border: 1px solid;      
 }
 
 /* efecto boton presionado para indicar pagina actual */
@@ -540,7 +589,7 @@ section{
     position: relative;
     margin: 5rem auto 5rem auto;
     padding: 2rem;
-    background-color: #e7e7e7;
+    background-color:  #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 1rem;
     width: 80%;
@@ -559,11 +608,10 @@ section{
 
 .content-courses{
     position: relative;
-    margin: 12rem auto 1rem auto;
+    margin: 15rem 15rem 5rem;
     padding: 2rem;
-    width: 30rem;
     height: auto;
-    background-color: #e7e7e7;
+    background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     filter: drop-shadow(0 0 1px rgb(0, 0, 0));
@@ -596,14 +644,11 @@ section{
 /* ////////////NOSOTROS/////////////////// */   
 .content-nosotros {
     position: relative;
-    margin: 12rem auto 1rem auto;
+    margin: 15rem 15rem 5rem;
     padding: 2rem;
-    width: 50rem;
     height: auto;
-    background-color: #e7e7e7;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 .content-nosotros ul li{
@@ -615,21 +660,19 @@ section{
 /* //////////////EXAMENES///////////////// */
 .content-examenes {
     position: relative;
-    margin: 12rem auto 1rem auto;
+    margin: 15rem 15rem 5rem;
     padding: 2rem;
-    width: 50rem;
+    background-color: #f8f3f0;
     height: auto;
-    background-color: #e7e7e7;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 .content-examenes img{
     display:inline-flex;
-    margin: 2rem;
-    width: 10rem;
-    height: 10rem;
+    margin: 5rem 2rem;
+    width: 30%;
+    height: 30%;
 }
 
 #cambridge{
@@ -650,11 +693,10 @@ section{
 /* //////////////CONTACTO///////////////// */
 .content-contacto {
     position: relative;
-    margin: 12rem 45rem 1rem 11rem;
+    margin: 15rem 13rem 5rem;
     padding: 2rem;
-    width: 30rem;
-    height: 30rem;
-    background-color: #e7e7e7;
+    height: auto;
+    background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     filter: drop-shadow(0 0 1px rgb(0, 0, 0));
@@ -666,11 +708,10 @@ section{
 /* //////////////otros///////////////// */
 .content {
     position: relative;
-    margin: 15rem 45rem 1rem 11rem;
+    margin: 15rem 10rem 5rem;
     padding: 2rem;
-    width: 30rem;
-    height: 17rem;
-    background-color: #e7e7e7;
+    height: auto;
+    background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     filter: drop-shadow(0 0 1px rgb(0, 0, 0));
@@ -686,30 +727,26 @@ section{
 
 .content-faq{
     position: relative;
-    margin: 15rem 0 1rem 0;
-    width: 90%;
+    margin: 15rem 10rem 5rem;
     padding: 2rem;
-    background-color: #e7e7e7;
+    background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     justify-content: center;
     filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
-.center{
-    justify-content: center;
-}
 
 h1{
     font-size: 3.5rem ;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
-    text-decoration: 1px overline;
+    text-decoration: 1px overline #a8a8a8;
 }
 
 h2{
-    font-size: 3rem ;
+    font-size: 2rem ;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
@@ -717,8 +754,8 @@ h2{
 }
 
 h3{
-    font-size: 2.5rem ;
-    text-decoration: 1px overline;
+    font-size: 3rem ;
+    text-decoration: 1px overline #a8a8a8;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
@@ -736,7 +773,7 @@ h4{
 }
 
 .aside{
-    margin-top: 5rem;
+    margin: 5rem 3rem 5rem 0;
     grid-area: aside;
 }
 
@@ -783,6 +820,7 @@ h4{
 .listFooter{
     display: flex;
     text-decoration: none;
+    list-style: none;
 }
 
 .menuFooter {
@@ -798,7 +836,6 @@ h4{
     margin: 0px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    list-style: none;
     font-size: medium;
     font-weight: bold;
 }

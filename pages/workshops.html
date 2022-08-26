@@ -9,6 +9,7 @@
     <meta name="description" content="clases de inglés. curso online para niños, adolescnetes y adultos" />
     <meta name="author" content="Federico de Fortuny" />
     <meta name="copyright" content="PDF English" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,12 +18,12 @@
 </head>
 
 <body class="body">
-    <header>
-        <nav class="barNav">
-            <div>
+    <header class="container-fluid">
+        <nav class="barNav row">
+            <div class="col-3">
                 <img class="logo" src="../images/logo.jpg" alt="Logotipo PDF English">
             </div>
-            <div class="barDecoration">
+            <div class="barDecoration col-9">
                 <ul class="listNav">
                     <li><a class="LinkNav" href="../index.html">Inicio</a></li>
                     <li><a class="LinkNav" href="./cursos.html">Cursos</a></li>
@@ -33,135 +34,149 @@
             </div>
         </nav>
     </header>
-    <section>
-        <div class="full-content">
-            <img class="image-workshop" src="../images/Coversation-class.jpg" alt="imagen curso conversación">
-            <div class="content">
-                <h3>Conversation</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-                    dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
-                    itaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-                    dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
-                </p>
-                <div class="bottom">
-                    <hr class="space">
-                    <h4>Requisito: Nivel B1+</h4>
-                    <h4>Duración: 4 meses</h4>
-                    <h4>Edad: Adultos</h4>
-                    <hr class="space">
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+                <img class="image-workshop" src="../images/Coversation-class.jpg" alt="imagen curso conversación">
+                <div class="content">
+                    <h3>Conversation</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+                        dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
+                        itaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+                        dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
+                    </p>
+                    <div class="bottom">
+                        <hr class="space">
+                        <h4>Requisito: Nivel B1+</h4>
+                        <h4>Duración: 4 meses</h4>
+                        <h4>Edad: Adultos</h4>
+                        <hr class="space">
+                    </div>
                 </div>
             </div>
-            <img class="image-workshop space" src="../images/listening-class.jpg" alt="imagen curso Listening">
-            <div class="content content-mt-l">
-                <h3>Intensive Listening</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-                    dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
-                    dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
-                    illo placeat incidunt fuga fugiat consequatur, quod voluptate excepturi
-                </p>
-                <div class="bottom">
-                    <hr class="space">
-                    <h4>Nivel: B1+</h4>
-                    <h4>Duración: 4 meses</h4>
-                    <h4>Edad: Adultos</h4>
-                    <hr class="space">
+            <div class="col-12">
+                <img class="image-workshop space" src="../images/listening-class.jpg" alt="imagen curso Listening">
+                <div class="content content-mt-l">
+                    <h3>Intensive Listening</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+                        dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
+                        dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
+                        illo placeat incidunt fuga fugiat consequatur, quod voluptate excepturi
+                    </p>
+                    <div class="bottom">
+                        <hr class="space">
+                        <h4>Nivel: B1+</h4>
+                        <h4>Duración: 4 meses</h4>
+                        <h4>Edad: Adultos</h4>
+                        <hr class="space">
+                    </div>
                 </div>
             </div>
-            <img class="image-workshop space" src="../images/news-class.jpg" alt="imagen curso noticias">
-            <div class="content content-mt-l">
-                <h3>New in English</h3>
-                <p>
-                    Este curso te permitirá familiarizarte con vocabulario relevante y actualizado
-                    en cuestiones políticas, sociales, económicas y culturales. Un curso para disfrutar
-                    de leer y escuchar noticias de la actualidad en inglés. Clases personalizadas o grupales en
-                    modalidad online.
-                </p>
-                <div class="bottom">
-                    <hr class="space">
-                    <h4>Nivel: B1+</h4>
-                    <h4>Duración: 4 meses</h4>
-                    <h4>Edad: Adultos</h4>
-                    <hr class="space">
+            <div class="col-12">
+                <img class="image-workshop space" src="../images/news-class.jpg" alt="imagen curso noticias">
+                <div class="content content-mt-l">
+                    <h3>New in English</h3>
+                    <p>
+                        Este curso te permitirá familiarizarte con vocabulario relevante y actualizado
+                        en cuestiones políticas, sociales, económicas y culturales. Un curso para disfrutar
+                        de leer y escuchar noticias de la actualidad en inglés. Clases personalizadas o grupales en
+                        modalidad online.
+                    </p>
+                    <div class="bottom">
+                        <hr class="space">
+                        <h4>Nivel: B1+</h4>
+                        <h4>Duración: 4 meses</h4>
+                        <h4>Edad: Adultos</h4>
+                        <hr class="space">
+                    </div>
                 </div>
             </div>
-            <img class="image-workshop space" src="../images/bg-gray.jpg" alt="imagen curso">
-            <div class="content content-mt-l">
-                <h3>Vocabulary and Topics</h3>
-                <p>
-                    Este curso te permitirá incrementar e interiorizar de forma
-                    casual y dinámica, palabras y expresiones de uso diario.
-                    un vocabulario amplio y sólido te permitirá expresarte con
-                    naturalidad y seguridad.
-                    Clases personalizadas o grupales en modalidad online.
-                </p>
-                <div class="bottom">
-                    <hr class="space">
-                    <h4>Nivel: B1+</h4>
-                    <h4>Duración: 4 meses</h4>
-                    <h4>Edad: Adultos</h4>
-                    <hr class="space">
+            <div class="col-12">
+                <img class="image-workshop space" src="../images/bg-gray.jpg" alt="imagen curso">
+                <div class="content content-mt-l">
+                    <h3>Vocabulary and Topics</h3>
+                    <p>
+                        Este curso te permitirá incrementar e interiorizar de forma
+                        casual y dinámica, palabras y expresiones de uso diario.
+                        un vocabulario amplio y sólido te permitirá expresarte con
+                        naturalidad y seguridad.
+                        Clases personalizadas o grupales en modalidad online.
+                    </p>
+                    <div class="bottom">
+                        <hr class="space">
+                        <h4>Nivel: B1+</h4>
+                        <h4>Duración: 4 meses</h4>
+                        <h4>Edad: Adultos</h4>
+                        <hr class="space">
+                    </div>
                 </div>
             </div>
-            <img class="image-workshop space" src="../images/bg-gray.jpg" alt="imagen curso">
-            <div class="content content-mt-l">
-                <h3>Fluency and Pronunciation</h3>
-                <p>
-                    illo placeat incidunt fuga fugiat consequatur, quod voluptate excepturi
-                    dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
-                    illo placeat incidunt fuga fugiat consequatur, quod voluptate excepturi
-                    itaque
-                </p>
-                <div class="bottom">
-                    <hr class="space">
-                    <h4>Nivel: B1+</h4>
-                    <h4>Duración: 4 meses</h4>
-                    <h4>Edad: Adultos</h4>
-                    <hr class="space">
+            <div class="col-12">
+                <img class="image-workshop space" src="../images/bg-gray.jpg" alt="imagen curso">
+                <div class="content content-mt-l">
+                    <h3>Fluency and Pronunciation</h3>
+                    <p>
+                        illo placeat incidunt fuga fugiat consequatur, quod voluptate excepturi
+                        dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
+                        illo placeat incidunt fuga fugiat consequatur, quod voluptate excepturi
+                        itaque
+                    </p>
+                    <div class="bottom">
+                        <hr class="space">
+                        <h4>Nivel: B1+</h4>
+                        <h4>Duración: 4 meses</h4>
+                        <h4>Edad: Adultos</h4>
+                        <hr class="space">
+                    </div>
                 </div>
             </div>
-            <img class="image-workshop space" src="../images/bg-gray.jpg" alt="imagen curso">
-            <div class="content content-mt-l">
-                <h3>Reading and Writing Skills</h3>
-                <p>
-                    illo placeat incidunt fuga fugiat consequatur, quod voluptate excepturi
-                    itaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-                    dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
-                    illo placeat incidunt fuga fugiat consequatur, quod voluptate excepturi
-                </p>
-                <div class="bottom">
-                    <hr class="space">
-                    <h4>Nivel: B1+</h4>
-                    <h4>Duración: 4 meses</h4>
-                    <h4>Edad: Adultos</h4>
-                    <hr class="space">
+            <div class="col-12">
+                <img class="image-workshop space" src="../images/bg-gray.jpg" alt="imagen curso">
+                <div class="content content-mt-l">
+                    <h3>Reading and Writing Skills</h3>
+                    <p>
+                        illo placeat incidunt fuga fugiat consequatur, quod voluptate excepturi
+                        itaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+                        dolorem reprehenderit voluptatum magnam, eos et quo ex cum cupiditate ad
+                        illo placeat incidunt fuga fugiat consequatur, quod voluptate excepturi
+                    </p>
+                    <div class="bottom">
+                        <hr class="space">
+                        <h4>Nivel: B1+</h4>
+                        <h4>Duración: 4 meses</h4>
+                        <h4>Edad: Adultos</h4>
+                        <hr class="space">
+                    </div>
                 </div>
             </div>
-            <img class="image-workshop space" src="../images/bg-gray.jpg" alt="imagen curso">
-            <div class="content content-mt-l">
-                <h3>Keep in Touch</h3>
-                <p>
-                    Este curso está orientado a explorar los distintos formatos y estilos de escritura, para poder
-                    dirigirse correctamente a quien corresponda en cada aspecto de la vida cotidiana, viajes, trabajo,
-                    etc.
-                    Clases personalizadas o grupales en modalidad online.
-                </p>
-                <div class="bottom">
-                    <hr class="space">
-                    <h4>Nivel: B1+</h4>
-                    <h4>Duración: 4 meses</h4>
-                    <h4>Edad: Adultos</h4>
-                    <hr class="space">
+            <div class="col-12">
+                <img class="image-workshop space" src="../images/bg-gray.jpg" alt="imagen curso">
+                <div class="content content-mt-l">
+                    <h3>Keep in Touch</h3>
+                    <p>
+                        Este curso está orientado a explorar los distintos formatos y estilos de escritura, para poder
+                        dirigirse correctamente a quien corresponda en cada aspecto de la vida cotidiana, viajes, trabajo,
+                        etc.
+                        Clases personalizadas o grupales en modalidad online.
+                    </p>
+                    <div class="bottom">
+                        <hr class="space">
+                        <h4>Nivel: B1+</h4>
+                        <h4>Duración: 4 meses</h4>
+                        <h4>Edad: Adultos</h4>
+                        <hr class="space">
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <footer class="foot">
-        <nav>
-            <ul class="menuFooter">
-                <li><a class="LinkFoot" href="../index.html">Inicio</a></li>
-                <li><a class="LinkFoot" href="./cursos.html">Cursos</a></li>
+        </section>
+        <footer class="foot container-fluid">
+            <nav class="row">
+                <ul class="menuFooter col-12">
+                    <li><a class="LinkFoot" href="../index.html">Inicio</a></li>
+                    <li><a class="LinkFoot" href="./cursos.html">Cursos</a></li>
                 <li><a class="LinkFoot" href="./examenes.html">Exámenes</a></li>
                 <li><a class="LinkFoot" href="./workshops.html">Workshops</a></li>
                 <li><a class="LinkFoot" href="./nosotros.html">Nosotros</a></li>
@@ -171,6 +186,7 @@
             <span class="copyright">© Copyright 2022. All Rights Reserved.</span>
         </nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 </html>
