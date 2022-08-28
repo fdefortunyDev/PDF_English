@@ -315,6 +315,7 @@ h4{
     display: flex;
     width: 100%;
     justify-content: center;
+    
 }
 
 .aside div span a{
@@ -332,8 +333,7 @@ h4{
     text-align: center;
     font-weight: bolder;
     background-color:#e7e7e7;
-    border-radius: 2rem;
-    filter: drop-shadow(4px 2px 6px rgb(0, 0, 0));
+    border-style: ridge;
 }
 
 .copyright {
@@ -575,11 +575,9 @@ section{
     display: inline-flex;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 24.5rem;
-    margin-left: 47rem;
+    width: 21.9rem;
     border: 1px solid #929292;
     filter: drop-shadow(0 0 1px #929292);
-    z-index: -20;
 }
 /* /////////////////////////////////////// */
 
@@ -705,17 +703,23 @@ section{
 
 /* /////////////////////////////////////// */
 
-/* //////////////otros///////////////// */
-.content {
+/* //////////////workshop///////////////// */
+
+.content-work-img{
+    margin: 15rem 2rem 5rem;
+}
+
+.content-work {
     position: relative;
-    margin: 15rem 10rem 5rem;
-    padding: 2rem;
+    margin: 15rem 0 5rem;
+    padding: 2rem 5rem;
     height: auto;
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
+
 
 .content-mt-l{
     margin: 2rem 45rem 1rem 11rem;
@@ -795,8 +799,8 @@ h4{
     text-align: center;
     font-weight: bolder;
     background-color:#e7e7e7;
-    border-radius: 2rem;
-    filter: drop-shadow(4px 2px 6px rgb(0, 0, 0));
+
+
 }
 
 .copyright {
