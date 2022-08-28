@@ -162,12 +162,11 @@ h4{
 
 .content-index {
     position: relative;
-    margin: 3rem 1rem 5rem 1rem;
-    padding: 1rem;
+    margin: 3rem 0 5rem 0;
+    padding: 2rem;
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: medium;
-    border-top: 2px dashed #0f0d57;
 }
 
 .content {
@@ -198,7 +197,7 @@ h4{
 .content-courses{
     display: block;
     position: relative;
-    margin: 17rem 2rem 2rem;
+    margin: 17rem 1rem 2rem;
     padding: 2rem;
     height: auto;
     background-color: #f8f3f0;
@@ -273,6 +272,7 @@ h4{
 
 .aside{
     margin: 5rem 0;
+    padding: 3rem;
 }
 
 .aside div img {
@@ -291,11 +291,10 @@ h4{
     display: block;
     position: relative;
     margin: 0 0 8rem 0;
-    padding-top: .2rem;
+    padding: .5rem .2rem;
     width: 100%;
-    height: 2%;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     justify-content: center;
@@ -359,14 +358,8 @@ h4{
 
 }
 
+
 /* fin mobile */
-
-
-
-
-
-
-
 
 
 
@@ -524,8 +517,8 @@ h4{
 
 .content-index {
     position: relative;
-    margin: 5rem auto 5rem auto;
-    padding: 2rem;
+    margin: 5rem 0 4rem 0;
+    padding: 2rem 5rem;
     background-color:  #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 1rem;
@@ -539,7 +532,7 @@ h4{
 
 .content-courses{
     position: relative;
-    margin: 15rem 15rem 5rem;
+    margin: 15rem 0 5rem;
     padding: 2rem;
     height: auto;
     background-color: #f8f3f0;
@@ -558,8 +551,7 @@ h4{
 
 .div-courses{
     position: relative;
-    margin: 10rem 15rem 5rem;
-    width: 50rem;
+    margin: 10rem 0 5rem;
     height: auto;
 }
 
@@ -667,7 +659,7 @@ h4{
 
 
 h1{
-    font-size: 3.5rem ;
+    font-size: 3rem ;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
@@ -683,7 +675,7 @@ h2{
 }
 
 h3{
-    font-size: 3rem ;
+    font-size: 2rem ;
     text-decoration: 1px overline #a8a8a8;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
@@ -702,7 +694,8 @@ h4{
 }
 
 .aside{
-    margin: 5rem 3rem 5rem 0;
+    margin: 5rem 0 5rem 0;
+    padding: 5rem;
 }
 
 .aside div img {
