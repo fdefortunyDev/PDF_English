@@ -1,3 +1,23 @@
+/* bootstrap */
+.form-control:focus{
+    border: 2px solid #F81878;
+}
+
+.form-label{
+    font-size: 1.2rem ;
+    color: #0f0d57;
+    font-family: 'Ibarra Real Nova', serif;
+    margin-top: 2rem;
+}
+
+.row{
+    --bs-gutter-x: 0;
+}
+/* fin bootstrap */
+
+
+
+
 /* mobile */
     
 
@@ -63,7 +83,7 @@
 }
 
 .LinkNav:hover{
-    border: 1px solid       
+    border: 1px solid 
 }
 
 /* efecto boton presionado para indicar pagina actual */
@@ -92,7 +112,7 @@
     border-left: solid 2px;
     border-color: rgba(0, 0, 0, 0.425);
     width: 8rem;
-    animation: rotacion 1.8s 1;
+    animation: rotacion 1.6s 1;
 }
 
 
@@ -143,7 +163,7 @@ h4{
 }
 
 .imagenPrincipal {
-    margin-top: 16rem;
+    margin-top: 18rem;
     width: 100%;
 }
 
@@ -174,7 +194,7 @@ h4{
     display: inline-flex;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 20rem;
+    width: 40%;
     border: 1px solid #929292;
 }
 
@@ -189,7 +209,7 @@ h4{
 
 .content-nosotros {
     position: relative;
-    margin: 17rem 0 5rem;
+    margin: 20rem 0 5rem;
     padding: 2rem;
     height: auto;
     background-color: #f8f3f0;
@@ -217,7 +237,7 @@ h4{
 .content-courses-1{
     display: block;
     position: relative;
-    margin: 17rem 1rem 2rem;
+    margin: 20rem 1rem 2rem;
     padding: 2rem;
     height: auto;
     background-color: #f8f3f0;
@@ -242,7 +262,7 @@ h4{
 
 .content-contacto {
     position: relative;
-    margin: 17rem 2rem 5rem;
+    margin: 20rem 2rem 5rem;
     padding: 2rem;
     height: auto;
     background-color: #f8f3f0;
@@ -254,8 +274,8 @@ h4{
 
 .content-examenes {
     position: relative;
-    margin: 17rem 0 10rem;
-    padding: 2rem 5rem;
+    margin: 20rem 0 10rem;
+    padding: 2rem;
     height: auto;
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
@@ -272,7 +292,7 @@ h4{
 
 .content-work {
     position: relative;
-    margin: 17rem 0 1rem;
+    margin: 20rem 0 1rem;
     padding: 2rem 1rem;
     height: auto;
     background-color: #f8f3f0;
@@ -321,7 +341,7 @@ h4{
 
 .aside{
     margin: 3rem 0;
-    padding: 3rem .2rem;
+    padding: 3rem .8rem 3rem 0;
 }
 
 .aside div img {
@@ -425,7 +445,7 @@ h4{
 
 
 /* desktop */
-@media only screen and (min-width: 1024px) and (orientation:landscape){
+@media only screen and (min-width: 992px) and (orientation:landscape){
 .body-index {
         background-color: #f8f3f0;
     }
@@ -481,7 +501,7 @@ h4{
 }
 
 .LinkNav:hover{
-    border: 1px solid;      
+    border: 1px solid ;      
 }
 
 /* efecto boton presionado para indicar pagina actual */
@@ -520,7 +540,7 @@ h4{
     border-left: solid 2px;
     border-color: rgba(0, 0, 0, 0.425);
     width: 9rem;
-    animation: rotacion 1.8s 1;
+    animation: rotacion 1.6s 1;
 }
 
 
@@ -560,7 +580,7 @@ h4{
     display: inline-flex;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 25rem;
+    width: 30%;
     border: 1px solid #929292;
 }
 
