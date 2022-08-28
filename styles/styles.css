@@ -2,15 +2,7 @@
     
 .body-index{
     background-color: #f8f3f0;
-    display: grid;
-    grid-template-areas:
-    "header"
-    "section"
-    "aside"
-    "footer";
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto;
-    }
+    } 
 
 .border{
     border: #F81878 solid 3px;
@@ -20,33 +12,10 @@
     border: green solid 2px;
     }
 
+
 .body{
     background-color: #f8f3f0;
-    display: grid;
-    grid-template-areas:
-    "header"
-    "section"
-    "aside"
-    "footer";
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto ;
-}
-
-header{
-    grid-area: header;
-}
-
-nav div img{
-    grid-area: image;
-}
-
-section{
-    grid-area: section;
-}
-
-aside{
-    grid-area: aside;
-}
+} 
 
 .barNav {
     position: absolute;
@@ -348,7 +317,6 @@ h4{
     position: relative;
     background-color: #000000;
     width: 100%;
-    grid-area: footer;
 }
 
 .menuFooter {
@@ -415,42 +383,16 @@ h4{
 @media only screen and (min-width: 1024px) and (orientation:landscape){
 .body-index {
         background-color: #f8f3f0;
-        display: grid;
-        grid-template-areas:
-            "header header header header"
-            "image image image image"
-            "section section aside aside"
-            "footer footer footer footer";
-        grid-template-columns: 35% 35% 15% 15%;
-        grid-template-rows: auto auto auto 5%;
     }
 
 .body{
     background-color: #f8f3f0;
-    display: grid;
-    grid-template-areas:
-    "header header header header"
-    "section section section section"
-    "footer footer footer footer";
-    grid-template-columns: 35% 35% 15% 15%;
-    grid-template-rows: auto auto 10%;
-}
+} 
 
 .space{
     margin-top:1rem;
 }
 
-header{
-    grid-area: header;
-}
-
-nav div img{
-    grid-area: image;
-}
-
-section{
-    grid-area: section;
-}
 
 .barNav {
     position: relative;
@@ -524,8 +466,7 @@ section{
     background-color: rgb(255, 255, 255);
 }
 
- /* /////////////////////////////////////// */
-/* ///////////IMAGENES/////////////////////// */
+
 .logo-index {
     position: absolute;
     margin: 1.5rem;
@@ -579,10 +520,8 @@ section{
     border: 1px solid #929292;
     filter: drop-shadow(0 0 1px #929292);
 }
-/* /////////////////////////////////////// */
 
 
-/* ///////////INDEX/////////////////////// */
 .content-index {
     position: relative;
     margin: 5rem auto 5rem auto;
@@ -599,10 +538,7 @@ section{
     margin-top: 3rem;
 
 }
-/* /////////////////////////////////////// */
 
-
-/* /////////CURSOS//////////////////////// */
 
 .content-courses{
     position: relative;
@@ -637,9 +573,8 @@ section{
     padding-top: .2rem;
 
 }
-/* /////////////////////////////////////// */
 
-/* ////////////NOSOTROS/////////////////// */   
+
 .content-nosotros {
     position: relative;
     margin: 15rem 15rem 5rem;
@@ -653,9 +588,7 @@ section{
     margin-top: 2rem;
 }
 
-/* /////////////////////////////////////// */
 
-/* //////////////EXAMENES///////////////// */
 .content-examenes {
     position: relative;
     margin: 15rem 15rem 5rem;
@@ -686,9 +619,8 @@ section{
     position: absolute;
     bottom: 1rem;
 }
-/* /////////////////////////////////////// */
 
-/* //////////////CONTACTO///////////////// */
+
 .content-contacto {
     position: relative;
     margin: 15rem 13rem 5rem;
@@ -700,10 +632,6 @@ section{
     filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
-
-/* /////////////////////////////////////// */
-
-/* //////////////workshop///////////////// */
 
 .content-work-img{
     margin: 15rem 2rem 5rem;
@@ -778,7 +706,6 @@ h4{
 
 .aside{
     margin: 5rem 3rem 5rem 0;
-    grid-area: aside;
 }
 
 .aside div img {
@@ -818,7 +745,6 @@ h4{
     height: 100%;
     bottom: 0px;
     margin-top: 8rem;
-    grid-area: footer;
 }
 
 .listFooter{
@@ -861,5 +787,3 @@ h4{
 }
 
 /* fin destkop */
-
-
