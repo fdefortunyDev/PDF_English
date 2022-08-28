@@ -197,6 +197,18 @@ h4{
 .content-courses{
     display: block;
     position: relative;
+    margin: 5rem 1rem 2rem;
+    padding: 2rem;
+    height: auto;
+    background-color: #f8f3f0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+}
+
+.content-courses-1{
+    display: block;
+    position: relative;
     margin: 17rem 1rem 2rem;
     padding: 2rem;
     height: auto;
@@ -257,9 +269,10 @@ h4{
 .div-courses{
     display: block;
     position: relative;
-    margin: 10rem 1rem 1rem;
-    width: 50rem;
+    margin: 5rem 0 3rem;
+    padding: 4rem;
     height: auto;
+    text-align: center;
 }
 
 .div-courses span{
@@ -530,9 +543,20 @@ h4{
 }
 
 
+.content-courses-1{
+    position: relative;
+    margin: 15rem 0 2rem;
+    padding: 2rem;
+    height: auto;
+    background-color: #f8f3f0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+}
+
 .content-courses{
     position: relative;
-    margin: 15rem 0 5rem;
+    margin: 5rem 0 2rem;
     padding: 2rem;
     height: auto;
     background-color: #f8f3f0;
@@ -551,8 +575,9 @@ h4{
 
 .div-courses{
     position: relative;
-    margin: 10rem 0 5rem;
+    margin: 20rem 0 3rem;
     height: auto;
+    text-align: center;
 }
 
 .div-courses span{
@@ -671,7 +696,7 @@ h2{
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
-    margin: 5rem 0;
+    margin: 2rem 0;
 }
 
 h3{
