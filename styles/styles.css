@@ -162,12 +162,12 @@ h4{
 
 .content-index {
     position: relative;
-    margin: 3rem 2rem 5rem 2rem;
-    padding: 2rem;
+    margin: 3rem 1rem 5rem 1rem;
+    padding: 1rem;
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: medium;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+    border-top: 2px dashed #0f0d57;
 }
 
 .content {
@@ -272,7 +272,7 @@ h4{
 
 
 .aside{
-    margin: 5rem;
+    margin: 5rem 0;
 }
 
 .aside div img {
@@ -529,14 +529,11 @@ h4{
     background-color:  #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 1rem;
-    width: 80%;
     height: auto;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 .content-index p{
     margin-top: 3rem;
-
 }
 
 
