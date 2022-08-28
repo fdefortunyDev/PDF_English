@@ -108,7 +108,7 @@
 
 
 h1{
-    font-size: 2.5rem ;
+    font-size: 1.8rem ;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
@@ -116,7 +116,7 @@ h1{
 }
 
 h2{
-    font-size: 2rem ;
+    font-size: 1.6rem ;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
@@ -124,7 +124,7 @@ h2{
 }
 
 h3{
-    font-size: 2.1rem ;
+    font-size: 1.8rem ;
     text-decoration: 1px overline #a8a8a8;
     color: #0f0d57;
     font-family: 'Ibarra Real Nova', serif;
@@ -143,8 +143,8 @@ h4{
 }
 
 .imagenPrincipal {
-    margin-top: 12rem;
-    width: 80%;
+    margin-top: 15rem;
+    width: 100%;
 }
 
 .image-courses{
@@ -285,7 +285,7 @@ h4{
 
 .aside{
     margin: 5rem 0;
-    padding: 3rem;
+    padding: 3rem .5rem;
 }
 
 .aside div img {
