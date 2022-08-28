@@ -1,5 +1,6 @@
 /* mobile */
     
+
 .body-index{
     background-color: #f8f3f0;
     } 
@@ -11,7 +12,6 @@
 .item{
     border: green solid 2px;
     }
-
 
 .body{
     background-color: #f8f3f0;
@@ -162,7 +162,7 @@ h4{
 
 .content-index {
     position: relative;
-    margin: 3rem 0 5rem 0;
+    margin: 3rem 0 5rem;
     padding: 2rem;
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
@@ -175,18 +175,16 @@ h4{
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: medium;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 .content-nosotros {
     position: relative;
-    margin: 17rem 2rem 5rem 2rem;
+    margin: 17rem 0 5rem;
     padding: 2rem;
     height: auto;
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 .content-nosotros ul li{
@@ -203,7 +201,7 @@ h4{
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+    filter: drop-shadow(0 0 1px #929292);
 }
 
 .content-courses-1{
@@ -215,7 +213,7 @@ h4{
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+    filter: drop-shadow(0 0 1px #929292);
 }
 
 
@@ -226,31 +224,32 @@ h4{
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+}
+
+.content-faq p{
+    padding-top: 5rem;
 }
 
 .content-contacto {
     position: relative;
-    margin: 17rem 10rem 5rem;
+    margin: 17rem 2rem 5rem;
     padding: 2rem;
     height: auto;
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 
 
 .content-examenes {
     position: relative;
-    margin: 17rem 2rem 10rem 2rem;
-    padding: 2rem;
+    margin: 17rem 0 10rem;
+    padding: 2rem 5rem;
     height: auto;
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 .content-examenes img{
@@ -314,7 +313,7 @@ h4{
     text-align: center;
     font-weight: bolder;
     background-color:#e7e7e7;
-    border-style: ridge;
+    border: 4px dashed #0f0d5754;
 }
 
 .copyright {
@@ -329,10 +328,10 @@ h4{
     position: relative;
     background-color: #000000;
     width: 100%;
+    padding-bottom: 1rem;
 }
 
 .menuFooter {
-    margin: 0px 10px;
     padding: 2rem;
     display: block;
     justify-content: center;
@@ -343,16 +342,19 @@ h4{
 .listFooter{
     display: block;
     list-style: none;
+    font-size: 1.5rem;
+
 }
 
+.listFooter li{
+    margin-top: 1rem;
+}
 
 .menuFooter .LinkFoot {
     color: #ffffff;
     text-decoration: solid;
-    margin: 0 .5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    font-size: .8rem;
     font-weight: bold;
 }
 
@@ -514,7 +516,6 @@ h4{
     height: 30rem;
     margin: 12rem auto 1rem auto;
     border: 1px solid #929292;
-    filter: drop-shadow(0 0 1px #929292);
 }
 
 .image-workshop{
@@ -524,7 +525,6 @@ h4{
     background-size: cover;
     width: 21.9rem;
     border: 1px solid #929292;
-    filter: drop-shadow(0 0 1px #929292);
 }
 
 
@@ -551,7 +551,6 @@ h4{
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 .content-courses{
@@ -562,7 +561,6 @@ h4{
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 .content-courses p{
@@ -591,8 +589,8 @@ h4{
 
 .content-nosotros {
     position: relative;
-    margin: 15rem 15rem 5rem;
-    padding: 2rem;
+    margin: 15rem 0 5rem;
+    padding: 4em 20rem;
     height: auto;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
@@ -605,8 +603,8 @@ h4{
 
 .content-examenes {
     position: relative;
-    margin: 15rem 15rem 5rem;
-    padding: 2rem;
+    margin: 15rem 0 5rem;
+    padding: 4em 20rem;
     background-color: #f8f3f0;
     height: auto;
     font-family: Verdana, Tahoma, sans-serif;
@@ -637,13 +635,12 @@ h4{
 
 .content-contacto {
     position: relative;
-    margin: 15rem 13rem 5rem;
-    padding: 2rem;
+    margin: 15rem 0 5rem;
+    padding: 4em 20rem;
     height: auto;
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 
@@ -659,7 +656,6 @@ h4{
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 
@@ -673,13 +669,12 @@ h4{
 
 .content-faq{
     position: relative;
-    margin: 15rem 10rem 5rem;
-    padding: 2rem;
+    margin: 15rem 0 5rem;
+    padding: 4em 20rem;;
     background-color: #f8f3f0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     justify-content: center;
-    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
 }
 
 
@@ -720,7 +715,7 @@ h4{
 
 .aside{
     margin: 5rem 0;
-    padding: 1rem;
+    padding: 5rem;
 }
 
 .aside div img {
