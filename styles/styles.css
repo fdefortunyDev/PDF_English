@@ -10,9 +10,6 @@
     margin-top: 2rem;
 }
 
-.row{
-    --bs-gutter-x: 0;
-}
 /* fin bootstrap */
 
 
@@ -23,6 +20,7 @@
 
 .body-index{
     background-color: #f8f3f0;
+    overflow-x:hidden;
     } 
 
 .border{
@@ -35,6 +33,7 @@
 
 .body{
     background-color: #f8f3f0;
+    overflow-x:hidden
 } 
 
 .barNav {
@@ -448,10 +447,12 @@ h4{
 @media only screen and (min-width: 992px) and (orientation:landscape){
 .body-index {
         background-color: #f8f3f0;
+        overflow-x:hidden;
     }
 
 .body{
     background-color: #f8f3f0;
+    overflow-x:hidden;
 } 
 
 .space{
