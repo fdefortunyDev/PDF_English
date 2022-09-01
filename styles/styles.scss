@@ -1,0 +1,886 @@
+@import "./partials/colors", "./partials/fonts";
+
+/* bootstrap */
+.form-control:focus {
+    border: 2px solid $pink;
+}
+
+.form-label {
+    font-size: 1.2rem;
+    color: $blue;
+    font-family: 'Ibarra Real Nova', serif;
+    margin-top: 2rem;
+}
+
+/* fin bootstrap */
+
+
+
+
+/* mobile */
+
+
+.body-index {
+    background-color: $bgColor;
+    overflow-x: hidden;
+}
+
+.border {
+    border: $pink solid 3px;
+}
+
+.item {
+    border: $green solid 2px;
+}
+
+.body {
+    background-color: $bgColor;
+    overflow-x: hidden
+}
+
+.barNav {
+    position: absolute;
+    background-color: $skyBlue;
+    width: 100%;
+    height: 3rem;
+    top: 0px;
+    border-radius: 0 2rem 0 0;
+    filter: drop-shadow(2px 4px 6px $black);
+}
+
+.barDecoration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.listNav {
+    display: block;
+    list-style-type: none;
+    background-color: $pink;
+    position: absolute;
+    right: 0px;
+    padding: .2rem .5rem;
+    margin-top: 18.3rem;
+    border-top: 1px solid $black;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.LinkNav {
+    display: block;
+    color: $gray;
+    padding: .2rem .5rem;
+    margin: 0.5rem;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    background-color: $bgColor;
+    border: 1px solid $lighGray;
+    ;
+    filter: drop-shadow(2px 1px 1px $black);
+}
+
+.LinkNav:hover {
+    border: 1px solid
+}
+
+/* efecto boton presionado para indicar pagina actual */
+#index {
+    color: $gray;
+}
+
+#contacto {
+    color: $gray;
+}
+
+#cursos {
+    color: $gray;
+}
+
+#examenes {
+    color: $gray;
+}
+
+#nosotros {
+    color: $gray;
+}
+
+
+.logo-index {
+    position: absolute;
+    margin: 1.5rem;
+    border-radius: 1.5em;
+    border-top: solid 2px;
+    border-left: solid 2px;
+    border-color: $black;
+    width: 8rem;
+    animation: rotacion 1.6s 1;
+}
+
+
+.logo {
+    position: absolute;
+    margin: 1.5rem;
+    border-radius: 1.5em;
+    border-top: solid 2px;
+    border-left: solid 2px;
+    border-color: $black;
+    width: 9rem;
+}
+
+
+h1 {
+    font-size: 1.8rem;
+    color: $blue;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+    text-decoration: 1px overline $lighGray;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: $blue;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+    margin: 10rem 0 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    text-decoration: 1px overline $lighGray;
+    color: #0f0d57;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+
+}
+
+h4 {
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0f0d57af;
+}
+
+.carrousel {
+    display: flex;
+    justify-content: left;
+}
+
+.imagenPrincipal {
+    margin-top: 18rem;
+    width: 100%;
+}
+
+.image-courses {
+    position: relative;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 34rem;
+    height: 10rem;
+    margin: 2rem 5rem;
+    border: 1px solid $lighGray;
+    filter: drop-shadow(0 0 1px $lighGray);
+    z-index: -20;
+}
+
+.content-index {
+    position: relative;
+    margin: 4rem 0 2rem;
+    padding: 2rem 1rem;
+    background-color: $lighGray;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.image-workshop {
+    position: absolute;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    border: 1px solid $lighGray;
+}
+
+
+.content {
+    position: relative;
+    padding: 2rem;
+    background-color: $bgColor;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.content-nosotros {
+    position: relative;
+    margin: 20rem 0 5rem;
+    padding: 2rem;
+    height: auto;
+    background-color: $bgColor;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+}
+
+.content-nosotros ul li {
+    margin-top: 2rem;
+}
+
+
+.content-courses {
+    display: block;
+    position: relative;
+    margin: 5rem 1rem 2rem;
+    padding: 2rem;
+    height: auto;
+    background-color: $bgColor;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    filter: drop-shadow(0 0 1px $lighGray);
+}
+
+.content-courses-1 {
+    display: block;
+    position: relative;
+    margin: 20rem 1rem 2rem;
+    padding: 2rem;
+    height: auto;
+    background-color: $bgColor;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    filter: drop-shadow(0 0 1px $lighGray);
+}
+
+
+.content-faq {
+    position: relative;
+    margin: 20rem 0 4rem 0;
+    padding: 2rem;
+    background-color: $bgColor;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+}
+
+.content-faq p {
+    padding-top: 5rem;
+}
+
+.content-contacto {
+    position: relative;
+    margin: 20rem 2rem 5rem;
+    padding: 2rem;
+    height: auto;
+    background-color: $bgColor;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+}
+
+
+
+.content-examenes {
+    position: relative;
+    margin: 20rem 0 10rem;
+    padding: 2rem;
+    height: auto;
+    background-color: $bgColor;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+}
+
+.content-examenes img {
+    display: inline-flex;
+    margin: 4rem 1rem 2rem;
+    width: 40%;
+    height: 40%;
+    justify-content: center;
+}
+
+.content-work {
+    position: relative;
+    margin: 20rem 0 1rem;
+    padding: 2rem 1rem;
+    height: auto;
+    background-color: $bgColor;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+}
+
+.content-works {
+    position: relative;
+    padding: 2rem 1rem;
+    height: auto;
+    background-color: $bgColor;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.content-work-img {
+    margin: 20rem 0 5rem;
+}
+
+.content-work-imgs {
+    margin: 2rem 0 5rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.div-courses {
+    display: block;
+    position: relative;
+    margin: 5rem 0 3rem;
+    padding: 4rem;
+    height: auto;
+    text-align: center;
+}
+
+.div-courses span {
+    display: block;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding-top: .2rem;
+}
+
+
+.aside {
+    margin: 3rem 0;
+    padding: 3rem .8rem 3rem 0;
+}
+
+.aside div img {
+    width: 100%;
+    border: solid 1px $black;
+}
+
+.aside div span {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.aside div span a {
+    display: block;
+    position: relative;
+    margin: 0 0 8rem 0;
+    padding: .5rem .2rem;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0f0d57;
+    font-family: 'Ibarra Real Nova', serif;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    background-color: $bgColor;
+    border: 4px dashed $blue;
+}
+
+.copyright {
+    position: absolute;
+    font-size: x-small;
+    left: 10px;
+    bottom: 5px;
+    color: $bgColor;
+}
+
+.foot {
+    position: relative;
+    background-color: $black;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.menuFooter {
+    padding: 1.5rem;
+    display: block;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+}
+
+.listFooter {
+    display: block;
+    list-style: none;
+    font-size: 1rem;
+
+}
+
+.listFooter li {
+    margin-top: 1rem;
+}
+
+.menuFooter .LinkFoot {
+    color: $withe;
+    text-decoration: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+@keyframes rotacion {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        margin-left: 3rem;
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+
+}
+
+
+/* fin mobile */
+
+
+
+
+
+
+
+
+
+
+
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation:landscape) {
+    .body-index {
+        background-color: $bgColor;
+        overflow-x: hidden;
+    }
+
+    .body {
+        background-color: $bgColor;
+        overflow-x: hidden;
+    }
+
+    .space {
+        margin-top: 1rem;
+    }
+
+
+    .barNav {
+        position: relative;
+        background-color: $skyBlue;
+        width: 100%;
+        height: 4em;
+        top: 0px;
+        border-radius: 0 2rem 0 0;
+        filter: drop-shadow(2px 4px 6px $black);
+    }
+
+    .barDecoration {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .listNav {
+        display: flex;
+        list-style-type: none;
+        background-color: $pink;
+        padding: 1rem 1.5rem;
+        margin-top: 8.5rem;
+        border-top: 1px solid $black;
+        border-radius: 2rem 0 2rem 2rem;
+    }
+
+    .LinkNav {
+        color: $gray;
+        padding: 0.3rem 1.5rem;
+        margin: 10px;
+        font-family: Verdana, Tahoma, sans-serif;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: bold;
+        display: inline;
+        border-radius: 0.3rem;
+        background-color: $bgColor;
+        border: 1px solid $lighGray;
+        ;
+        filter: drop-shadow(3px 3px 1px rgb(0, 0, 0));
+    }
+
+    .LinkNav:hover {
+        border: 1px solid;
+    }
+
+    /* efecto boton presionado para indicar pagina actual */
+    #index {
+        border: 1px solid $lighGray;
+        filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+        background-color: $withe;
+    }
+
+    #contacto {
+        border: 1px solid $lighGray;
+        filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+        background-color: $withe;
+    }
+
+    #cursos {
+        border: 1px solid $lighGray;
+        filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+        background-color: $withe;
+    }
+
+    #examenes {
+        border: 1px solid $lighGray;
+        filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+        background-color: $withe;
+    }
+
+    #nosotros {
+        border: 1px solid $lighGray;
+        filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+        background-color: $withe;
+    }
+
+
+    .logo-index {
+        position: absolute;
+        margin: 1.5rem;
+        border-radius: 1.5em;
+        border-top: solid 2px;
+        border-left: solid 2px;
+        border-color: $black;
+        width: 9rem;
+        animation: rotacion 1.6s 1;
+    }
+
+
+    .logo {
+        position: absolute;
+        margin: 1.5rem;
+        border-radius: 1.5em;
+        border-top: solid 2px;
+        border-left: solid 2px;
+        border-color: $black;
+        width: 9rem;
+    }
+
+    .carrousel {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagenPrincipal {
+        margin: 8rem auto 0 auto;
+        width: 80rem;
+    }
+
+    .image-courses {
+        position: relative;
+        display: inline-flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 30rem;
+        height: 30rem;
+        margin: 12rem auto 1rem auto;
+        border: 1px solid $lighGray;
+    }
+
+    .image-workshop {
+        position: absolute;
+        display: inline-flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 30%;
+        border: 1px solid $lighGray;
+    }
+
+    .content-index {
+        position: relative;
+        margin: 5rem 0 4rem 0;
+        padding: 2rem 5rem;
+        background-color: $bgColor;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 1rem;
+        height: auto;
+    }
+
+    .content-index p {
+        margin-top: 3rem;
+    }
+
+
+    .content-courses-1 {
+        position: relative;
+        margin: 15rem 0 2rem;
+        padding: 2rem;
+        height: auto;
+        background-color: $bgColor;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+    }
+
+    .content-courses {
+        position: relative;
+        margin: 5rem 0 2rem;
+        padding: 2rem;
+        height: auto;
+        background-color: $bgColor;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+    }
+
+    .content-courses p {
+        padding: .5rem 0;
+    }
+
+    .content-courses span {
+        padding: .5rem 0;
+    }
+
+    .div-courses {
+        position: relative;
+        margin: 20rem 0 3rem;
+        height: auto;
+        text-align: center;
+    }
+
+    .div-courses span {
+        display: block;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 1rem;
+        padding-top: .2rem;
+
+    }
+
+
+    .content-nosotros {
+        position: relative;
+        margin: 15rem 0 5rem;
+        padding: 4em 20rem;
+        height: auto;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+    }
+
+    .content-nosotros ul li {
+        margin-top: 2rem;
+    }
+
+
+    .content-examenes {
+        position: relative;
+        margin: 15rem 0 5rem;
+        padding: 4em 20rem;
+        background-color: $bgColor;
+        height: auto;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+    }
+
+    .content-examenes img {
+        display: inline-flex;
+        margin: 5rem 2rem;
+        width: 30%;
+        height: 30%;
+    }
+
+    #cambridge {
+        width: 20rem;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom {
+        position: relative;
+        bottom: 1rem;
+    }
+
+
+    .content-contacto {
+        position: relative;
+        margin: 15rem 0 5rem;
+        padding: 4em 20rem;
+        height: auto;
+        background-color: $bgColor;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+    }
+
+
+    .content-work-img {
+        margin: 15rem 2rem 5rem;
+    }
+
+    .content-work-imgs {
+        margin: 2rem 2rem 5rem;
+    }
+
+    .content-work {
+        position: relative;
+        margin: 15rem 0 5rem;
+        padding: 2rem 5rem;
+        height: auto;
+        background-color: $bgColor;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+    }
+
+    .content-works {
+        position: relative;
+        margin: 2rem 0 5rem;
+        padding: 2rem 5rem;
+        height: auto;
+        background-color: $bgColor;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+    }
+
+    .content-mt-l {
+        margin: 2rem 45rem 1rem 11rem;
+    }
+
+    .content hr {
+        width: 11rem;
+    }
+
+    .content-faq {
+        position: relative;
+        margin: 15rem 0 5rem;
+        padding: 4em 20rem;
+        ;
+        background-color: $bgColor;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+        justify-content: center;
+    }
+
+
+    h1 {
+        font-size: 3rem;
+        color: #0f0d57;
+        font-family: 'Ibarra Real Nova', serif;
+        text-align: center;
+        text-decoration: 1px overline $lighGray;
+    }
+
+    h2 {
+        font-size: 2rem;
+        color: $blue;
+        font-family: 'Ibarra Real Nova', serif;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    h3 {
+        font-size: 2rem;
+        text-decoration: 1px overline $lighGray;
+        color: $blue;
+        font-family: 'Ibarra Real Nova', serif;
+        text-align: center;
+        margin-bottom: 2rem;
+
+    }
+
+    h4 {
+        font-size: 1rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: $blue;
+    }
+
+    .short-hr {
+        width: 10rem;
+    }
+
+    .aside {
+        margin: 5rem 0;
+        padding: 5rem;
+    }
+
+    .aside div img {
+        width: 100%;
+        border: solid 1px $lighGray;
+    }
+
+
+    .aside div span a {
+        display: flex;
+        position: relative;
+        width: 100%;
+        text-decoration: none;
+        font-size: 2rem;
+        color: $blue;
+        font-family: 'Ibarra Real Nova', serif;
+        justify-content: center;
+        text-align: center;
+        font-weight: bolder;
+        background-color: $bgColor;
+
+
+    }
+
+    .copyright {
+        position: absolute;
+        font-size: x-small;
+        left: 10px;
+        bottom: 5px;
+        color: $bgColor;
+    }
+
+    .foot {
+        position: relative;
+        background-color: $black;
+        width: 100%;
+        height: 100%;
+        bottom: 0px;
+        margin-top: 8rem;
+    }
+
+    .listFooter {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .menuFooter {
+        margin: 0px 10px;
+        padding: 2rem .2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menuFooter .LinkFoot {
+        color: $withe;
+        text-decoration: solid;
+        margin: 0px 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    @keyframes rotacion {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        50% {
+            margin-left: 3rem;
+            transform: rotate(45deg);
+        }
+
+        100% {
+            transform: rotate(-360deg);
+        }
+
+    }
+}
