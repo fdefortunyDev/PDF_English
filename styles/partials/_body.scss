@@ -1,0 +1,82 @@
+.body-index {
+    background-color: $bgColor;
+    overflow-x: hidden;
+}
+
+.body {
+    background-color: $bgColor;
+    overflow-x: hidden
+}
+
+.border {
+    border: $pink solid 3px;
+}
+
+.item {
+    border: $green solid 2px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: $blue;
+    font-family: $titleFont;
+    text-align: center;
+    text-decoration: 1px overline $lighGray;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: $blue;
+    font-family: $titleFont;
+    text-align: center;
+    margin: 10rem 0 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    text-decoration: 1px overline $lighGray;
+    color: $blue;
+    font-family: $titleFont;
+    text-align: center;
+
+}
+
+h4 {
+    font-size: 1rem;
+    font-family: $infoWorkshopCards;
+    color: $blue;
+}
+
+
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation:landscape) {
+
+    .space {
+        margin-top: 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+
+    }
+
+    h4 {
+        font-size: 1rem;
+        font-family: $infoWorkshopCards;
+    }
+
+    .short-hr {
+        width: 10rem;
+    }
+}
