@@ -18,6 +18,44 @@
 }
 
 
+.aside {
+    margin: 3rem 0;
+    padding: 3rem .8rem 3rem 0;
+
+    div{
+        span{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+
+            a{
+                display: block;
+                position: relative;
+                margin: 0 0 8rem 0;
+                padding: .5rem .2rem;
+                width: 100%;
+                text-decoration: none;
+                font-size: 1.2rem;
+                color: #0f0d57;
+                font-family: $principalFont;
+                justify-content: center;
+                text-align: center;
+                font-weight: bolder;
+                background-color: $bgColor;
+                border: 4px dashed $blue;
+            }
+
+        }
+        img{
+            width: 100%;
+            border: solid 1px $black;
+        }
+        
+    }
+}
+
+
+
 @keyframes rotacion {
     0% {
         transform: rotate(0deg);
@@ -62,6 +100,34 @@
 
         p{
             margin-top: 3rem;
+        }
+    }
+
+
+    .aside {
+        margin: 5rem 0;
+        padding: 5rem;
+        div{
+            span{
+                a{
+                    display: flex;
+                    position: relative;
+                    width: 100%;
+                    text-decoration: none;
+                    font-size: 2rem;
+                    color: $blue;
+                    font-family: $titleFont;
+                    justify-content: center;
+                    text-align: center;
+                    font-weight: bolder;
+                    background-color: $bgColor;
+                }
+            }
+            
+            img{
+                width: 100%;
+                border: solid 1px $lighGray;
+            }
         }
     }
 

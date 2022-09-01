@@ -1,4 +1,4 @@
-@import "./partials/colors", "./partials/fonts", "./partials/header", "./partials/body","./partials/index.scss", "./partials/courses";
+@import "./partials/colors", "./partials/fonts", "./partials/header", "./partials/body","./partials/index.scss", "./partials/courses", "./partials/contacto","./partials/aside";
 
 
 
@@ -119,39 +119,9 @@
 
 
 
-.aside {
-    margin: 3rem 0;
-    padding: 3rem .8rem 3rem 0;
-}
 
-.aside div img {
-    width: 100%;
-    border: solid 1px $black;
-}
 
-.aside div span {
-    display: flex;
-    width: 100%;
-    justify-content: center;
 
-}
-
-.aside div span a {
-    display: block;
-    position: relative;
-    margin: 0 0 8rem 0;
-    padding: .5rem .2rem;
-    width: 100%;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: #0f0d57;
-    font-family: $principalFont;
-    justify-content: center;
-    text-align: center;
-    font-weight: bolder;
-    background-color: $bgColor;
-    border: 4px dashed $blue;
-}
 
 .copyright {
     position: absolute;
@@ -343,32 +313,9 @@
         justify-content: center;
     }
 
-    .aside {
-        margin: 5rem 0;
-        padding: 5rem;
-    }
-
-    .aside div img {
-        width: 100%;
-        border: solid 1px $lighGray;
-    }
 
 
-    .aside div span a {
-        display: flex;
-        position: relative;
-        width: 100%;
-        text-decoration: none;
-        font-size: 2rem;
-        color: $blue;
-        font-family: $titleFont;
-        justify-content: center;
-        text-align: center;
-        font-weight: bolder;
-        background-color: $bgColor;
-
-
-    }
+    
 
     .copyright {
         position: absolute;
