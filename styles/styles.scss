@@ -1,29 +1,5 @@
 @import "./partials/colors", "./partials/fonts", "./partials/header", "./partials/body","./partials/index.scss", "./partials/courses";
 
-/* bootstrap */
-.form-control:focus {
-    border: 2px solid $pink;
-}
-
-.form-label {
-    font-size: 1.2rem;
-    color: $blue;
-    font-family: $titleFont;
-    margin-top: 2rem;
-}
-
-/* fin bootstrap */
-
-
-
-
-/* mobile */
-
-
-
-
-
-
 
 
 .image-workshop {
@@ -77,15 +53,7 @@
     padding-top: 5rem;
 }
 
-.content-contacto {
-    position: relative;
-    margin: 20rem 2rem 5rem;
-    padding: 2rem;
-    height: auto;
-    background-color: $bgColor;
-    font-family: $principalFont;
-    font-size: 0.9rem;
-}
+
 
 
 
@@ -325,15 +293,7 @@
     }
 
 
-    .content-contacto {
-        position: relative;
-        margin: 15rem 0 5rem;
-        padding: 4em 20rem;
-        height: auto;
-        background-color: $bgColor;
-        font-family: $principalFont;
-        font-size: 0.9rem;
-    }
+
 
 
     .content-work-img {
