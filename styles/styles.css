@@ -516,7 +516,7 @@ h4 {
     border-top: solid 2px;
     border-left: solid 2px;
     border-color: #000000;
-    width: 9rem;
+    width: 11rem;
     -webkit-animation: rotacion 1.6s 1;
             animation: rotacion 1.6s 1;
   }
@@ -527,7 +527,7 @@ h4 {
     border-top: solid 2px;
     border-left: solid 2px;
     border-color: #000000;
-    width: 9rem;
+    width: 11rem;
   }
   .carrousel {
     display: flex;
