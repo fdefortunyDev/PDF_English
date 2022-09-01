@@ -22,18 +22,7 @@
 
 
 
-.image-courses {
-    position: relative;
-    display: block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 34rem;
-    height: 10rem;
-    margin: 2rem 5rem;
-    border: 1px solid $lighGray;
-    filter: drop-shadow(0 0 1px $lighGray);
-    z-index: -20;
-}
+
 
 
 
@@ -70,29 +59,9 @@
 }
 
 
-.content-courses {
-    display: block;
-    position: relative;
-    margin: 5rem 1rem 2rem;
-    padding: 2rem;
-    height: auto;
-    background-color: $bgColor;
-    font-family: $principalFont;
-    font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px $lighGray);
-}
 
-.content-courses-1 {
-    display: block;
-    position: relative;
-    margin: 20rem 1rem 2rem;
-    padding: 2rem;
-    height: auto;
-    background-color: $bgColor;
-    font-family: $principalFont;
-    font-size: 0.9rem;
-    filter: drop-shadow(0 0 1px $lighGray);
-}
+
+
 
 
 .content-faq {
@@ -180,12 +149,6 @@
     text-align: center;
 }
 
-.div-courses span {
-    display: block;
-    font-family: $principalFont;
-    font-size: 1rem;
-    padding-top: .2rem;
-}
 
 
 .aside {
@@ -283,20 +246,14 @@
 
 
 
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation:landscape) {
 
+}
 
   
 
-    .image-courses {
-        position: relative;
-        display: inline-flex;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 30rem;
-        height: 30rem;
-        margin: 12rem auto 1rem auto;
-        border: 1px solid $lighGray;
-    }
+   
 
     .image-workshop {
         position: absolute;
@@ -310,40 +267,8 @@
 
 
 
-    .content-courses-1 {
-        position: relative;
-        margin: 15rem 0 2rem;
-        padding: 2rem;
-        height: auto;
-        background-color: $bgColor;
-        font-family: $principalFont;
-        font-size: 0.9rem;
-    }
 
-    .content-courses {
-        position: relative;
-        margin: 5rem 0 2rem;
-        padding: 2rem;
-        height: auto;
-        background-color: $bgColor;
-        font-family: $principalFont;
-        font-size: 0.9rem;
-    }
-
-    .content-courses p {
-        padding: .5rem 0;
-    }
-
-    .content-courses span {
-        padding: .5rem 0;
-    }
-
-    .div-courses {
-        position: relative;
-        margin: 20rem 0 3rem;
-        height: auto;
-        text-align: center;
-    }
+  
 
     .div-courses span {
         display: block;
