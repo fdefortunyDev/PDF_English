@@ -1,35 +1,3 @@
-/* bootstrap */
-.form-control:focus {
-  border: 2px solid #F81878;
-}
-
-.form-label {
-  font-size: 1.2rem;
-  color: #0f0d57;
-  font-family: "Ibarra Real Nova", serif;
-  margin-top: 2rem;
-}
-
-/* fin bootstrap */
-/* mobile */
-.body-index {
-  background-color: #f8f3f0;
-  overflow-x: hidden;
-}
-
-.border {
-  border: #F81878 solid 3px;
-}
-
-.item {
-  border: #008000 solid 2px;
-}
-
-.body {
-  background-color: #f8f3f0;
-  overflow-x: hidden;
-}
-
 .barNav {
   position: absolute;
   background-color: #1ad4f6;
@@ -73,12 +41,10 @@
   border: 1px solid #929292;
   filter: drop-shadow(2px 1px 1px #000000);
 }
-
-.LinkNav:hover {
+.LinkNavhover {
   border: 1px solid #000000;
 }
 
-/* efecto boton presionado para indicar pagina actual */
 #index {
   color: #333333;
 }
@@ -119,6 +85,118 @@
   border-left: solid 2px;
   border-color: #000000;
   width: 9rem;
+}
+
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  .barNav {
+    position: relative;
+    background-color: #1ad4f6;
+    width: 100%;
+    height: 4em;
+    top: 0px;
+    border-radius: 0 2rem 0 0;
+    filter: drop-shadow(2px 4px 6px #000000);
+  }
+  .barDecoration {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .listNav {
+    display: flex;
+    list-style-type: none;
+    background-color: #F81878;
+    padding: 1rem 1.5rem;
+    margin-top: 8.5rem;
+    border-top: 1px solid #000000;
+    border-radius: 2rem 0 2rem 2rem;
+  }
+  .LinkNav {
+    color: #333333;
+    padding: 0.3rem 1.5rem;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline;
+    border-radius: 0.3rem;
+    background-color: #f8f3f0;
+    border: 1px solid #929292;
+    filter: drop-shadow(3px 3px 1px #000000);
+  }
+  .LinkNavhover {
+    border: 1px solid;
+  }
+  /* efecto boton presionado para indicar pagina actual */
+  #index {
+    border: 1px solid #929292;
+    filter: drop-shadow(0 0 0 #000000);
+    background-color: #ffffff;
+  }
+  #contacto {
+    border: 1px solid #929292;
+    filter: drop-shadow(0 0 0 #000000);
+    background-color: #ffffff;
+  }
+  #cursos {
+    border: 1px solid #929292;
+    filter: drop-shadow(0 0 0 #000000);
+    background-color: #ffffff;
+  }
+  #examenes {
+    border: 1px solid #929292;
+    filter: drop-shadow(0 0 0 #000000);
+    background-color: #ffffff;
+  }
+  #nosotros {
+    border: 1px solid #929292;
+    filter: drop-shadow(0 0 0 #000000);
+    background-color: #ffffff;
+  }
+  .logo-index {
+    width: 11rem;
+  }
+  .logo {
+    position: absolute;
+    margin: 1.5rem;
+    border-radius: 1.5em;
+    border-top: solid 2px;
+    border-left: solid 2px;
+    border-color: #000000;
+    width: 11rem;
+  }
+}
+/* bootstrap */
+.form-control:focus {
+  border: 2px solid #F81878;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  color: #0f0d57;
+  font-family: "Ibarra Real Nova", serif;
+  margin-top: 2rem;
+}
+
+/* fin bootstrap */
+/* mobile */
+.body-index {
+  background-color: #f8f3f0;
+  overflow-x: hidden;
+}
+
+.border {
+  border: #F81878 solid 3px;
+}
+
+.item {
+  border: #008000 solid 2px;
+}
+
+.body {
+  background-color: #f8f3f0;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -442,92 +520,6 @@ h4 {
   }
   .space {
     margin-top: 1rem;
-  }
-  .barNav {
-    position: relative;
-    background-color: #1ad4f6;
-    width: 100%;
-    height: 4em;
-    top: 0px;
-    border-radius: 0 2rem 0 0;
-    filter: drop-shadow(2px 4px 6px #000000);
-  }
-  .barDecoration {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  }
-  .listNav {
-    display: flex;
-    list-style-type: none;
-    background-color: #F81878;
-    padding: 1rem 1.5rem;
-    margin-top: 8.5rem;
-    border-top: 1px solid #000000;
-    border-radius: 2rem 0 2rem 2rem;
-  }
-  .LinkNav {
-    color: #333333;
-    padding: 0.3rem 1.5rem;
-    margin: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    display: inline;
-    border-radius: 0.3rem;
-    background-color: #f8f3f0;
-    border: 1px solid #929292;
-    filter: drop-shadow(3px 3px 1px #000000);
-  }
-  .LinkNav:hover {
-    border: 1px solid;
-  }
-  /* efecto boton presionado para indicar pagina actual */
-  #index {
-    border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 #000000);
-    background-color: #ffffff;
-  }
-  #contacto {
-    border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 #000000);
-    background-color: #ffffff;
-  }
-  #cursos {
-    border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 #000000);
-    background-color: #ffffff;
-  }
-  #examenes {
-    border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 #000000);
-    background-color: #ffffff;
-  }
-  #nosotros {
-    border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 #000000);
-    background-color: #ffffff;
-  }
-  .logo-index {
-    position: absolute;
-    margin: 1.5rem;
-    border-radius: 1.5em;
-    border-top: solid 2px;
-    border-left: solid 2px;
-    border-color: #000000;
-    width: 11rem;
-    -webkit-animation: rotacion 1.6s 1;
-            animation: rotacion 1.6s 1;
-  }
-  .logo {
-    position: absolute;
-    margin: 1.5rem;
-    border-radius: 1.5em;
-    border-top: solid 2px;
-    border-left: solid 2px;
-    border-color: #000000;
-    width: 11rem;
   }
   .carrousel {
     display: flex;

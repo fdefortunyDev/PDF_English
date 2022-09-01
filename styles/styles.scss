@@ -1,4 +1,4 @@
-@import "./partials/colors", "./partials/fonts";
+@import "./partials/colors", "./partials/fonts", "./partials/header";
 
 /* bootstrap */
 .form-control:focus {
@@ -38,99 +38,7 @@
     overflow-x: hidden
 }
 
-.barNav {
-    position: absolute;
-    background-color: $skyBlue;
-    width: 100%;
-    height: 3rem;
-    top: 0px;
-    border-radius: 0 2rem 0 0;
-    filter: drop-shadow(2px 4px 6px $black);
-}
 
-.barDecoration {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.listNav {
-    display: block;
-    list-style-type: none;
-    background-color: $pink;
-    position: absolute;
-    right: 0px;
-    padding: .2rem .5rem;
-    margin-top: 18.3rem;
-    border-top: 1px solid $black;
-    border-radius: 0 0 2rem 2rem;
-}
-
-.LinkNav {
-    display: block;
-    color: $gray;
-    padding: .2rem .5rem;
-    margin: 0.5rem;
-    font-family: $principalFont;
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.1rem;
-    border-radius: 0.5rem;
-    background-color: $bgColor;
-    border: 1px solid $lighGray;
-    ;
-    filter: drop-shadow(2px 1px 1px $black);
-}
-
-.LinkNav:hover {
-    border: 1px solid $black;
-}
-
-/* efecto boton presionado para indicar pagina actual */
-#index {
-    color: $gray;
-}
-
-#contacto {
-    color: $gray;
-}
-
-#cursos {
-    color: $gray;
-}
-
-#examenes {
-    color: $gray;
-}
-
-#nosotros {
-    color: $gray;
-}
-
-
-.logo-index {
-    position: absolute;
-    margin: 1.5rem;
-    border-radius: 1.5em;
-    border-top: solid 2px;
-    border-left: solid 2px;
-    border-color: $black;
-    width: 8rem;
-    animation: rotacion 1.6s 1;
-}
-
-
-.logo {
-    position: absolute;
-    margin: 1.5rem;
-    border-radius: 1.5em;
-    border-top: solid 2px;
-    border-left: solid 2px;
-    border-color: $black;
-    width: 9rem;
-}
 
 
 h1 {
@@ -471,104 +379,12 @@ h4 {
     }
 
 
-    .barNav {
-        position: relative;
-        background-color: $skyBlue;
-        width: 100%;
-        height: 4em;
-        top: 0px;
-        border-radius: 0 2rem 0 0;
-        filter: drop-shadow(2px 4px 6px $black);
-    }
+    
 
-    .barDecoration {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-    }
-
-    .listNav {
-        display: flex;
-        list-style-type: none;
-        background-color: $pink;
-        padding: 1rem 1.5rem;
-        margin-top: 8.5rem;
-        border-top: 1px solid $black;
-        border-radius: 2rem 0 2rem 2rem;
-    }
-
-    .LinkNav {
-        color: $gray;
-        padding: 0.3rem 1.5rem;
-        margin: 10px;
-        font-family: $principalFont;
-        text-decoration: none;
-        font-size: 1rem;
-        font-weight: bold;
-        display: inline;
-        border-radius: 0.3rem;
-        background-color: $bgColor;
-        border: 1px solid $lighGray;
-        filter: drop-shadow(3px 3px 1px $black);
-    }
-
-    .LinkNav:hover {
-        border: 1px solid;
-    }
-
-    /* efecto boton presionado para indicar pagina actual */
-    #index {
-        border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 $black);
-        background-color: $withe;
-    }
-
-    #contacto {
-        border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 $black);
-        background-color: $withe;
-    }
-
-    #cursos {
-        border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 $black);
-        background-color: $withe;
-    }
-
-    #examenes {
-        border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 $black);
-        background-color: $withe;
-    }
-
-    #nosotros {
-        border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 $black);
-        background-color: $withe;
-    }
+ 
 
 
-    .logo-index {
-        position: absolute;
-        margin: 1.5rem;
-        border-radius: 1.5em;
-        border-top: solid 2px;
-        border-left: solid 2px;
-        border-color: $black;
-        width: 11rem;
-        animation: rotacion 1.6s 1;
-    }
 
-
-    .logo {
-        position: absolute;
-        margin: 1.5rem;
-        border-radius: 1.5em;
-        border-top: solid 2px;
-        border-left: solid 2px;
-        border-color: $black;
-        width: 11rem;
-    }
 
     .carrousel {
         display: flex;
