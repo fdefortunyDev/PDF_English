@@ -63,7 +63,7 @@
   color: #333333;
   padding: 0.2rem 0.5rem;
   margin: 0.5rem;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   font-weight: bold;
   text-align: center;
@@ -75,7 +75,7 @@
 }
 
 .LinkNav:hover {
-  border: 1px solid;
+  border: 1px solid #000000;
 }
 
 /* efecto boton presionado para indicar pagina actual */
@@ -149,8 +149,8 @@ h3 {
 
 h4 {
   font-size: 1rem;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  color: rgba(15, 13, 87, 0.6862745098);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida S";
+  color: #0f0d57;
 }
 
 .carrousel {
@@ -181,7 +181,7 @@ h4 {
   margin: 4rem 0 2rem;
   padding: 2rem 1rem;
   background-color: #929292;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
 }
 
@@ -198,7 +198,7 @@ h4 {
   position: relative;
   padding: 2rem;
   background-color: #f8f3f0;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
 }
 
@@ -208,7 +208,7 @@ h4 {
   padding: 2rem;
   height: auto;
   background-color: #f8f3f0;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
 }
 
@@ -223,7 +223,7 @@ h4 {
   padding: 2rem;
   height: auto;
   background-color: #f8f3f0;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
   filter: drop-shadow(0 0 1px #929292);
 }
@@ -235,7 +235,7 @@ h4 {
   padding: 2rem;
   height: auto;
   background-color: #f8f3f0;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
   filter: drop-shadow(0 0 1px #929292);
 }
@@ -245,7 +245,7 @@ h4 {
   margin: 20rem 0 4rem 0;
   padding: 2rem;
   background-color: #f8f3f0;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
 }
 
@@ -259,7 +259,7 @@ h4 {
   padding: 2rem;
   height: auto;
   background-color: #f8f3f0;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
 }
 
@@ -269,7 +269,7 @@ h4 {
   padding: 2rem;
   height: auto;
   background-color: #f8f3f0;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
 }
 
@@ -287,7 +287,7 @@ h4 {
   padding: 2rem 1rem;
   height: auto;
   background-color: #f8f3f0;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
 }
 
@@ -296,7 +296,7 @@ h4 {
   padding: 2rem 1rem;
   height: auto;
   background-color: #f8f3f0;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
 }
 
@@ -324,7 +324,7 @@ h4 {
 
 .div-courses span {
   display: block;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
   padding-top: 0.2rem;
 }
@@ -354,7 +354,7 @@ h4 {
   text-decoration: none;
   font-size: 1.2rem;
   color: #0f0d57;
-  font-family: "Ibarra Real Nova", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: center;
   text-align: center;
   font-weight: bolder;
@@ -470,7 +470,7 @@ h4 {
     color: #333333;
     padding: 0.3rem 1.5rem;
     margin: 10px;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
@@ -478,7 +478,7 @@ h4 {
     border-radius: 0.3rem;
     background-color: #f8f3f0;
     border: 1px solid #929292;
-    filter: drop-shadow(3px 3px 1px rgb(0, 0, 0));
+    filter: drop-shadow(3px 3px 1px #000000);
   }
   .LinkNav:hover {
     border: 1px solid;
@@ -486,27 +486,27 @@ h4 {
   /* efecto boton presionado para indicar pagina actual */
   #index {
     border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+    filter: drop-shadow(0 0 0 #000000);
     background-color: #ffffff;
   }
   #contacto {
     border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+    filter: drop-shadow(0 0 0 #000000);
     background-color: #ffffff;
   }
   #cursos {
     border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+    filter: drop-shadow(0 0 0 #000000);
     background-color: #ffffff;
   }
   #examenes {
     border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+    filter: drop-shadow(0 0 0 #000000);
     background-color: #ffffff;
   }
   #nosotros {
     border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+    filter: drop-shadow(0 0 0 #000000);
     background-color: #ffffff;
   }
   .logo-index {
@@ -573,7 +573,7 @@ h4 {
     padding: 2rem;
     height: auto;
     background-color: #f8f3f0;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
   }
   .content-courses {
@@ -582,7 +582,7 @@ h4 {
     padding: 2rem;
     height: auto;
     background-color: #f8f3f0;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
   }
   .content-courses p {
@@ -599,7 +599,7 @@ h4 {
   }
   .div-courses span {
     display: block;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     padding-top: 0.2rem;
   }
@@ -608,7 +608,7 @@ h4 {
     margin: 15rem 0 5rem;
     padding: 4em 20rem;
     height: auto;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
   }
   .content-nosotros ul li {
@@ -616,16 +616,16 @@ h4 {
   }
   .content-examenes {
     position: relative;
-    margin: 15rem 0 5rem;
+    margin: 8rem 0 5rem;
     padding: 4em 20rem;
     background-color: #f8f3f0;
     height: auto;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
   }
   .content-examenes img {
     display: inline-flex;
-    margin: 5rem 2rem;
+    margin: 8rem 2rem;
     width: 30%;
     height: 30%;
   }
@@ -646,7 +646,7 @@ h4 {
     padding: 4em 20rem;
     height: auto;
     background-color: #f8f3f0;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
   }
   .content-work-img {
@@ -661,7 +661,7 @@ h4 {
     padding: 2rem 5rem;
     height: auto;
     background-color: #f8f3f0;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
   }
   .content-works {
@@ -670,7 +670,7 @@ h4 {
     padding: 2rem 5rem;
     height: auto;
     background-color: #f8f3f0;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
   }
   .content-mt-l {
@@ -684,7 +684,7 @@ h4 {
     margin: 15rem 0 5rem;
     padding: 4em 20rem;
     background-color: #f8f3f0;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
     justify-content: center;
   }
@@ -714,7 +714,7 @@ h4 {
   }
   h4 {
     font-size: 1rem;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida S";
     color: #0f0d57;
   }
   .short-hr {

@@ -8,7 +8,7 @@
 .form-label {
     font-size: 1.2rem;
     color: $blue;
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: $titleFont;
     margin-top: 2rem;
 }
 
@@ -72,7 +72,7 @@
     color: $gray;
     padding: .2rem .5rem;
     margin: 0.5rem;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
@@ -85,7 +85,7 @@
 }
 
 .LinkNav:hover {
-    border: 1px solid
+    border: 1px solid $black;
 }
 
 /* efecto boton presionado para indicar pagina actual */
@@ -136,7 +136,7 @@
 h1 {
     font-size: 1.8rem;
     color: $blue;
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: $titleFont;
     text-align: center;
     text-decoration: 1px overline $lighGray;
 }
@@ -144,7 +144,7 @@ h1 {
 h2 {
     font-size: 1.6rem;
     color: $blue;
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: $titleFont;
     text-align: center;
     margin: 10rem 0 2rem;
 }
@@ -152,16 +152,16 @@ h2 {
 h3 {
     font-size: 1.8rem;
     text-decoration: 1px overline $lighGray;
-    color: #0f0d57;
-    font-family: 'Ibarra Real Nova', serif;
+    color: $blue;
+    font-family: $titleFont;
     text-align: center;
 
 }
 
 h4 {
     font-size: 1rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #0f0d57af;
+    font-family: $infoWorkshopCards;
+    color: $blue;
 }
 
 .carrousel {
@@ -192,7 +192,7 @@ h4 {
     margin: 4rem 0 2rem;
     padding: 2rem 1rem;
     background-color: $lighGray;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     font-size: medium;
 }
 
@@ -210,7 +210,7 @@ h4 {
     position: relative;
     padding: 2rem;
     background-color: $bgColor;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     font-size: medium;
 }
 
@@ -220,7 +220,7 @@ h4 {
     padding: 2rem;
     height: auto;
     background-color: $bgColor;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     font-size: 0.9rem;
 }
 
@@ -236,7 +236,7 @@ h4 {
     padding: 2rem;
     height: auto;
     background-color: $bgColor;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     font-size: 0.9rem;
     filter: drop-shadow(0 0 1px $lighGray);
 }
@@ -248,7 +248,7 @@ h4 {
     padding: 2rem;
     height: auto;
     background-color: $bgColor;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     font-size: 0.9rem;
     filter: drop-shadow(0 0 1px $lighGray);
 }
@@ -259,7 +259,7 @@ h4 {
     margin: 20rem 0 4rem 0;
     padding: 2rem;
     background-color: $bgColor;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     font-size: 0.9rem;
 }
 
@@ -273,7 +273,7 @@ h4 {
     padding: 2rem;
     height: auto;
     background-color: $bgColor;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     font-size: 0.9rem;
 }
 
@@ -285,7 +285,7 @@ h4 {
     padding: 2rem;
     height: auto;
     background-color: $bgColor;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     font-size: 0.9rem;
 }
 
@@ -303,7 +303,7 @@ h4 {
     padding: 2rem 1rem;
     height: auto;
     background-color: $bgColor;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     font-size: 0.9rem;
 }
 
@@ -312,7 +312,7 @@ h4 {
     padding: 2rem 1rem;
     height: auto;
     background-color: $bgColor;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     font-size: 0.9rem;
 
 }
@@ -341,7 +341,7 @@ h4 {
 
 .div-courses span {
     display: block;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: $principalFont;
     font-size: 1rem;
     padding-top: .2rem;
 }
@@ -373,7 +373,7 @@ h4 {
     text-decoration: none;
     font-size: 1.2rem;
     color: #0f0d57;
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: $principalFont;
     justify-content: center;
     text-align: center;
     font-weight: bolder;
@@ -418,7 +418,7 @@ h4 {
 .menuFooter .LinkFoot {
     color: $withe;
     text-decoration: solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $principalFont;
     text-decoration: none;
     font-weight: bold;
 }
@@ -501,7 +501,7 @@ h4 {
         color: $gray;
         padding: 0.3rem 1.5rem;
         margin: 10px;
-        font-family: Verdana, Tahoma, sans-serif;
+        font-family: $principalFont;
         text-decoration: none;
         font-size: 1rem;
         font-weight: bold;
@@ -509,8 +509,7 @@ h4 {
         border-radius: 0.3rem;
         background-color: $bgColor;
         border: 1px solid $lighGray;
-        ;
-        filter: drop-shadow(3px 3px 1px rgb(0, 0, 0));
+        filter: drop-shadow(3px 3px 1px $black);
     }
 
     .LinkNav:hover {
@@ -520,31 +519,31 @@ h4 {
     /* efecto boton presionado para indicar pagina actual */
     #index {
         border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+        filter: drop-shadow(0 0 0 $black);
         background-color: $withe;
     }
 
     #contacto {
         border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+        filter: drop-shadow(0 0 0 $black);
         background-color: $withe;
     }
 
     #cursos {
         border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+        filter: drop-shadow(0 0 0 $black);
         background-color: $withe;
     }
 
     #examenes {
         border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+        filter: drop-shadow(0 0 0 $black);
         background-color: $withe;
     }
 
     #nosotros {
         border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 rgb(0, 0, 0));
+        filter: drop-shadow(0 0 0 $black);
         background-color: $withe;
     }
 
@@ -622,7 +621,7 @@ h4 {
         padding: 2rem;
         height: auto;
         background-color: $bgColor;
-        font-family: Verdana, Tahoma, sans-serif;
+        font-family: $principalFont;
         font-size: 0.9rem;
     }
 
@@ -632,7 +631,7 @@ h4 {
         padding: 2rem;
         height: auto;
         background-color: $bgColor;
-        font-family: Verdana, Tahoma, sans-serif;
+        font-family: $principalFont;
         font-size: 0.9rem;
     }
 
@@ -653,7 +652,7 @@ h4 {
 
     .div-courses span {
         display: block;
-        font-family: Verdana, Tahoma, sans-serif;
+        font-family: $principalFont;
         font-size: 1rem;
         padding-top: .2rem;
 
@@ -665,7 +664,7 @@ h4 {
         margin: 15rem 0 5rem;
         padding: 4em 20rem;
         height: auto;
-        font-family: Verdana, Tahoma, sans-serif;
+        font-family: $principalFont;
         font-size: 0.9rem;
     }
 
@@ -676,17 +675,17 @@ h4 {
 
     .content-examenes {
         position: relative;
-        margin: 15rem 0 5rem;
+        margin: 8rem 0 5rem;
         padding: 4em 20rem;
         background-color: $bgColor;
         height: auto;
-        font-family: Verdana, Tahoma, sans-serif;
+        font-family: $principalFont;
         font-size: 0.9rem;
     }
 
     .content-examenes img {
         display: inline-flex;
-        margin: 5rem 2rem;
+        margin: 8rem 2rem;
         width: 30%;
         height: 30%;
     }
@@ -712,7 +711,7 @@ h4 {
         padding: 4em 20rem;
         height: auto;
         background-color: $bgColor;
-        font-family: Verdana, Tahoma, sans-serif;
+        font-family: $principalFont;
         font-size: 0.9rem;
     }
 
@@ -731,7 +730,7 @@ h4 {
         padding: 2rem 5rem;
         height: auto;
         background-color: $bgColor;
-        font-family: Verdana, Tahoma, sans-serif;
+        font-family: $principalFont;
         font-size: 0.9rem;
     }
 
@@ -741,7 +740,7 @@ h4 {
         padding: 2rem 5rem;
         height: auto;
         background-color: $bgColor;
-        font-family: Verdana, Tahoma, sans-serif;
+        font-family: $principalFont;
         font-size: 0.9rem;
     }
 
@@ -759,7 +758,7 @@ h4 {
         padding: 4em 20rem;
         ;
         background-color: $bgColor;
-        font-family: Verdana, Tahoma, sans-serif;
+        font-family: $principalFont;
         font-size: 0.9rem;
         justify-content: center;
     }
@@ -767,8 +766,8 @@ h4 {
 
     h1 {
         font-size: 3rem;
-        color: #0f0d57;
-        font-family: 'Ibarra Real Nova', serif;
+        color: $blue;
+        font-family: $titleFont;
         text-align: center;
         text-decoration: 1px overline $lighGray;
     }
@@ -776,7 +775,7 @@ h4 {
     h2 {
         font-size: 2rem;
         color: $blue;
-        font-family: 'Ibarra Real Nova', serif;
+        font-family: $titleFont;
         text-align: center;
         margin: 2rem 0;
     }
@@ -785,7 +784,7 @@ h4 {
         font-size: 2rem;
         text-decoration: 1px overline $lighGray;
         color: $blue;
-        font-family: 'Ibarra Real Nova', serif;
+        font-family: $titleFont;
         text-align: center;
         margin-bottom: 2rem;
 
@@ -793,7 +792,7 @@ h4 {
 
     h4 {
         font-size: 1rem;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: $infoWorkshopCards;
         color: $blue;
     }
 
@@ -819,7 +818,7 @@ h4 {
         text-decoration: none;
         font-size: 2rem;
         color: $blue;
-        font-family: 'Ibarra Real Nova', serif;
+        font-family: $titleFont;
         justify-content: center;
         text-align: center;
         font-weight: bolder;
@@ -862,7 +861,7 @@ h4 {
         color: $withe;
         text-decoration: solid;
         margin: 0px 20px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: $principalFont;
         text-decoration: none;
         font-size: medium;
         font-weight: bold;
