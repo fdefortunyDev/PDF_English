@@ -1,4 +1,4 @@
-@import "./partials/colors", "./partials/fonts", "./partials/header", "./partials/body";
+@import "./partials/colors", "./partials/fonts", "./partials/header", "./partials/body","./partials/index.scss";
 
 /* bootstrap */
 .form-control:focus {
@@ -21,15 +21,6 @@
 
 
 
-.carrousel {
-    display: flex;
-    justify-content: left;
-}
-
-.imagenPrincipal {
-    margin-top: 18rem;
-    width: 100%;
-}
 
 .image-courses {
     position: relative;
@@ -44,14 +35,7 @@
     z-index: -20;
 }
 
-.content-index {
-    position: relative;
-    margin: 4rem 0 2rem;
-    padding: 2rem 1rem;
-    background-color: $lighGray;
-    font-family: $principalFont;
-    font-size: medium;
-}
+
 
 .image-workshop {
     position: absolute;
@@ -281,22 +265,6 @@
 }
 
 
-@keyframes rotacion {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    50% {
-        margin-left: 3rem;
-        transform: rotate(45deg);
-    }
-
-    100% {
-        transform: rotate(-360deg);
-    }
-
-}
-
 
 /* fin mobile */
 
@@ -317,15 +285,7 @@
 
 
 
-    .carrousel {
-        display: flex;
-        justify-content: center;
-    }
-
-    .imagenPrincipal {
-        margin: 8rem auto 0 auto;
-        width: 80rem;
-    }
+  
 
     .image-courses {
         position: relative;
@@ -347,19 +307,7 @@
         border: 1px solid $lighGray;
     }
 
-    .content-index {
-        position: relative;
-        margin: 5rem 0 4rem 0;
-        padding: 2rem 5rem;
-        background-color: $bgColor;
-        font-family: Verdana, Tahoma, sans-serif;
-        font-size: 1rem;
-        height: auto;
-    }
 
-    .content-index p {
-        margin-top: 3rem;
-    }
 
 
     .content-courses-1 {
@@ -577,18 +525,3 @@
         font-weight: bold;
     }
 
-    @keyframes rotacion {
-        0% {
-            transform: rotate(0deg);
-        }
-
-        50% {
-            margin-left: 3rem;
-            transform: rotate(45deg);
-        }
-
-        100% {
-            transform: rotate(-360deg);
-        }
-
-    }
