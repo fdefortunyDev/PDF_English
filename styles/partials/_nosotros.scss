@@ -1,0 +1,26 @@
+.content-nosotros {
+    position: relative;
+    margin: 20rem 0 5rem;
+    padding: 2rem;
+    height: auto;
+    background-color: $bgColor;
+    font-family: $principalFont;
+    font-size: 0.9rem;
+
+    ul {
+        li {
+        margin-top: 2rem;
+        }    
+    }
+}
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation:landscape) {
+
+    .content-nosotros {
+        margin: 15rem 0 5rem;
+        padding: 4em 20rem;
+    }
+
+
+}

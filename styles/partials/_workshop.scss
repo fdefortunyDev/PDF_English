@@ -1,0 +1,71 @@
+.image-workshop {
+    position: absolute;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    border: 1px solid $lighGray;
+}
+
+.content-work {
+    position: relative;
+    margin: 20rem 0 1rem;
+    padding: 2rem 1rem;
+    height: auto;
+    background-color: $bgColor;
+    font-family: $principalFont;
+    font-size: 0.9rem;
+}
+
+.content-works {
+    position: relative;
+    padding: 2rem 1rem;
+    height: auto;
+    background-color: $bgColor;
+    font-family: $principalFont;
+    font-size: 0.9rem;
+
+}
+
+.content-work-img {
+    margin: 20rem 0 5rem;
+}
+
+.content-work-imgs {
+    margin: 2rem 0 5rem;
+}
+
+.space {
+    margin-top: 1rem;
+}
+
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation:landscape) {
+
+    .image-workshop {
+        width: 30%;
+    }
+
+    .content-work-img {
+        margin: 15rem 2rem 5rem;
+    }
+
+    .content-work-imgs {
+        margin: 2rem 2rem 5rem;
+    }
+
+    .content-work {
+        margin: 15rem 0 5rem;
+        padding: 2rem 5rem;
+    }
+
+    .content-works {
+        position: relative;
+        margin: 2rem 0 5rem;
+        padding: 2rem 5rem;
+    }
+
+
+
+}

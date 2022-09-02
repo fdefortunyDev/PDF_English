@@ -1,15 +1,8 @@
-@import "./partials/colors", "./partials/fonts", "./partials/header", "./partials/body","./partials/footer","./partials/index.scss", "./partials/courses", "./partials/contacto","./partials/faq";
+@import "./partials/colors", "./partials/fonts", "./partials/header", "./partials/body","./partials/footer","./partials/index.scss", "./partials/courses", "./partials/contacto","./partials/faq","./partials/workshop";
 
 
 
-.image-workshop {
-    position: absolute;
-    display: inline-flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 40%;
-    border: 1px solid $lighGray;
-}
+
 
 
 .content {
@@ -20,19 +13,6 @@
     font-size: medium;
 }
 
-.content-nosotros {
-    position: relative;
-    margin: 20rem 0 5rem;
-    padding: 2rem;
-    height: auto;
-    background-color: $bgColor;
-    font-family: $principalFont;
-    font-size: 0.9rem;
-}
-
-.content-nosotros ul li {
-    margin-top: 2rem;
-}
 
 
 .content-examenes {
@@ -53,33 +33,6 @@
     justify-content: center;
 }
 
-.content-work {
-    position: relative;
-    margin: 20rem 0 1rem;
-    padding: 2rem 1rem;
-    height: auto;
-    background-color: $bgColor;
-    font-family: $principalFont;
-    font-size: 0.9rem;
-}
-
-.content-works {
-    position: relative;
-    padding: 2rem 1rem;
-    height: auto;
-    background-color: $bgColor;
-    font-family: $principalFont;
-    font-size: 0.9rem;
-
-}
-
-.content-work-img {
-    margin: 20rem 0 5rem;
-}
-
-.content-work-imgs {
-    margin: 2rem 0 5rem;
-}
 
 .center {
     display: flex;
@@ -131,15 +84,7 @@
 
    
 
-    .image-workshop {
-        position: absolute;
-        display: inline-flex;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 30%;
-        border: 1px solid $lighGray;
-    }
-
+  
 
 
 
@@ -155,18 +100,7 @@
     }
 
 
-    .content-nosotros {
-        position: relative;
-        margin: 15rem 0 5rem;
-        padding: 4em 20rem;
-        height: auto;
-        font-family: $principalFont;
-        font-size: 0.9rem;
-    }
-
-    .content-nosotros ul li {
-        margin-top: 2rem;
-    }
+ 
 
 
     .content-examenes {
@@ -200,38 +134,6 @@
         bottom: 1rem;
     }
 
-
-
-
-
-    .content-work-img {
-        margin: 15rem 2rem 5rem;
-    }
-
-    .content-work-imgs {
-        margin: 2rem 2rem 5rem;
-    }
-
-    .content-work {
-        position: relative;
-        margin: 15rem 0 5rem;
-        padding: 2rem 5rem;
-        height: auto;
-        background-color: $bgColor;
-        font-family: $principalFont;
-        font-size: 0.9rem;
-    }
-
-    .content-works {
-        position: relative;
-        margin: 2rem 0 5rem;
-        padding: 2rem 5rem;
-        height: auto;
-        background-color: $bgColor;
-        font-family: $principalFont;
-        font-size: 0.9rem;
-    }
-
     .content-mt-l {
         margin: 2rem 45rem 1rem 11rem;
     }
@@ -239,11 +141,3 @@
     .content hr {
         width: 11rem;
     }
-
-    
-
-
-
-    
-
-
