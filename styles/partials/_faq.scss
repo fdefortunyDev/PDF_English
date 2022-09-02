@@ -1,0 +1,26 @@
+.content-faq {
+    position: relative;
+    margin: 20rem 0 4rem 0;
+    padding: 2rem;
+    background-color: $bgColor;
+    font-family: $principalFont;
+    font-size: 0.9rem;
+
+    p{
+        padding-top: 5rem;
+    }
+}
+
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation:landscape) {
+
+    .content-faq {
+        margin: 15rem 0 5rem;
+        padding: 4em 20rem;
+        justify-content: center;
+    }
+
+
+}
+
