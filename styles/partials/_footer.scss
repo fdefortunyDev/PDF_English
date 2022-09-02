@@ -1,0 +1,70 @@
+.copyright {
+    position: absolute;
+    font-size: x-small;
+    left: 10px;
+    bottom: 5px;
+    color: $bgColor;
+}
+
+.foot {
+    position: relative;
+    background-color: $black;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.menuFooter {
+    padding: 1.5rem;
+    display: block;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+
+    .LinkFoot {
+        color: $withe;
+        text-decoration: solid;
+        font-family: $principalFont;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+.listFooter {
+    display: block;
+    list-style: none;
+    font-size: 1rem;
+
+    li{
+        margin-top: 1rem;
+    }
+
+}
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation:landscape) {
+
+
+    .foot {
+        height: 100%;
+        bottom: 0px;
+        margin-top: 8rem;
+    }
+
+    .listFooter {
+        display: flex;
+        text-decoration: none;
+    }
+
+    .menuFooter {
+        margin: 0px 10px;
+        padding: 2rem .2rem;
+        display: flex;
+
+        .LinkFoot {
+            margin: 0px 20px;
+            font-size: medium;
+        }
+    }
+
+
+}

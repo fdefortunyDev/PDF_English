@@ -1,4 +1,4 @@
-@import "./partials/colors", "./partials/fonts", "./partials/header", "./partials/body","./partials/index.scss", "./partials/courses", "./partials/contacto","./partials/aside";
+@import "./partials/colors", "./partials/fonts", "./partials/header", "./partials/body","./partials/footer","./partials/index.scss", "./partials/courses", "./partials/contacto";
 
 
 
@@ -123,47 +123,7 @@
 
 
 
-.copyright {
-    position: absolute;
-    font-size: x-small;
-    left: 10px;
-    bottom: 5px;
-    color: $bgColor;
-}
 
-.foot {
-    position: relative;
-    background-color: $black;
-    width: 100%;
-    padding-bottom: 1rem;
-}
-
-.menuFooter {
-    padding: 1.5rem;
-    display: block;
-    justify-content: center;
-    list-style: none;
-    text-align: center;
-}
-
-.listFooter {
-    display: block;
-    list-style: none;
-    font-size: 1rem;
-
-}
-
-.listFooter li {
-    margin-top: 1rem;
-}
-
-.menuFooter .LinkFoot {
-    color: $withe;
-    text-decoration: solid;
-    font-family: $principalFont;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 
 
@@ -317,43 +277,4 @@
 
     
 
-    .copyright {
-        position: absolute;
-        font-size: x-small;
-        left: 10px;
-        bottom: 5px;
-        color: $bgColor;
-    }
-
-    .foot {
-        position: relative;
-        background-color: $black;
-        width: 100%;
-        height: 100%;
-        bottom: 0px;
-        margin-top: 8rem;
-    }
-
-    .listFooter {
-        display: flex;
-        text-decoration: none;
-        list-style: none;
-    }
-
-    .menuFooter {
-        margin: 0px 10px;
-        padding: 2rem .2rem;
-        display: flex;
-        justify-content: center;
-    }
-
-    .menuFooter .LinkFoot {
-        color: $withe;
-        text-decoration: solid;
-        margin: 0px 20px;
-        font-family: $principalFont;
-        text-decoration: none;
-        font-size: medium;
-        font-weight: bold;
-    }
 
