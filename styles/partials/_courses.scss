@@ -42,13 +42,15 @@
     padding: 4rem;
     height: auto;
     text-align: center;
+}
 
-    span{
-        display: block;
-        font-family: $principalFont;
-        font-size: 1rem;
-        padding-top: .2rem;
-    }
+.div-courses {
+    display: block;
+    position: relative;
+    margin: 5rem 0 3rem;
+    padding: 4rem;
+    height: auto;
+    text-align: center;
 }
 
 
@@ -103,5 +105,13 @@
         margin: 20rem 0 3rem;
         height: auto;
         text-align: center;
+
+        span {
+            display: block;
+            font-family: $principalFont;
+            font-size: 1rem;
+            padding-top: .2rem;
+    
+        }
     }
 }

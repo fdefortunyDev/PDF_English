@@ -1,0 +1,44 @@
+.content-examenes {
+    position: relative;
+    margin: 20rem 0 10rem;
+    padding: 2rem;
+    height: auto;
+    background-color: $bgColor;
+    font-family: $principalFont;
+    font-size: 0.9rem;
+
+    img {
+        display: inline-flex;
+        margin: 4rem 1rem 2rem;
+        width: 40%;
+        height: 40%;
+        justify-content: center;
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation:landscape) {
+
+    .content-examenes {
+        margin: 10rem 0 5rem;
+        padding: 4em 20rem;
+    }
+    
+    .content-examenes img {
+        margin: 8rem 2rem;
+        width: 30%;
+        height: 30%;
+    }
+
+    #cambridge {
+        width: 20rem;
+    }
+}
+

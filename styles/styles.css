@@ -90,16 +90,9 @@
 @media only screen and (min-width: 992px) and (orientation: landscape) {
   .barNav {
     position: relative;
-    background-color: #1ad4f6;
-    width: 100%;
     height: 4em;
-    top: 0px;
-    border-radius: 0 2rem 0 0;
-    filter: drop-shadow(2px 4px 6px #000000);
   }
   .barDecoration {
-    display: flex;
-    align-items: center;
     justify-content: end;
   }
   .listNav {
@@ -112,21 +105,12 @@
     border-radius: 2rem 0 2rem 2rem;
   }
   .LinkNav {
-    color: #333333;
     padding: 0.3rem 1.5rem;
     margin: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
     font-size: 1rem;
-    font-weight: bold;
     display: inline;
     border-radius: 0.3rem;
-    background-color: #f8f3f0;
-    border: 1px solid #929292;
     filter: drop-shadow(3px 3px 1px #000000);
-  }
-  .LinkNavhover {
-    border: 1px solid;
   }
   /* efecto boton presionado para indicar pagina actual */
   #index {
@@ -158,30 +142,15 @@
     width: 11rem;
   }
   .logo {
-    position: absolute;
-    margin: 1.5rem;
-    border-radius: 1.5em;
-    border-top: solid 2px;
-    border-left: solid 2px;
-    border-color: #000000;
     width: 11rem;
   }
 }
-/* bootstrap */
-.form-control:focus {
-  border: 2px solid #F81878;
-}
-
-.form-label {
-  font-size: 1.2rem;
-  color: #0f0d57;
-  font-family: "Ibarra Real Nova", serif;
-  margin-top: 2rem;
-}
-
-/* fin bootstrap */
-/* mobile */
 .body-index {
+  background-color: #f8f3f0;
+  overflow-x: hidden;
+}
+
+.body {
   background-color: #f8f3f0;
   overflow-x: hidden;
 }
@@ -192,11 +161,6 @@
 
 .item {
   border: #008000 solid 2px;
-}
-
-.body {
-  background-color: #f8f3f0;
-  overflow-x: hidden;
 }
 
 h1 {
@@ -231,215 +195,27 @@ h4 {
   color: #0f0d57;
 }
 
-.carrousel {
-  display: flex;
-  justify-content: left;
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  h4 {
+    font-size: 1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida S";
+  }
+  .short-hr {
+    width: 10rem;
+  }
 }
-
-.imagenPrincipal {
-  margin-top: 18rem;
-  width: 100%;
-}
-
-.image-courses {
-  position: relative;
-  display: block;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 34rem;
-  height: 10rem;
-  margin: 2rem 5rem;
-  border: 1px solid #929292;
-  filter: drop-shadow(0 0 1px #929292);
-  z-index: -20;
-}
-
-.content-index {
-  position: relative;
-  margin: 4rem 0 2rem;
-  padding: 2rem 1rem;
-  background-color: #929292;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
-}
-
-.image-workshop {
-  position: absolute;
-  display: inline-flex;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 40%;
-  border: 1px solid #929292;
-}
-
-.content {
-  position: relative;
-  padding: 2rem;
-  background-color: #f8f3f0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
-}
-
-.content-nosotros {
-  position: relative;
-  margin: 20rem 0 5rem;
-  padding: 2rem;
-  height: auto;
-  background-color: #f8f3f0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.9rem;
-}
-
-.content-nosotros ul li {
-  margin-top: 2rem;
-}
-
-.content-courses {
-  display: block;
-  position: relative;
-  margin: 5rem 1rem 2rem;
-  padding: 2rem;
-  height: auto;
-  background-color: #f8f3f0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.9rem;
-  filter: drop-shadow(0 0 1px #929292);
-}
-
-.content-courses-1 {
-  display: block;
-  position: relative;
-  margin: 20rem 1rem 2rem;
-  padding: 2rem;
-  height: auto;
-  background-color: #f8f3f0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.9rem;
-  filter: drop-shadow(0 0 1px #929292);
-}
-
-.content-faq {
-  position: relative;
-  margin: 20rem 0 4rem 0;
-  padding: 2rem;
-  background-color: #f8f3f0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.9rem;
-}
-
-.content-faq p {
-  padding-top: 5rem;
-}
-
-.content-contacto {
-  position: relative;
-  margin: 20rem 2rem 5rem;
-  padding: 2rem;
-  height: auto;
-  background-color: #f8f3f0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.9rem;
-}
-
-.content-examenes {
-  position: relative;
-  margin: 20rem 0 10rem;
-  padding: 2rem;
-  height: auto;
-  background-color: #f8f3f0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.9rem;
-}
-
-.content-examenes img {
-  display: inline-flex;
-  margin: 4rem 1rem 2rem;
-  width: 40%;
-  height: 40%;
-  justify-content: center;
-}
-
-.content-work {
-  position: relative;
-  margin: 20rem 0 1rem;
-  padding: 2rem 1rem;
-  height: auto;
-  background-color: #f8f3f0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.9rem;
-}
-
-.content-works {
-  position: relative;
-  padding: 2rem 1rem;
-  height: auto;
-  background-color: #f8f3f0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.9rem;
-}
-
-.content-work-img {
-  margin: 20rem 0 5rem;
-}
-
-.content-work-imgs {
-  margin: 2rem 0 5rem;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-}
-
-.div-courses {
-  display: block;
-  position: relative;
-  margin: 5rem 0 3rem;
-  padding: 4rem;
-  height: auto;
-  text-align: center;
-}
-
-.div-courses span {
-  display: block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1rem;
-  padding-top: 0.2rem;
-}
-
-.aside {
-  margin: 3rem 0;
-  padding: 3rem 0.8rem 3rem 0;
-}
-
-.aside div img {
-  width: 100%;
-  border: solid 1px #000000;
-}
-
-.aside div span {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.aside div span a {
-  display: block;
-  position: relative;
-  margin: 0 0 8rem 0;
-  padding: 0.5rem 0.2rem;
-  width: 100%;
-  text-decoration: none;
-  font-size: 1.2rem;
-  color: #0f0d57;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  justify-content: center;
-  text-align: center;
-  font-weight: bolder;
-  background-color: #f8f3f0;
-  border: 4px dashed #0f0d57;
-}
-
 .copyright {
   position: absolute;
   font-size: x-small;
@@ -462,17 +238,6 @@ h4 {
   list-style: none;
   text-align: center;
 }
-
-.listFooter {
-  display: block;
-  list-style: none;
-  font-size: 1rem;
-}
-
-.listFooter li {
-  margin-top: 1rem;
-}
-
 .menuFooter .LinkFoot {
   color: #ffffff;
   -webkit-text-decoration: solid;
@@ -480,6 +245,85 @@ h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   font-weight: bold;
+}
+
+.listFooter {
+  display: block;
+  list-style: none;
+  font-size: 1rem;
+}
+.listFooter li {
+  margin-top: 1rem;
+}
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  .foot {
+    height: 100%;
+    bottom: 0px;
+    margin-top: 8rem;
+  }
+  .listFooter {
+    display: flex;
+    text-decoration: none;
+  }
+  .menuFooter {
+    margin: 0px 10px;
+    padding: 2rem 0.2rem;
+    display: flex;
+  }
+  .menuFooter .LinkFoot {
+    margin: 0px 20px;
+    font-size: medium;
+  }
+}
+.carrousel {
+  display: flex;
+  justify-content: left;
+}
+
+.imagenPrincipal {
+  margin-top: 18rem;
+  width: 100%;
+}
+
+.content-index {
+  position: relative;
+  margin: 4rem 0 2rem;
+  padding: 2rem 1rem;
+  background-color: #929292;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+.aside {
+  margin: 3rem 0;
+  padding: 3rem 0.8rem 3rem 0;
+}
+.aside div span {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.aside div span a {
+  display: block;
+  position: relative;
+  margin: 0 0 8rem 0;
+  padding: 0.5rem 0.2rem;
+  width: 100%;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #0f0d57;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #f8f3f0;
+  border: 4px dashed #0f0d57;
+}
+.aside div img {
+  width: 100%;
+  border: solid 1px #000000;
 }
 
 @-webkit-keyframes rotacion {
@@ -507,45 +351,14 @@ h4 {
     transform: rotate(-360deg);
   }
 }
-/* fin mobile */
 /* desktop */
 @media only screen and (min-width: 992px) and (orientation: landscape) {
-  .body-index {
-    background-color: #f8f3f0;
-    overflow-x: hidden;
-  }
-  .body {
-    background-color: #f8f3f0;
-    overflow-x: hidden;
-  }
-  .space {
-    margin-top: 1rem;
-  }
   .carrousel {
-    display: flex;
     justify-content: center;
   }
   .imagenPrincipal {
     margin: 8rem auto 0 auto;
     width: 80rem;
-  }
-  .image-courses {
-    position: relative;
-    display: inline-flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 30rem;
-    height: 30rem;
-    margin: 12rem auto 1rem auto;
-    border: 1px solid #929292;
-  }
-  .image-workshop {
-    position: absolute;
-    display: inline-flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 30%;
-    border: 1px solid #929292;
   }
   .content-index {
     position: relative;
@@ -558,6 +371,95 @@ h4 {
   }
   .content-index p {
     margin-top: 3rem;
+  }
+  .aside {
+    margin: 5rem 0;
+    padding: 5rem;
+  }
+  .aside div span a {
+    display: flex;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #0f0d57;
+    font-family: "Ibarra Real Nova", serif;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #f8f3f0;
+  }
+  .aside div img {
+    width: 100%;
+    border: solid 1px #929292;
+  }
+}
+.image-courses {
+  position: relative;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 34rem;
+  height: 10rem;
+  margin: 2rem 5rem;
+  border: 1px solid #929292;
+  filter: drop-shadow(0 0 1px #929292);
+  z-index: -20;
+}
+
+.content-courses {
+  display: block;
+  position: relative;
+  margin: 5rem 1rem 2rem;
+  padding: 2rem;
+  height: auto;
+  background-color: #f8f3f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  filter: drop-shadow(0 0 1px #929292);
+}
+
+.content-courses-1 {
+  display: block;
+  position: relative;
+  margin: 20rem 1rem 2rem;
+  padding: 2rem;
+  height: auto;
+  background-color: #f8f3f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  filter: drop-shadow(0 0 1px #929292);
+}
+
+.div-courses {
+  display: block;
+  position: relative;
+  margin: 5rem 0 3rem;
+  padding: 4rem;
+  height: auto;
+  text-align: center;
+}
+
+.div-courses {
+  display: block;
+  position: relative;
+  margin: 5rem 0 3rem;
+  padding: 4rem;
+  height: auto;
+  text-align: center;
+}
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  .image-courses {
+    position: relative;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30rem;
+    height: 30rem;
+    margin: 12rem auto 1rem auto;
+    border: 1px solid #929292;
   }
   .content-courses-1 {
     position: relative;
@@ -595,43 +497,30 @@ h4 {
     font-size: 1rem;
     padding-top: 0.2rem;
   }
-  .content-nosotros {
-    position: relative;
-    margin: 15rem 0 5rem;
-    padding: 4em 20rem;
-    height: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.9rem;
-  }
-  .content-nosotros ul li {
-    margin-top: 2rem;
-  }
-  .content-examenes {
-    position: relative;
-    margin: 8rem 0 5rem;
-    padding: 4em 20rem;
-    background-color: #f8f3f0;
-    height: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.9rem;
-  }
-  .content-examenes img {
-    display: inline-flex;
-    margin: 8rem 2rem;
-    width: 30%;
-    height: 30%;
-  }
-  #cambridge {
-    width: 20rem;
-  }
-  .center {
-    display: flex;
-    justify-content: center;
-  }
-  .bottom {
-    position: relative;
-    bottom: 1rem;
-  }
+}
+.form-control:focus {
+  border: 2px solid #F81878;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  color: #0f0d57;
+  font-family: "Ibarra Real Nova", serif;
+  margin-top: 2rem;
+}
+
+.content-contacto {
+  position: relative;
+  margin: 20rem 2rem 5rem;
+  padding: 2rem;
+  height: auto;
+  background-color: #f8f3f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+}
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation: landscape) {
   .content-contacto {
     position: relative;
     margin: 15rem 0 5rem;
@@ -641,6 +530,77 @@ h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
   }
+}
+.content-faq {
+  position: relative;
+  margin: 20rem 0 4rem 0;
+  padding: 2rem;
+  background-color: #f8f3f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+}
+.content-faq p {
+  padding-top: 5rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  .content-faq {
+    margin: 15rem 0 5rem;
+    padding: 4em 20rem;
+    justify-content: center;
+  }
+}
+.image-workshop {
+  position: absolute;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  border: 1px solid #929292;
+}
+
+.content-work {
+  position: relative;
+  margin: 20rem 0 1rem;
+  padding: 2rem 1rem;
+  height: auto;
+  background-color: #f8f3f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+}
+
+.content-works {
+  position: relative;
+  padding: 2rem 1rem;
+  height: auto;
+  background-color: #f8f3f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+}
+
+.content-work-img {
+  margin: 20rem 0 5rem;
+}
+
+.content-work-imgs {
+  margin: 2rem 0 5rem;
+}
+
+.space {
+  margin-top: 1rem;
+}
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  .image-workshop {
+    width: 30%;
+  }
   .content-work-img {
     margin: 15rem 2rem 5rem;
   }
@@ -648,149 +608,53 @@ h4 {
     margin: 2rem 2rem 5rem;
   }
   .content-work {
-    position: relative;
     margin: 15rem 0 5rem;
     padding: 2rem 5rem;
-    height: auto;
-    background-color: #f8f3f0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.9rem;
   }
   .content-works {
     position: relative;
     margin: 2rem 0 5rem;
     padding: 2rem 5rem;
-    height: auto;
-    background-color: #f8f3f0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.9rem;
   }
-  .content-mt-l {
-    margin: 2rem 45rem 1rem 11rem;
-  }
-  .content hr {
-    width: 11rem;
-  }
-  .content-faq {
+  .bottom {
     position: relative;
-    margin: 15rem 0 5rem;
+    bottom: 1rem;
+  }
+}
+.content-examenes {
+  position: relative;
+  margin: 20rem 0 10rem;
+  padding: 2rem;
+  height: auto;
+  background-color: #f8f3f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+}
+.content-examenes img {
+  display: inline-flex;
+  margin: 4rem 1rem 2rem;
+  width: 40%;
+  height: 40%;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* desktop */
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  .content-examenes {
+    margin: 10rem 0 5rem;
     padding: 4em 20rem;
-    background-color: #f8f3f0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.9rem;
-    justify-content: center;
   }
-  h1 {
-    font-size: 3rem;
-    color: #0f0d57;
-    font-family: "Ibarra Real Nova", serif;
-    text-align: center;
-    -webkit-text-decoration: 1px overline #929292;
-            text-decoration: 1px overline #929292;
+  .content-examenes img {
+    margin: 8rem 2rem;
+    width: 30%;
+    height: 30%;
   }
-  h2 {
-    font-size: 2rem;
-    color: #0f0d57;
-    font-family: "Ibarra Real Nova", serif;
-    text-align: center;
-    margin: 2rem 0;
-  }
-  h3 {
-    font-size: 2rem;
-    -webkit-text-decoration: 1px overline #929292;
-            text-decoration: 1px overline #929292;
-    color: #0f0d57;
-    font-family: "Ibarra Real Nova", serif;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  h4 {
-    font-size: 1rem;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida S";
-    color: #0f0d57;
-  }
-  .short-hr {
-    width: 10rem;
-  }
-  .aside {
-    margin: 5rem 0;
-    padding: 5rem;
-  }
-  .aside div img {
-    width: 100%;
-    border: solid 1px #929292;
-  }
-  .aside div span a {
-    display: flex;
-    position: relative;
-    width: 100%;
-    text-decoration: none;
-    font-size: 2rem;
-    color: #0f0d57;
-    font-family: "Ibarra Real Nova", serif;
-    justify-content: center;
-    text-align: center;
-    font-weight: bolder;
-    background-color: #f8f3f0;
-  }
-  .copyright {
-    position: absolute;
-    font-size: x-small;
-    left: 10px;
-    bottom: 5px;
-    color: #f8f3f0;
-  }
-  .foot {
-    position: relative;
-    background-color: #000000;
-    width: 100%;
-    height: 100%;
-    bottom: 0px;
-    margin-top: 8rem;
-  }
-  .listFooter {
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-  }
-  .menuFooter {
-    margin: 0px 10px;
-    padding: 2rem 0.2rem;
-    display: flex;
-    justify-content: center;
-  }
-  .menuFooter .LinkFoot {
-    color: #ffffff;
-    -webkit-text-decoration: solid;
-            text-decoration: solid;
-    margin: 0px 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    font-size: medium;
-    font-weight: bold;
-  }
-  @-webkit-keyframes rotacion {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      margin-left: 3rem;
-      transform: rotate(45deg);
-    }
-    100% {
-      transform: rotate(-360deg);
-    }
-  }
-  @keyframes rotacion {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      margin-left: 3rem;
-      transform: rotate(45deg);
-    }
-    100% {
-      transform: rotate(-360deg);
-    }
+  #cambridge {
+    width: 20rem;
   }
 }/*# sourceMappingURL=styles.css.map */
