@@ -52,8 +52,15 @@ h4 {
 /* desktop */
 @media only screen and (min-width: 992px) and (orientation:landscape) {
 
+
+
     h1 {
         font-size: 3rem;
+        padding-top: 2rem; 
+    }
+    .margin-title{
+        margin-top: 12rem;
+        margin-bottom: 10rem;
     }
 
     h2 {
@@ -64,7 +71,6 @@ h4 {
     h3 {
         font-size: 2rem;
         margin-bottom: 2rem;
-
     }
 
     h4 {

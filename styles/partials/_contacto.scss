@@ -1,8 +1,12 @@
 // bootstrap///
 .form-control {
     &:focus{
-        border: 2px solid $pink;
+        border: 3px solid $pink;
     }
+}
+
+.btn-success{
+    background-color: $orange;
 }
 
 .form-label {
@@ -31,12 +35,17 @@
 
     .content-contacto {
         position: relative;
-        margin: 15rem 0 5rem;
-        padding: 4em 20rem;
+        margin: 8rem 2rem 5rem;
+        padding: 0 10rem;
         height: auto;
         background-color: $bgColor;
         font-family: $principalFont;
         font-size: 0.9rem;
+    }
+
+    .img-contacto img{
+        width: 90%;
+        margin-left: 5rem;
     }
 
 
