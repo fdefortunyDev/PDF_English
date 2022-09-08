@@ -1,11 +1,11 @@
 .barNav {
     position: absolute;
-    background-color: $skyBlue;
+    background-color: map-get($map: $colors, $key: _skyBlue );
     width: 100%;
     height: 3rem;
     top: 0px;
     border-radius: 0 2rem 0 0;
-    filter: drop-shadow(2px 4px 6px $black);
+    filter: drop-shadow(2px 4px 6px map-get($map: $colors, $key: _black));
 }
 
 .barDecoration {
@@ -18,12 +18,12 @@
 .listNav {
     display: block;
     list-style-type: none;
-    background-color: $pink;
+    background-color: map-get($map: $colors, $key: _pink );
     position: absolute;
     right: 0px;
     padding: .2rem .5rem;
     margin-top: 18.3rem;
-    border-top: 1px solid $black;
+    border-top: 1px solid map-get($map: $colors, $key: _black );;
     border-radius: 0 0 2rem 2rem;
 }
 
@@ -40,7 +40,7 @@
     border-radius: 0.5rem;
     background-color: $bgColor;
     border: 1px solid $lighGray;
-    filter: drop-shadow(2px 1px 1px $black);
+    filter: drop-shadow(2px 1px 1px map-get($map: $colors, $key: _black));
 
         &hover {
             border: 1px solid $black;
@@ -73,7 +73,7 @@
     border-radius: 1.5em;
     border-top: solid 2px;
     border-left: solid 2px;
-    border-color: $black;
+    border-color:  map-get($map: $colors, $key: _black);
     width: 8rem;
     animation: rotacion 1.6s 1;
 }
@@ -85,7 +85,7 @@
     border-radius: 1.5em;
     border-top: solid 2px;
     border-left: solid 2px;
-    border-color: $black;
+    border-color:  map-get($map: $colors, $key: _black);
     width: 9rem;
 }
 
@@ -111,10 +111,10 @@
     .listNav {
         display: flex;
         list-style-type: none;
-        background-color: $pink;
+        background-color:  map-get($map: $colors, $key: _pink);
         padding: 1rem 1.5rem;
         margin-top: 8.5rem;
-        border-top: 1px solid $black;
+        border-top: 1px solid map-get($map: $colors, $key: _black);
         border-radius: 2rem 0 2rem 2rem;
     }
 
@@ -125,39 +125,39 @@
         font-size: 1rem;
         display: inline;
         border-radius: 0.3rem;
-        filter: drop-shadow(3px 3px 1px $black);
+        filter: drop-shadow(3px 3px 1px map-get($map: $colors, $key: _black));
     }
 
 
     /* efecto boton presionado para indicar pagina actual */
     #index {
-        border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 $black);
-        background-color: $withe;
+        border: 1px solid  map-get($map: $colors, $key: _lightGray);
+        filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
+        background-color: map-get($map: $colors, $key: _withe);
     }
 
     #contacto {
-        border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 $black);
-        background-color: $withe;
+        border: 1px solid map-get($map: $colors, $key: _lightGray);
+        filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
+        background-color: map-get($map: $colors, $key: _withe);
     }
 
     #cursos {
-        border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 $black);
-        background-color: $withe;
+        border: 1px solid map-get($map: $colors, $key: _lightGray);
+        filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
+        background-color: map-get($map: $colors, $key: _withe);
     }
 
     #examenes {
-        border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 $black);
-        background-color: $withe;
+        border: 1px solid map-get($map: $colors, $key: _lightGray);
+        filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
+        background-color: map-get($map: $colors, $key: _withe);
     }
 
     #nosotros {
-        border: 1px solid $lighGray;
-        filter: drop-shadow(0 0 0 $black);
-        background-color: $withe;
+        border: 1px solid map-get($map: $colors, $key: _lightGray);
+        filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
+        background-color: map-get($map: $colors, $key: _withe);
     }
 
     .logo-index {

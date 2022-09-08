@@ -12,7 +12,6 @@
     position: relative;
     margin: 4rem 0 2rem;
     padding: 2rem 1rem;
-    background-color: $bgColor;
     font-family: $principalFont;
     font-size: medium;
 }
@@ -36,19 +35,19 @@
                 width: 100%;
                 text-decoration: none;
                 font-size: 1.2rem;
-                color: #0f0d57;
+                color: map-get($map: $colors, $key: _blue );
                 font-family: $principalFont;
                 justify-content: center;
                 text-align: center;
                 font-weight: bolder;
-                background-color: $bgColor;
-                border: 4px dashed $blue;
+                background-color: map-get($map: $colors, $key: _bgColor );
+                border: 4px dashed map-get($map: $colors, $key: _blue );
             }
 
         }
         img{
             width: 100%;
-            border: solid 1px $black;
+            border: solid 1px map-get($map: $colors, $key: _black );
         }
         
     }
@@ -93,7 +92,6 @@
         position: relative;
         margin: 5rem 0 4rem 0;
         padding: 2rem 5rem;
-        background-color: $bgColor;
         font-family: Verdana, Tahoma, sans-serif;
         font-size: 1rem;
         height: auto;
@@ -120,13 +118,13 @@
                     justify-content: center;
                     text-align: center;
                     font-weight: bolder;
-                    background-color: $bgColor;
+                    background-color: map-get($map: $colors, $key: _bgColor );
                 }
             }
             
             img{
                 width: 100%;
-                border: solid 1px $lighGray;
+                border: solid 1px map-get($map: $colors, $key: _lightGray );
             }
         }
     }

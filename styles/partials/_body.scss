@@ -1,32 +1,32 @@
 .body-index {
-    background-color: $bgColor;
+    background-color: map-get($map: $colors, $key: _bgColor);
     overflow-x: hidden;
 }
 
 .body {
-    background-color: $bgColor;
+    background-color: map-get($map: $colors, $key: _bgColor);
     overflow-x: hidden
 }
 
 .border {
-    border: $pink solid 3px;
+    border: map-get($map: $colors, $key: _pink) solid 3px;
 }
 
 .item {
-    border: $green solid 2px;
+    border: map-get($map: $colors, $key: _green) solid 2px;
 }
 
 h1 {
     font-size: 1.8rem;
-    color: $blue;
+    color: map-get($map: $colors, $key: _blue);
     font-family: $titleFont;
     text-align: center;
-    text-decoration: 1px overline $lighGray;
+    text-decoration: 1px overline map-get($map: $colors, $key: _lightGray);
 }
 
 h2 {
     font-size: 1.6rem;
-    color: $blue;
+    color: map-get($map: $colors, $key: _blue);
     font-family: $titleFont;
     text-align: center;
     margin: 10rem 0 2rem;
@@ -34,8 +34,8 @@ h2 {
 
 h3 {
     font-size: 1.8rem;
-    text-decoration: 1px overline $lighGray;
-    color: $blue;
+    text-decoration: 1px overlinemap-get($map: $colors, $key: _lightGray);
+    color: map-get($map: $colors, $key: _blue);
     font-family: $titleFont;
     text-align: center;
 
@@ -44,7 +44,7 @@ h3 {
 h4 {
     font-size: 1rem;
     font-family: $infoWorkshopCards;
-    color: $blue;
+    color: map-get($map: $colors, $key: _blue);
 }
 
 

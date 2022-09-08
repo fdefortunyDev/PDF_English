@@ -1,9 +1,6 @@
 .content-nos {
-    position: relative;
-    margin: 20rem 0 5rem;
-    padding: 2rem;
-    height: auto;
-    background-color: $bgColor;
+    @include containters(relative,20rem 0 5rem,2rem,auto);
+    background-color: map-get($map: $colors, $key: _bgColor );
     font-family: $principalFont;
     font-size: 0.9rem;
 

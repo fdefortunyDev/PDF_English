@@ -3,12 +3,12 @@
     font-size: x-small;
     left: 10px;
     bottom: 5px;
-    color: $bgColor;
+    color: map-get($map: $colors, $key: _bgColor);
 }
 
 .foot {
     position: relative;
-    background-color: $black;
+    background-color: map-get($map: $colors, $key: _black);
     width: 100%;
     padding-bottom: 1rem;
 }
@@ -21,7 +21,7 @@
     text-align: center;
 
     .LinkFoot {
-        color: $withe;
+        color: map-get($map: $colors, $key: _withe);
         text-decoration: solid;
         font-family: $principalFont;
         text-decoration: none;

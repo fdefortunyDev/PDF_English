@@ -1,10 +1,13 @@
-$bgColor: #f8f3f0;
-$withe: #ffffff;
-$pink: #F81878;
-$green: #008000;
-$skyBlue: #1ad4f6;
-$gray: #333333;
-$lighGray: #929292;
-$black: #000000;
-$blue: #0f0d57;
-$orange: rgb(249, 182, 13)l;
+$colors: (
+    _bgColor: #f8f3f0,
+    _withe: #ffffff,
+    _pink: #F81878,
+    _green: #008000,
+    _skyBlue: #1ad4f6,
+    _gray: #333333,
+    _lightGray: #929292,
+    _black: #000000,
+    _blue: #0f0d57,
+    _orange: rgb(249, 182, 13)l,
+
+);
