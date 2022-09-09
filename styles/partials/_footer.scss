@@ -1,8 +1,8 @@
 .copyright {
     position: absolute;
-    font-size: x-small;
-    left: 10px;
-    bottom: 5px;
+    font-size: .5rem;
+    left: 1.5rem;
+    bottom: 1.5rem;
     color: map-get($map: $colors, $key: _bgColor);
 }
 
@@ -10,6 +10,7 @@
     position: relative;
     background-color: map-get($map: $colors, $key: _black);
     width: 100%;
+    margin-top: 15rem;
     padding-bottom: 1rem;
 }
 

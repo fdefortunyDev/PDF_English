@@ -29,7 +29,7 @@
 
 .LinkNav {
     display: block;
-    color: $gray;
+    color: map-get($map:$colors, $key: _gray );
     padding: .2rem .5rem;
     margin: 0.5rem;
     font-family: $principalFont;
@@ -38,33 +38,33 @@
     text-align: center;
     font-size: 1.1rem;
     border-radius: 0.5rem;
-    background-color: $bgColor;
-    border: 1px solid $lighGray;
+    background-color:  map-get($map:$colors, $key: _bgColor );
+    border: 1px solid  map-get($map:$colors, $key: _lightGray );
     filter: drop-shadow(2px 1px 1px map-get($map: $colors, $key: _black));
 
         &hover {
-            border: 1px solid $black;
+            border: 1px solid  map-get($map:$colors, $key: _black );
         }
 }
 
 #index {
-    color: $gray;
+    color:  map-get($map:$colors, $key: _gray );
 }
 
 #contacto {
-    color: $gray;
+    color:  map-get($map:$colors, $key: _gray );
 }
 
 #cursos {
-    color: $gray;
+    color:  map-get($map:$colors, $key: _gray );
 }
 
 #examenes {
-    color: $gray;
+    color:  map-get($map:$colors, $key: _gray );
 }
 
 #nosotros {
-    color: $gray;
+    color:  map-get($map:$colors, $key: _gray );
 }
 
 .logo-index {

@@ -1,28 +1,34 @@
 // bootstrap///
 .form-control {
-    &:focus{
+    &:focus {
         border: 3px solid map-get($map: $colors, $key: _pink);
     }
 }
 
-.btn-success{
+.content-contacto {
+    @include containters(relative, 20rem 1rem 0, 1rem, auto);
+    background-color: map-get($map: $colors, $key: _bgColor);
+    @extend %principalFonts;
+
+    .img-contacto img{
+            width: 100%;
+        
+    }
+}
+
+.btn-success {
     background-color: map-get($map: $colors, $key: _orange);
 }
 
 .form-label {
     font-size: 1.2rem;
-    color: $blue;
+    color:  map-get($map:$colors, $key: _blue);
     font-family: $titleFont;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
-//////////////
 
 
-.content-contacto {
-    @include containters(relative,20rem 2rem 5rem, 2rem, auto);
-    background-color: map-get($map: $colors, $key: _bgColor);
-    @extend %principalFonts;
-}
+
 
 
 /* desktop */
@@ -30,11 +36,14 @@
 
 
     .content-contacto {
-        @include containters(relative,8rem 2rem 5rem, 0 10rem, auto);
+        @include containters(relative, 8rem 20rem 5rem, 0, auto);
+        .padding-form{
+            padding: 5rem 10rem;
+        }
     }
 
-    .img-contacto img{
-        width: 90%;
+    .img-contacto img {
+        width: 60%;
         margin-left: 5rem;
     }
 

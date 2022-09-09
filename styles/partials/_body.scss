@@ -34,7 +34,7 @@ h2 {
 
 h3 {
     font-size: 1.8rem;
-    text-decoration: 1px overlinemap-get($map: $colors, $key: _lightGray);
+    text-decoration: 1px overline map-get($map: $colors, $key: _lightGray);
     color: map-get($map: $colors, $key: _blue);
     font-family: $titleFont;
     text-align: center;

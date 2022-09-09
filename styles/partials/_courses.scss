@@ -19,7 +19,7 @@
 }
 
 .content-courses-1 {
-    @include containters(relative,20rem 1rem 2rem, 2rem, auto);
+    @include containters(relative,0rem 1rem 2rem, 2rem, auto);
     display: block;
     position: relative;
     margin: 20rem 1rem 2rem;

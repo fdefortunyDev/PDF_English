@@ -1,11 +1,11 @@
 .content-examenes {
-    @include containters(relative,20rem 0 10rem, 2rem, auto);
+    @include containters(relative,18rem 1rem 10rem, 1rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
 
     img {
         display: inline-flex;
-        margin: 4rem 1rem 2rem;
+        margin: 0rem 1rem 2rem;
         width: 40%;
         height: 40%;
         justify-content: center;
@@ -23,15 +23,15 @@
 @media only screen and (min-width: 992px) and (orientation:landscape) {
 
     .content-examenes {
-        margin: 8rem 0 5rem;
+        margin: 8rem 0 5rem !important;
         padding: 0 20rem;
     }
 
     
     .content-examenes img {
-        margin: 5rem 2rem;
-        width: 30%;
-        height: 30%;
+        margin: 0rem 2rem;
+        width: 20%;
+        padding-bottom: 4rem;
     }
 
     #cambridge {

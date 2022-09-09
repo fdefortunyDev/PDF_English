@@ -1,6 +1,6 @@
 @mixin containters($pos,$margin, $padding,$heigth){
-    position: $pos;
-    margin: $margin;
-    padding: $padding;
-    height: $heigth;
+    position: $pos !important;
+    margin: $margin !important;
+    padding: $padding !important;
+    height: $heigth !important;
 };

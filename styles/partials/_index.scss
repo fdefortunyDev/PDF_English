@@ -9,10 +9,10 @@
 }
 
 .content-index {
+    @extend %principalFonts;
     position: relative;
     margin: 4rem 0 2rem;
     padding: 2rem 1rem;
-    @extend %principalFonts;
 }
 
 
@@ -83,8 +83,8 @@
     }
 
     .imagenPrincipal {
-        margin: 8rem auto 0 auto;
-        width: 80rem;
+        margin: 10rem auto 0 auto;
+        width: 70rem;
     }
 
     .content-index {
@@ -102,8 +102,8 @@
 
 
     .aside {
-        margin: 5rem 0;
-        padding: 5rem;
+        margin: 5rem 0 0;
+        padding: 6rem;
         div{
             span{
                 a{
@@ -112,7 +112,7 @@
                     width: 100%;
                     text-decoration: none;
                     font-size: 2rem;
-                    color: $blue;
+                    color:  map-get($map:$colors, $key: _blue );
                     font-family: $titleFont;
                     justify-content: center;
                     text-align: center;
