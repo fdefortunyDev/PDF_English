@@ -12,8 +12,7 @@
     position: relative;
     margin: 4rem 0 2rem;
     padding: 2rem 1rem;
-    font-family: $principalFont;
-    font-size: medium;
+    @extend %principalFonts;
 }
 
 

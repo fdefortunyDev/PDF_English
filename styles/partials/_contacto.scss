@@ -21,8 +21,7 @@
 .content-contacto {
     @include containters(relative,20rem 2rem 5rem, 2rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
-    font-family: $principalFont;
-    font-size: 0.9rem;
+    @extend %principalFonts;
 }
 
 
@@ -32,9 +31,6 @@
 
     .content-contacto {
         @include containters(relative,8rem 2rem 5rem, 0 10rem, auto);
-        background-color: map-get($map: $colors, $key: _bgColor);
-        font-family: $principalFont;
-        font-size: 0.9rem;
     }
 
     .img-contacto img{
