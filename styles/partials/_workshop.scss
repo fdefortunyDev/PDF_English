@@ -43,31 +43,34 @@
 @media only screen and (min-width: 992px) and (orientation:landscape) {
 
     .image-workshop {
-        width: 30%;
+        width: 100% !important;
+        height: 25rem !important;
+        display: block !important;
+        position: relative !important;
     }
 
     .content-work-img {
-        margin: 2rem 2rem 5rem;
+        margin: 2rem 0 5rem !important;
     }
 
     .content-work-imgs {
-        margin: 2rem 2rem 5rem;
+        margin: 2rem 0 5rem !important;
     }
 
     .content-work {
-        margin: 2rem 0 5rem;
-        padding: 2rem 5rem;
+        margin: 10rem 0 0 !important;
+        padding: 2rem 30% 0 !important;
     }
 
     .content-works {
-        position: relative;
-        margin: 2rem 0 5rem;
-        padding: 2rem 5rem;
+        position: relative !important;
+        margin: 2rem 0 !important;
+        padding: 2rem 30% !important;
     }
 
     .bottom {
-        position: relative;
-        bottom: 1rem;
+        position: relative !important;
+        bottom: 1rem !important;
     }
 
 

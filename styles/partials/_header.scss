@@ -22,7 +22,7 @@
     position: absolute;
     right: 0px;
     padding: .2rem .5rem;
-    margin-top: 18.3rem;
+    margin-top: 16.1rem;
     border-top: 1px solid map-get($map: $colors, $key: _black );;
     border-radius: 0 0 2rem 2rem;
 }
@@ -36,7 +36,7 @@
     text-decoration: none;
     font-weight: bold;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: .8rem;
     border-radius: 0.5rem;
     background-color:  map-get($map:$colors, $key: _bgColor );
     border: 1px solid  map-get($map:$colors, $key: _lightGray );

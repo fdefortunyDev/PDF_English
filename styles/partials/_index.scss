@@ -40,13 +40,15 @@
                 text-align: center;
                 font-weight: bolder;
                 background-color: map-get($map: $colors, $key: _bgColor );
-                border: 4px dashed map-get($map: $colors, $key: _blue );
+                border: 1px solid map-get($map: $colors, $key: _gray );
+                filter: drop-shadow(5px 10px 3px map-get($map: $colors, $key: _gray));
             }
 
         }
         img{
             width: 100%;
-            border: solid 1px map-get($map: $colors, $key: _black );
+            border: .1rem solid map-get($map: $colors, $key: _gray );
+            filter: drop-shadow(5px 10px 3px map-get($map: $colors, $key: _gray));
         }
         
     }
@@ -119,11 +121,6 @@
                     font-weight: bolder;
                     background-color: map-get($map: $colors, $key: _bgColor );
                 }
-            }
-            
-            img{
-                width: 100%;
-                border: solid 1px map-get($map: $colors, $key: _lightGray );
             }
         }
     }

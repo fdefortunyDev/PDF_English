@@ -1,7 +1,7 @@
 .content-nos, .content-examenes, .content-works, .content-work, .content-faq, .content-contacto, .content-courses-1, .content-courses, .content-index {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
-  text-indent: 0.5rem;
+  text-indent: 0.2rem;
 }
 
 .barNav {
@@ -27,7 +27,7 @@
   position: absolute;
   right: 0px;
   padding: 0.2rem 0.5rem;
-  margin-top: 18.3rem;
+  margin-top: 16.1rem;
   border-top: 1px solid #000000;
   border-radius: 0 0 2rem 2rem;
 }
@@ -41,7 +41,7 @@
   text-decoration: none;
   font-weight: bold;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   border-radius: 0.5rem;
   background-color: #f8f3f0;
   border: 1px solid #929292;
@@ -262,7 +262,7 @@ h4 {
 .listFooter {
   display: block;
   list-style: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .listFooter li {
   margin-top: 1rem;
@@ -328,11 +328,13 @@ h4 {
   text-align: center;
   font-weight: bolder;
   background-color: #f8f3f0;
-  border: 4px dashed #0f0d57;
+  border: 1px solid #333333;
+  filter: drop-shadow(5px 10px 3px #333333);
 }
 .aside div img {
   width: 100%;
-  border: solid 1px #000000;
+  border: 0.1rem solid #333333;
+  filter: drop-shadow(5px 10px 3px #333333);
 }
 
 @-webkit-keyframes rotacion {
@@ -397,10 +399,6 @@ h4 {
     font-weight: bolder;
     background-color: #f8f3f0;
   }
-  .aside div img {
-    width: 100%;
-    border: solid 1px #929292;
-  }
 }
 .image-courses {
   position: relative;
@@ -419,7 +417,6 @@ h4 {
   margin: 5rem 1rem 2rem !important;
   padding: 2rem !important;
   height: auto !important;
-  display: block;
   background-color: #f8f3f0;
   filter: drop-shadow(0 0 1px);
 }
@@ -429,11 +426,6 @@ h4 {
   margin: 0rem 1rem 2rem !important;
   padding: 2rem !important;
   height: auto !important;
-  display: block;
-  position: relative;
-  margin: 20rem 1rem 2rem;
-  padding: 2rem;
-  height: auto;
   justify-content: center;
   background-color: #f8f3f0;
   filter: drop-shadow(0 0 1px);
@@ -441,7 +433,7 @@ h4 {
 
 .div-courses {
   position: relative !important;
-  margin: 5rem 0 3rem !important;
+  margin: 5rem 1rem 3rem !important;
   padding: 4rem !important;
   height: auto !important;
   display: block;
@@ -598,26 +590,29 @@ h4 {
 /* desktop */
 @media only screen and (min-width: 992px) and (orientation: landscape) {
   .image-workshop {
-    width: 30%;
+    width: 100% !important;
+    height: 25rem !important;
+    display: block !important;
+    position: relative !important;
   }
   .content-work-img {
-    margin: 2rem 2rem 5rem;
+    margin: 2rem 0 5rem !important;
   }
   .content-work-imgs {
-    margin: 2rem 2rem 5rem;
+    margin: 2rem 0 5rem !important;
   }
   .content-work {
-    margin: 2rem 0 5rem;
-    padding: 2rem 5rem;
+    margin: 10rem 0 0 !important;
+    padding: 2rem 30% 0 !important;
   }
   .content-works {
-    position: relative;
-    margin: 2rem 0 5rem;
-    padding: 2rem 5rem;
+    position: relative !important;
+    margin: 2rem 0 !important;
+    padding: 2rem 30% !important;
   }
   .bottom {
-    position: relative;
-    bottom: 1rem;
+    position: relative !important;
+    bottom: 1rem !important;
   }
 }
 .content-examenes {
@@ -673,7 +668,7 @@ h4 {
 /* desktop */
 @media only screen and (min-width: 992px) and (orientation: landscape) {
   .content-nos {
-    margin: 6rem 2rem;
-    padding: 4em 2rem;
+    margin: 10rem 2rem !important;
+    padding: 1rem 20% !important;
   }
 }/*# sourceMappingURL=styles.css.map */
