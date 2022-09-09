@@ -71,10 +71,10 @@
     position: absolute;
     margin: 1.5rem;
     border-radius: 1.5em;
-    border-top: solid 2px;
+    border-top: solid 1px;
     border-left: solid 2px;
     border-color:  map-get($map: $colors, $key: _black);
-    width: 8rem;
+    width: 9rem;
     animation: rotacion 1.6s 1;
 }
 
@@ -83,7 +83,7 @@
     position: absolute;
     margin: 1.5rem;
     border-radius: 1.5em;
-    border-top: solid 2px;
+    border-top: solid 1px;
     border-left: solid 2px;
     border-color:  map-get($map: $colors, $key: _black);
     width: 9rem;
