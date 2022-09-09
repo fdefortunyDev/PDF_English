@@ -42,7 +42,7 @@
     border: 1px solid  map-get($map:$colors, $key: _lightGray );
     filter: drop-shadow(2px 1px 1px map-get($map: $colors, $key: _black));
 
-        &hover {
+        &:hover {
             border: 1px solid  map-get($map:$colors, $key: _black );
         }
 }
