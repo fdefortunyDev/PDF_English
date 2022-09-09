@@ -47,7 +47,7 @@
   border: 1px solid #929292;
   filter: drop-shadow(2px 1px 1px #000000);
 }
-.LinkNavhover {
+.LinkNav:hover {
   border: 1px solid #000000;
 }
 
@@ -75,10 +75,10 @@
   position: absolute;
   margin: 1.5rem;
   border-radius: 1.5em;
-  border-top: solid 2px;
-  border-left: solid 2px;
+  border-top: solid 1px #333333 !important;
+  border-left: solid #333333 !important;
   border-color: #000000;
-  width: 8rem;
+  width: 9rem !important;
   -webkit-animation: rotacion 1.6s 1;
           animation: rotacion 1.6s 1;
 }
@@ -87,7 +87,7 @@
   position: absolute;
   margin: 1.5rem;
   border-radius: 1.5em;
-  border-top: solid 2px;
+  border-top: solid 1px;
   border-left: solid 2px;
   border-color: #000000;
   width: 9rem;
@@ -153,12 +153,10 @@
 }
 .body-index {
   background-color: #f8f3f0;
-  overflow-x: hidden;
 }
 
 .body {
   background-color: #f8f3f0;
-  overflow-x: hidden;
 }
 
 .border {
@@ -262,7 +260,7 @@ h4 {
 .listFooter {
   display: block;
   list-style: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .listFooter li {
   margin-top: 1rem;
