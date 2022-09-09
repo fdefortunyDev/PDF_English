@@ -22,21 +22,22 @@
     position: absolute;
     right: 0px;
     padding: .2rem .5rem;
-    margin-top: 16.1rem;
-    border-top: 1px solid map-get($map: $colors, $key: _black );;
+    margin-top: 17.05rem;
+    border: 1px dashed map-get($map: $colors, $key: _gray );
+    border-top: 1px solid map-get($map: $colors, $key: _gray );
     border-radius: 0 0 2rem 2rem;
 }
 
 .LinkNav {
     display: block;
     color: map-get($map:$colors, $key: _gray );
-    padding: .2rem .5rem;
-    margin: 0.5rem;
+    padding: .2rem 1.4rem;
+    margin: 0.4rem;
     font-family: $principalFont;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
-    font-size: .8rem;
+    font-size: 1rem;
     border-radius: 0.5rem;
     background-color:  map-get($map:$colors, $key: _bgColor );
     border: 1px solid  map-get($map:$colors, $key: _lightGray );
@@ -74,7 +75,7 @@
     border-top: solid 1px map-get($map: $colors, $key: _gray) !important;
     border-left: solid 1px map-get($map: $colors, $key: _gray) !important;
     border-color:  map-get($map: $colors, $key: _black);
-    width: 9rem !important;
+    width: 8.5rem !important;
     animation: rotacion 1.6s 1;
 }
 
@@ -86,7 +87,7 @@
     border-top: solid 1px map-get($map: $colors, $key: _gray) !important;
     border-left: solid 1px map-get($map: $colors, $key: _gray) !important;
     border-color:  map-get($map: $colors, $key: _black);
-    width: 9rem;
+    width: 8.5rem;
 }
 
 
