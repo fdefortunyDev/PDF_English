@@ -39,7 +39,8 @@
   color: #333333;
   padding: 0.2rem 1.4rem;
   margin: 0.4rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
   text-decoration: none;
   font-weight: bold;
   text-align: center;
@@ -111,7 +112,7 @@
     list-style-type: none;
     background-color: #F81878;
     padding: 1.2rem 1.4rem;
-    margin-top: 9.3rem;
+    margin-top: 9.5rem;
     right: -4px;
     border-top: 0 solid;
     border-radius: 0rem 0 2rem 2rem;
@@ -121,7 +122,7 @@
   .LinkNav {
     padding: 0.4rem 2rem;
     margin: 10px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     display: inline;
     border-radius: 0.3rem;
     filter: drop-shadow(3px 3px 1px #000000);
