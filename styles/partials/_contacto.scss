@@ -17,7 +17,7 @@
 }
 
 .btn-success {
-    background-color: map-get($map: $colors, $key: _orange);
+    background-color: map-get($map: $colors, $key: _orange) !important;
 }
 
 .form-label {
