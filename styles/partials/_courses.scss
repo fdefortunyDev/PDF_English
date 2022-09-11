@@ -26,7 +26,7 @@
 }
 
 .div-courses {
-    @include containters(relative,5rem 1rem 3rem, 4rem, auto);
+    @include containters(relative,15rem 1rem 3rem, 1rem 4rem, auto);
     display: block;
     text-align: center;
 }

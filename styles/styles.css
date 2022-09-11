@@ -186,7 +186,7 @@ h2 {
   color: #0f0d57;
   font-family: "Ibarra Real Nova", serif;
   text-align: center;
-  margin: 10rem 0 2rem;
+  margin: 2rem 0 2rem;
 }
 
 h3 {
@@ -436,8 +436,8 @@ h4 {
 
 .div-courses {
   position: relative !important;
-  margin: 5rem 1rem 3rem !important;
-  padding: 4rem !important;
+  margin: 15rem 1rem 3rem !important;
+  padding: 1rem 4rem !important;
   height: auto !important;
   display: block;
   text-align: center;
