@@ -11,7 +11,8 @@
   height: 3rem;
   top: 0px;
   border-radius: 0 2rem 0 0;
-  filter: drop-shadow(2px 4px 6px #000000);
+  border: 1px solid #333333;
+  border-top: 0;
 }
 
 .barDecoration {
@@ -25,11 +26,11 @@
   list-style-type: none;
   background-color: #F81878;
   position: absolute;
-  right: 0px;
+  right: -1px;
   padding: 0.2rem 0.5rem;
-  margin-top: 17.05rem;
-  border: 1px dashed #333333;
-  border-top: 1px solid #333333;
+  margin-top: 17rem;
+  border: 1px solid #333333;
+  border-top: 0;
   border-radius: 0 0 2rem 2rem;
 }
 
@@ -82,6 +83,7 @@
   width: 8.5rem !important;
   -webkit-animation: rotacion 1.6s 1;
           animation: rotacion 1.6s 1;
+  filter: drop-shadow(2px 4px 6px #000000);
 }
 
 .logo {
@@ -92,12 +94,14 @@
   border-left: solid 1px #333333 !important;
   border-color: #000000;
   width: 8.5rem;
+  filter: drop-shadow(2px 4px 6px #333333);
 }
 
-@media only screen and (min-width: 992px) and (orientation: landscape) {
+@media only screen and (min-width: 1150px) and (orientation: landscape) {
   .barNav {
     position: relative;
     height: 4em;
+    border-right: 4px solid #333333;
   }
   .barDecoration {
     justify-content: end;
@@ -106,13 +110,16 @@
     display: flex;
     list-style-type: none;
     background-color: #F81878;
-    padding: 1rem 1.5rem;
-    margin-top: 9rem;
-    border-top: 1px solid #000000;
-    border-radius: 2rem 0 2rem 2rem;
+    padding: 1.2rem 1.4rem;
+    margin-top: 9.3rem;
+    right: -4px;
+    border-top: 0 solid;
+    border-radius: 0rem 0 2rem 2rem;
+    border-right: 4px solid #333333;
+    border-bottom: 2px solid #333333;
   }
   .LinkNav {
-    padding: 0.3rem 1.5rem;
+    padding: 0.4rem 2rem;
     margin: 10px;
     font-size: 1.2rem;
     display: inline;
@@ -205,7 +212,7 @@ h4 {
 }
 
 /* desktop */
-@media only screen and (min-width: 992px) and (orientation: landscape) {
+@media only screen and (min-width: 1150px) and (orientation: landscape) {
   h1 {
     font-size: 3rem;
     padding-top: 2rem;
@@ -272,7 +279,7 @@ h4 {
 }
 
 /* desktop */
-@media only screen and (min-width: 992px) and (orientation: landscape) {
+@media only screen and (min-width: 1150px) and (orientation: landscape) {
   .foot {
     height: 100%;
     bottom: 0px;
@@ -366,7 +373,7 @@ h4 {
   }
 }
 /* desktop */
-@media only screen and (min-width: 992px) and (orientation: landscape) {
+@media only screen and (min-width: 1150px) and (orientation: landscape) {
   .carrousel {
     justify-content: center;
   }
@@ -444,7 +451,7 @@ h4 {
 }
 
 /* desktop */
-@media only screen and (min-width: 992px) and (orientation: landscape) {
+@media only screen and (min-width: 1150px) and (orientation: landscape) {
   .center {
     justify-content: center;
   }
@@ -508,7 +515,7 @@ h4 {
 }
 
 /* desktop */
-@media only screen and (min-width: 992px) and (orientation: landscape) {
+@media only screen and (min-width: 1150px) and (orientation: landscape) {
   .content-contacto {
     position: relative !important;
     margin: 8rem 20rem 5rem !important;
@@ -540,7 +547,7 @@ h4 {
 }
 
 /* desktop */
-@media only screen and (min-width: 992px) and (orientation: landscape) {
+@media only screen and (min-width: 1150px) and (orientation: landscape) {
   .content-faq {
     margin: 15rem 0 5rem;
     padding: 4em 20rem;
@@ -591,7 +598,7 @@ h4 {
 }
 
 /* desktop */
-@media only screen and (min-width: 992px) and (orientation: landscape) {
+@media only screen and (min-width: 1150px) and (orientation: landscape) {
   .image-workshop {
     width: 100% !important;
     height: 25rem !important;
@@ -640,7 +647,7 @@ h4 {
 }
 
 /* desktop */
-@media only screen and (min-width: 992px) and (orientation: landscape) {
+@media only screen and (min-width: 1150px) and (orientation: landscape) {
   .content-examenes {
     margin: 8rem 0 5rem !important;
     padding: 0 20rem;
@@ -669,7 +676,7 @@ h4 {
 }
 
 /* desktop */
-@media only screen and (min-width: 992px) and (orientation: landscape) {
+@media only screen and (min-width: 1150px) and (orientation: landscape) {
   .content-nos {
     margin: 10rem 2rem !important;
     padding: 1rem 20% !important;

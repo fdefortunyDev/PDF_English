@@ -5,7 +5,8 @@
     height: 3rem;
     top: 0px;
     border-radius: 0 2rem 0 0;
-    filter: drop-shadow(2px 4px 6px map-get($map: $colors, $key: _black));
+    border: 1px solid map-get($map: $colors, $key: _gray );
+    border-top: 0;
 }
 
 .barDecoration {
@@ -20,12 +21,13 @@
     list-style-type: none;
     background-color: map-get($map: $colors, $key: _pink );
     position: absolute;
-    right: 0px;
+    right: -1px;
     padding: .2rem .5rem;
-    margin-top: 17.05rem;
-    border: 1px dashed map-get($map: $colors, $key: _gray );
-    border-top: 1px solid map-get($map: $colors, $key: _gray );
+    margin-top: 17rem;
+    border: 1px solid map-get($map: $colors, $key: _gray );
+    border-top: 0;
     border-radius: 0 0 2rem 2rem;
+    
 }
 
 .LinkNav {
@@ -77,6 +79,7 @@
     border-color:  map-get($map: $colors, $key: _black);
     width: 8.5rem !important;
     animation: rotacion 1.6s 1;
+    filter: drop-shadow(2px 4px 6px map-get($map: $colors, $key: _black));
 }
 
 
@@ -88,6 +91,7 @@
     border-left: solid 1px map-get($map: $colors, $key: _gray) !important;
     border-color:  map-get($map: $colors, $key: _black);
     width: 8.5rem;
+    filter: drop-shadow(2px 4px 6px map-get($map: $colors, $key: _gray));
 }
 
 
@@ -97,11 +101,12 @@
 
 
 
-@media only screen and (min-width: 992px) and (orientation:landscape) {
+@media only screen and (min-width: 1150px) and (orientation:landscape) {
 
     .barNav {
         position: relative;
         height: 4em;
+        border-right: 4px solid map-get($map: $colors, $key: _gray );
     }
 
     .barDecoration {
@@ -113,15 +118,18 @@
         display: flex;
         list-style-type: none;
         background-color:  map-get($map: $colors, $key: _pink);
-        padding: 1rem 1.5rem;
-        margin-top: 9rem;
-        border-top: 1px solid map-get($map: $colors, $key: _black);
-        border-radius: 2rem 0 2rem 2rem;
+        padding: 1.2rem 1.4rem;
+        margin-top: 9.3rem;
+        right: -4px;
+        border-top: 0 solid;
+        border-radius: 0rem 0 2rem 2rem;
+        border-right: 4px solid map-get($map: $colors, $key: _gray );
+        border-bottom: 2px solid map-get($map: $colors, $key: _gray );
     }
 
 
     .LinkNav {
-        padding: 0.3rem 1.5rem;
+        padding: 0.4rem 2rem;
         margin: 10px;
         font-size: 1.2rem;
         display: inline;
