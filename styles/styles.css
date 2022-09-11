@@ -47,7 +47,7 @@
   border: 1px solid #929292;
   filter: drop-shadow(2px 1px 1px #000000);
 }
-.LinkNavhover {
+.LinkNav:hover {
   border: 1px solid #000000;
 }
 
@@ -153,12 +153,10 @@
 }
 .body-index {
   background-color: #f8f3f0;
-  overflow-x: hidden;
 }
 
 .body {
   background-color: #f8f3f0;
-  overflow-x: hidden;
 }
 
 .border {
