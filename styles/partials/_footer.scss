@@ -9,7 +9,7 @@
 .foot {
     position: relative;
     background-color: map-get($map: $colors, $key: _black);
-    width: 100%;
+    width: auto;
     margin-top: 15rem;
     padding-bottom: 1rem;
 }

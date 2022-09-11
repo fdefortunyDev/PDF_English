@@ -165,10 +165,14 @@
 }
 .body-index {
   background-color: #f8f3f0;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .body {
   background-color: #f8f3f0;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .border {
@@ -248,7 +252,7 @@ h4 {
 .foot {
   position: relative;
   background-color: #000000;
-  width: 100%;
+  width: auto;
   margin-top: 15rem;
   padding-bottom: 1rem;
 }
@@ -526,7 +530,7 @@ h4 {
     padding: 5rem 10rem;
   }
   .img-contacto img {
-    width: 60%;
+    width: 100%;
     margin-left: 5rem;
   }
 }

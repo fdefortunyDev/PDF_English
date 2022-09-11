@@ -1,9 +1,13 @@
 .body-index {
     background-color: map-get($map: $colors, $key: _bgColor);
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .body {
     background-color: map-get($map: $colors, $key: _bgColor);
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .border {
