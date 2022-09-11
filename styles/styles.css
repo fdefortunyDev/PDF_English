@@ -433,7 +433,6 @@ h4 {
   padding: 2rem !important;
   height: auto !important;
   background-color: #f8f3f0;
-  filter: drop-shadow(0 0 1px);
 }
 
 .content-courses-1 {
@@ -443,7 +442,6 @@ h4 {
   height: auto !important;
   justify-content: center;
   background-color: #f8f3f0;
-  filter: drop-shadow(0 0 1px);
 }
 
 .div-courses {
@@ -471,11 +469,13 @@ h4 {
     margin: 10rem 0 2rem;
     padding: 2rem;
     width: 50%;
+    filter: drop-shadow(1px 1px 6px);
   }
   .content-courses {
     margin: 5rem 0 2rem;
     padding: 2rem;
     width: 50%;
+    filter: drop-shadow(1px 1px 6px);
   }
   .content-courses p {
     padding: 0.5rem 0;
@@ -484,7 +484,7 @@ h4 {
     padding: 0.5rem 0;
   }
   .div-courses {
-    margin: 20rem 0 3rem;
+    margin: 10rem 0 3rem !important;
   }
   .div-courses span {
     display: block;

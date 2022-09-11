@@ -14,7 +14,6 @@
     @include containters(relative, 5rem 1rem 2rem, 2rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
-    filter: drop-shadow(0 0 1px map-get($map: $colors, $key: _lighGray));
 }
 
 .content-courses-1 {
@@ -22,7 +21,6 @@
     justify-content: center;
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
-    filter: drop-shadow(0 0 1px map-get($map: $colors, $key: _lighGray));
 }
 
 .div-courses {
@@ -55,12 +53,14 @@
         margin: 10rem 0 2rem;
         padding: 2rem;
         width: 50%;
+        filter: drop-shadow(1px 1px 6px map-get($map: $colors, $key: _lighGray));
     }
 
     .content-courses {
         margin: 5rem 0 2rem;
         padding: 2rem;
         width: 50%;
+        filter: drop-shadow(1px 1px 6px map-get($map: $colors, $key: _lighGray));
 
         p{
             padding: .5rem 0;
@@ -72,7 +72,7 @@
     }
     
     .div-courses {
-        margin: 20rem 0 3rem;
+        margin: 10rem 0 3rem !important;
 
         span {
             display: block;
