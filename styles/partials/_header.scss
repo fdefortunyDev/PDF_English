@@ -102,6 +102,7 @@
 
 
 @media only screen and (min-width: 1150px) and (orientation:landscape) {
+        
 
     .barNav {
         position: relative;
@@ -135,7 +136,10 @@
         display: inline;
         border-radius: 0.3rem;
         filter: drop-shadow(3px 3px 1px map-get($map: $colors, $key: _black));
+        
     }
+
+
 
 
     /* efecto boton presionado para indicar pagina actual */
