@@ -39,7 +39,8 @@
   color: #333333;
   padding: 0.2rem 1.4rem;
   margin: 0.4rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
   text-decoration: none;
   font-weight: bold;
   text-align: center;
@@ -111,7 +112,7 @@
     list-style-type: none;
     background-color: #F81878;
     padding: 1.2rem 1.4rem;
-    margin-top: 9.3rem;
+    margin-top: 9.5rem;
     right: -4px;
     border-top: 0 solid;
     border-radius: 0rem 0 2rem 2rem;
@@ -121,7 +122,7 @@
   .LinkNav {
     padding: 0.4rem 2rem;
     margin: 10px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     display: inline;
     border-radius: 0.3rem;
     filter: drop-shadow(3px 3px 1px #000000);
@@ -165,10 +166,14 @@
 }
 .body-index {
   background-color: #f8f3f0;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .body {
   background-color: #f8f3f0;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .border {
@@ -248,7 +253,7 @@ h4 {
 .foot {
   position: relative;
   background-color: #000000;
-  width: 100%;
+  width: auto;
   margin-top: 15rem;
   padding-bottom: 1rem;
 }
@@ -422,13 +427,16 @@ h4 {
   filter: drop-shadow(0 0 1px #929292);
 }
 
+.tower {
+  display: none;
+}
+
 .content-courses {
   position: relative !important;
   margin: 5rem 1rem 2rem !important;
   padding: 2rem !important;
   height: auto !important;
   background-color: #f8f3f0;
-  filter: drop-shadow(0 0 1px);
 }
 
 .content-courses-1 {
@@ -438,7 +446,6 @@ h4 {
   height: auto !important;
   justify-content: center;
   background-color: #f8f3f0;
-  filter: drop-shadow(0 0 1px);
 }
 
 .div-courses {
@@ -455,6 +462,15 @@ h4 {
   .center {
     justify-content: center;
   }
+  .tower {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -10;
+    height: 70%;
+    bottom: 0;
+  }
   .image-courses {
     display: inline-flex;
     width: 30rem;
@@ -466,11 +482,13 @@ h4 {
     margin: 10rem 0 2rem;
     padding: 2rem;
     width: 50%;
+    filter: drop-shadow(1px 1px 6px);
   }
   .content-courses {
     margin: 5rem 0 2rem;
     padding: 2rem;
     width: 50%;
+    filter: drop-shadow(1px 1px 6px);
   }
   .content-courses p {
     padding: 0.5rem 0;
@@ -479,7 +497,7 @@ h4 {
     padding: 0.5rem 0;
   }
   .div-courses {
-    margin: 20rem 0 3rem;
+    margin: 10rem 0 3rem !important;
   }
   .div-courses span {
     display: block;
@@ -526,7 +544,7 @@ h4 {
     padding: 5rem 10rem;
   }
   .img-contacto img {
-    width: 60%;
+    width: 100%;
     margin-left: 5rem;
   }
 }

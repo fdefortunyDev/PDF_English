@@ -10,9 +10,10 @@
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
 
-    .img-contacto img{
+    .img-contacto {
+        img {
             width: 100%;
-        
+        }
     }
 }
 
@@ -22,7 +23,7 @@
 
 .form-label {
     font-size: 1.2rem;
-    color:  map-get($map:$colors, $key: _blue);
+    color: map-get($map: $colors, $key: _blue);
     font-family: $titleFont;
     margin-top: 1rem;
 }
@@ -37,14 +38,17 @@
 
     .content-contacto {
         @include containters(relative, 8rem 20rem 5rem, 0, auto);
-        .padding-form{
+
+        .padding-form {
             padding: 5rem 10rem;
         }
     }
 
-    .img-contacto img {
-        width: 60%;
-        margin-left: 5rem;
+    .img-contacto {
+        img {
+            width: 100%;
+            margin-left: 5rem;
+        }
     }
 
 

@@ -35,7 +35,8 @@
     color: map-get($map:$colors, $key: _gray );
     padding: .2rem 1.4rem;
     margin: 0.4rem;
-    font-family: $principalFont;
+    font-family: $linksFonts;
+    font-style: italic;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
@@ -120,7 +121,7 @@
         list-style-type: none;
         background-color:  map-get($map: $colors, $key: _pink);
         padding: 1.2rem 1.4rem;
-        margin-top: 9.3rem;
+        margin-top: 9.5rem;
         right: -4px;
         border-top: 0 solid;
         border-radius: 0rem 0 2rem 2rem;
@@ -132,7 +133,7 @@
     .LinkNav {
         padding: 0.4rem 2rem;
         margin: 10px;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         display: inline;
         border-radius: 0.3rem;
         filter: drop-shadow(3px 3px 1px map-get($map: $colors, $key: _black));
