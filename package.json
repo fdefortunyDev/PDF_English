@@ -1,0 +1,24 @@
+{
+  "name": "pdf_english",
+  "version": "1.0.0",
+  "description": "Sitio para academia de inglés online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdefortunyDev/PDF_English.git"
+  },
+  "author": "Federico de Fortuny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdefortunyDev/PDF_English/issues"
+  },
+  "homepage": "https://github.com/fdefortunyDev/PDF_English#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "nodemon": "^2.0.19",
+    "sass": "^1.54.9"
+  }
+}
