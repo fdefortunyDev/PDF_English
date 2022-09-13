@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 40%;
-    border: 1px solid map-get($map: $colors, $key: _lighGray );
+    border: 15px double map-get($map: $colors, $key: _lighGray );
 }
 
 .content-work {
@@ -44,7 +44,6 @@
 
     .image-workshop {
         width: 100% !important;
-        height: 25rem !important;
         display: block !important;
         position: relative !important;
     }

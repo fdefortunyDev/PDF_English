@@ -12,6 +12,7 @@
 
     .img-contacto {
         img {
+            display: flex;
             width: 100%;
         }
     }
@@ -46,7 +47,7 @@
 
     .img-contacto {
         img {
-            width: 100%;
+            width: 75% !important;
             margin-left: 5rem;
         }
     }

@@ -10,6 +10,10 @@
     filter: drop-shadow(0 0 1px map-get($map: $colors, $key: _lightGray));
 }
 
+nav{
+    --bs-gutter-x: 0;
+}
+
 .tower{
    display: none;
 }
@@ -28,7 +32,7 @@
 }
 
 .div-courses {
-    @include containters(relative,15rem 1rem 3rem, 1rem 4rem, auto);
+    @include containters(relative,15rem 0 3rem, 1rem 0, auto);
     display: block;
     text-align: center;
 }
@@ -51,7 +55,7 @@
         position:fixed; 
         z-index: -10; 
         height: 70%;
-        bottom:0;
+        bottom:-2rem;
     }
 
     .image-courses {

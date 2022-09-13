@@ -12,6 +12,10 @@
     width: auto;
     margin-top: 15rem;
     padding-bottom: 1rem;
+
+    .row{
+        --bs-gutter-x: 0;
+    }
 }
 
 .menuFooter {
