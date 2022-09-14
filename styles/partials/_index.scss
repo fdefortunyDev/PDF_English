@@ -31,23 +31,22 @@
                 padding: .5rem .2rem;
                 width: 100%;
                 text-decoration: none;
-                font-size: 1.2rem;
-                color: map-get($map: $colors, $key: _blue);
+                font-size: 75%;
+                color: map-get($map: $colors, $key: _blue );
                 font-family: $principalFont;
                 justify-content: center;
                 text-align: center;
                 font-weight: bolder;
-                background-color: map-get($map: $colors, $key: _bgColor);
-                border: 1px solid map-get($map: $colors, $key: _gray);
-                filter: drop-shadow(2px 2px 4px map-get($map: $colors, $key: _gray));
+                background-color: map-get($map: $colors, $key: _bgColor );
+                border: 1px solid map-get($map: $colors, $key: _gray );
+                filter: drop-shadow(5px 10px 3px map-get($map: $colors, $key: _gray));
             }
 
         }
-
-        img {
+        img{
             width: 100%;
-            border: .1rem solid map-get($map: $colors, $key: _gray);
-            filter: drop-shadow(2px 2px 4px map-get($map: $colors, $key: _gray));
+            border: .1rem solid map-get($map: $colors, $key: _gray );
+            filter: drop-shadow(5px 10px 3px map-get($map: $colors, $key: _gray));
         }
 
     }

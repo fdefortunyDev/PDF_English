@@ -12,7 +12,11 @@
   top: 0px;
   border-radius: 0 2rem 0 0;
   border: 1px solid #333333;
+  border-right: 4px solid #333333;
   border-top: 0;
+}
+.barNav .row {
+  --bs-gutter-x: 0;
 }
 
 .barDecoration {
@@ -26,10 +30,12 @@
   list-style-type: none;
   background-color: #F81878;
   position: absolute;
-  right: -1px;
+  right: -4px;
   padding: 0.2rem 0.5rem;
   margin-top: 17rem;
   border: 1px solid #333333;
+  border-right: 4px solid #333333;
+  border-bottom: 2px solid #333333;
   border-top: 0;
   border-radius: 0 0 2rem 2rem;
 }
@@ -102,7 +108,6 @@
   .barNav {
     position: relative;
     height: 4em;
-    border-right: 4px solid #333333;
   }
   .barDecoration {
     justify-content: end;
@@ -116,8 +121,6 @@
     right: -4px;
     border-top: 0 solid;
     border-radius: 0rem 0 2rem 2rem;
-    border-right: 4px solid #333333;
-    border-bottom: 2px solid #333333;
   }
   .LinkNav {
     padding: 0.4rem 2rem;
@@ -257,6 +260,9 @@ h4 {
   margin-top: 15rem;
   padding-bottom: 1rem;
 }
+.foot .row {
+  --bs-gutter-x: 0;
+}
 
 .menuFooter {
   padding: 1.5rem;
@@ -332,13 +338,14 @@ h4 {
   padding: 0.5rem 0.2rem;
   width: 100%;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 75%;
   color: #0f0d57;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: center;
   text-align: center;
   font-weight: bolder;
   background-color: #f8f3f0;
+<<<<<<< HEAD
   border: 1px solid #333333;
   filter: drop-shadow(2px 2px 4px #333333);
 }
@@ -346,6 +353,14 @@ h4 {
   width: 100%;
   border: 0.1rem solid #333333;
   filter: drop-shadow(2px 2px 4px #333333);
+=======
+  border: 7px double #333333;
+  filter: drop-shadow(8px 8px 8px #333333);
+}
+.aside div img {
+  width: 99.2%;
+  filter: drop-shadow(8px 8px 8px #333333);
+>>>>>>> 24c04b1d25b69d28f37e9499292d91c60706d2b4
 }
 
 @-webkit-keyframes rotacion {
@@ -429,6 +444,10 @@ h4 {
   filter: drop-shadow(0 0 1px #929292);
 }
 
+nav {
+  --bs-gutter-x: 0;
+}
+
 .tower {
   display: none;
 }
@@ -452,8 +471,13 @@ h4 {
 
 .div-courses {
   position: relative !important;
+<<<<<<< HEAD
   margin: 18rem 1rem 10rem !important;
   padding: 1rem 4rem !important;
+=======
+  margin: 15rem 0 3rem !important;
+  padding: 1rem 0 !important;
+>>>>>>> 24c04b1d25b69d28f37e9499292d91c60706d2b4
   height: auto !important;
   display: block;
   text-align: center;
@@ -471,7 +495,7 @@ h4 {
     position: fixed;
     z-index: -10;
     height: 70%;
-    bottom: 0;
+    bottom: -2rem;
   }
   .image-courses {
     display: inline-flex;
@@ -520,6 +544,7 @@ h4 {
   background-color: #f8f3f0;
 }
 .content-contacto .img-contacto img {
+  display: flex;
   width: 100%;
 }
 
@@ -546,7 +571,7 @@ h4 {
     padding: 5rem 15rem;
   }
   .img-contacto img {
-    width: 100%;
+    width: 75% !important;
     margin-left: 5rem;
   }
 }
@@ -580,7 +605,7 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   width: 40%;
-  border: 1px solid;
+  border: 15px double;
 }
 
 .content-work {
@@ -646,8 +671,8 @@ h4 {
 }
 .content-examenes {
   position: relative !important;
-  margin: 18rem 1rem 10rem !important;
-  padding: 1rem !important;
+  margin: 18rem 0 10rem !important;
+  padding: 0 !important;
   height: auto !important;
   background-color: #f8f3f0;
 }
@@ -657,7 +682,7 @@ h4 {
   width: 8rem;
 }
 .content-examenes p {
-  padding: 1rem 2rem 0 0;
+  padding: 1rem 2rem 0;
 }
 
 .center {
