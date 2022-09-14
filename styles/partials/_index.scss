@@ -1,6 +1,7 @@
 .carrousel {
     display: flex;
     justify-content: left;
+    margin-top: 2rem;
 }
 
 .imagenPrincipal {
@@ -83,8 +84,9 @@
     }
 
     .imagenPrincipal {
-        margin: 10rem auto 0 auto;
-        width: 70rem;
+        margin: 5rem auto 0 auto;
+        width: 80vw;
+        z-index: -10;
     }
 
     .content-index {

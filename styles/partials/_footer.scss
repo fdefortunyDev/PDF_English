@@ -12,6 +12,7 @@
     width: auto;
     margin-top: 15rem;
     padding-bottom: 1rem;
+    filter: drop-shadow(0 -1rem 20rem map-get($colors, _skyBlue));
 
     .row{
         --bs-gutter-x: 0;
@@ -53,6 +54,7 @@
         height: 100%;
         bottom: 0px;
         margin-top: 8rem;
+        filter: drop-shadow(0 -5rem 30rem map-get($colors, _skyBlue));
     }
 
     .listFooter {
