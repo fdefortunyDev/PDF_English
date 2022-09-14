@@ -49,7 +49,7 @@
     text-align: center;
     font-size: 1rem;
     border-radius: 0.5rem;
-    background-color:  map-get($map:$colors, $key: _bgColor );
+    background-color:  map-get($map:$colors, $key: _gray2 );
     border: 1px solid  map-get($map:$colors, $key: _lightGray );
     filter: drop-shadow(2px 1px 1px map-get($map: $colors, $key: _black));
 
@@ -59,23 +59,33 @@
 }
 
 #index {
-    color:  map-get($map:$colors, $key: _gray );
+    color:  map-get($map:$colors, $key: _black );
+    filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
+    background-color: map-get($map: $colors, $key: _withe);
 }
 
 #contacto {
-    color:  map-get($map:$colors, $key: _gray );
+    color:  map-get($map:$colors, $key: _black );
+    filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
+    background-color: map-get($map: $colors, $key: _withe);
 }
 
 #cursos {
-    color:  map-get($map:$colors, $key: _gray );
+    color:  map-get($map:$colors, $key: _black );
+    filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
+    background-color: map-get($map: $colors, $key: _withe);
 }
 
 #examenes {
-    color:  map-get($map:$colors, $key: _gray );
+    color:  map-get($map:$colors, $key: _black );
+    filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
+    background-color: map-get($map: $colors, $key: _withe);
 }
 
 #nosotros {
-    color:  map-get($map:$colors, $key: _gray );
+    color:  map-get($map:$colors, $key: _black );
+    filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
+    background-color: map-get($map: $colors, $key: _withe);
 }
 
 .logo-index {
@@ -145,39 +155,6 @@
         
     }
 
-
-
-
-    /* efecto boton presionado para indicar pagina actual */
-    #index {
-        border: 1px solid  map-get($map: $colors, $key: _lightGray);
-        filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
-        background-color: map-get($map: $colors, $key: _withe);
-    }
-
-    #contacto {
-        border: 1px solid map-get($map: $colors, $key: _lightGray);
-        filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
-        background-color: map-get($map: $colors, $key: _withe);
-    }
-
-    #cursos {
-        border: 1px solid map-get($map: $colors, $key: _lightGray);
-        filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
-        background-color: map-get($map: $colors, $key: _withe);
-    }
-
-    #examenes {
-        border: 1px solid map-get($map: $colors, $key: _lightGray);
-        filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
-        background-color: map-get($map: $colors, $key: _withe);
-    }
-
-    #nosotros {
-        border: 1px solid map-get($map: $colors, $key: _lightGray);
-        filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
-        background-color: map-get($map: $colors, $key: _withe);
-    }
 
     .logo-index {
         width: 11rem !important;

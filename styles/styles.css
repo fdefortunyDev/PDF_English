@@ -52,7 +52,7 @@
   text-align: center;
   font-size: 1rem;
   border-radius: 0.5rem;
-  background-color: #f8f3f0;
+  background-color: #e1e1e1;
   border: 1px solid #929292;
   filter: drop-shadow(2px 1px 1px #000000);
 }
@@ -61,23 +61,33 @@
 }
 
 #index {
-  color: #333333;
+  color: #000000;
+  filter: drop-shadow(0 0 0 #000000);
+  background-color: #ffffff;
 }
 
 #contacto {
-  color: #333333;
+  color: #000000;
+  filter: drop-shadow(0 0 0 #000000);
+  background-color: #ffffff;
 }
 
 #cursos {
-  color: #333333;
+  color: #000000;
+  filter: drop-shadow(0 0 0 #000000);
+  background-color: #ffffff;
 }
 
 #examenes {
-  color: #333333;
+  color: #000000;
+  filter: drop-shadow(0 0 0 #000000);
+  background-color: #ffffff;
 }
 
 #nosotros {
-  color: #333333;
+  color: #000000;
+  filter: drop-shadow(0 0 0 #000000);
+  background-color: #ffffff;
 }
 
 .logo-index {
@@ -129,32 +139,6 @@
     display: inline;
     border-radius: 0.3rem;
     filter: drop-shadow(3px 3px 1px #000000);
-  }
-  /* efecto boton presionado para indicar pagina actual */
-  #index {
-    border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 #000000);
-    background-color: #ffffff;
-  }
-  #contacto {
-    border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 #000000);
-    background-color: #ffffff;
-  }
-  #cursos {
-    border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 #000000);
-    background-color: #ffffff;
-  }
-  #examenes {
-    border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 #000000);
-    background-color: #ffffff;
-  }
-  #nosotros {
-    border: 1px solid #929292;
-    filter: drop-shadow(0 0 0 #000000);
-    background-color: #ffffff;
   }
   .logo-index {
     width: 11rem !important;
@@ -345,7 +329,6 @@ h4 {
   text-align: center;
   font-weight: bolder;
   background-color: #f8f3f0;
-<<<<<<< HEAD
   border: 1px solid #333333;
   filter: drop-shadow(2px 2px 4px #333333);
 }
@@ -353,14 +336,6 @@ h4 {
   width: 100%;
   border: 0.1rem solid #333333;
   filter: drop-shadow(2px 2px 4px #333333);
-=======
-  border: 7px double #333333;
-  filter: drop-shadow(8px 8px 8px #333333);
-}
-.aside div img {
-  width: 99.2%;
-  filter: drop-shadow(8px 8px 8px #333333);
->>>>>>> 24c04b1d25b69d28f37e9499292d91c60706d2b4
 }
 
 @-webkit-keyframes rotacion {
@@ -424,12 +399,12 @@ h4 {
     text-align: center;
     font-weight: bolder;
     background-color: #f8f3f0;
-    filter: drop-shadow(5px 10px 3px #333333);
+    filter: drop-shadow(10px 10px 10px #333333);
   }
   .aside div img {
     width: 100%;
     border: 0.1rem solid #333333;
-    filter: drop-shadow(5px 10px 3px #333333);
+    filter: drop-shadow(10px 10px 6px #333333);
   }
 }
 .image-courses {
@@ -471,13 +446,8 @@ nav {
 
 .div-courses {
   position: relative !important;
-<<<<<<< HEAD
-  margin: 18rem 1rem 10rem !important;
-  padding: 1rem 4rem !important;
-=======
   margin: 15rem 0 3rem !important;
   padding: 1rem 0 !important;
->>>>>>> 24c04b1d25b69d28f37e9499292d91c60706d2b4
   height: auto !important;
   display: block;
   text-align: center;

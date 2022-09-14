@@ -15,7 +15,7 @@ nav{
 }
 
 .tower{
-   display: none;
+    display: none;
 }
 
 .content-courses {
@@ -32,11 +32,7 @@ nav{
 }
 
 .div-courses {
-<<<<<<< HEAD
-    @include containters(relative,18rem 1rem 10rem, 1rem 4rem, auto);
-=======
     @include containters(relative,15rem 0 3rem, 1rem 0, auto);
->>>>>>> 24c04b1d25b69d28f37e9499292d91c60706d2b4
     display: block;
     text-align: center;
 }
