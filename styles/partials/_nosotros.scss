@@ -1,12 +1,40 @@
 .content-nos {
-    @include containters(relative,20rem 0,1rem,auto);
-    background-color: map-get($map: $colors, $key: _bgColor );
+    @include containters(relative, 20rem 0, 1rem, auto);
+    background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
 
     ul {
+        padding: 1rem;
+
         li {
-        margin-top: 4rem;
-        }    
+            margin-top: 4rem;
+            padding: 1rem;
+            list-style: none;
+        }
+
+        #li-1 {
+            border: 5px double map-get($map: $colors, $key: _blue);
+        }
+
+        #li-2 {
+            border: 5px double map-get($map: $colors, $key: _green);
+        }
+
+        #li-3 {
+            border: 5px double map-get($map: $colors, $key: _black);
+        }
+
+        #li-4 {
+            border: 5px double map-get($map: $colors, $key: _pink);
+        }
+
+        #li-5 {
+            border: 5px double map-get($map: $colors, $key: _green);
+        }
+
+        #li-6 {
+            border: 5px double map-get($map: $colors, $key: _blue);
+        }
     }
 }
 
@@ -15,7 +43,15 @@
 
     .content-nos {
         margin: 10rem 2rem !important;
-        padding: 1rem 20% !important;
+        padding: 1rem 10% !important;
+        font-size: 1.2rem;
+
+        ul {
+            li {
+                margin-top: 3rem;
+                padding: 1rem;
+            }
+        }
     }
 
 

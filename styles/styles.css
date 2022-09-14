@@ -42,7 +42,7 @@
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
   font-size: 1rem;
   border-radius: 0.5rem;
@@ -320,10 +320,6 @@ h4 {
   padding: 2rem 1rem;
 }
 
-.aside {
-  margin: 3rem 0;
-  padding: 3rem 0.8rem 3rem 0;
-}
 .aside div span {
   display: flex;
   width: 100%;
@@ -344,12 +340,12 @@ h4 {
   font-weight: bolder;
   background-color: #f8f3f0;
   border: 1px solid #333333;
-  filter: drop-shadow(5px 10px 3px #333333);
+  filter: drop-shadow(2px 2px 4px #333333);
 }
 .aside div img {
   width: 100%;
   border: 0.1rem solid #333333;
-  filter: drop-shadow(5px 10px 3px #333333);
+  filter: drop-shadow(2px 2px 4px #333333);
 }
 
 @-webkit-keyframes rotacion {
@@ -413,6 +409,12 @@ h4 {
     text-align: center;
     font-weight: bolder;
     background-color: #f8f3f0;
+    filter: drop-shadow(5px 10px 3px #333333);
+  }
+  .aside div img {
+    width: 100%;
+    border: 0.1rem solid #333333;
+    filter: drop-shadow(5px 10px 3px #333333);
   }
 }
 .image-courses {
@@ -433,7 +435,7 @@ h4 {
 
 .content-courses {
   position: relative !important;
-  margin: 5rem 1rem 2rem !important;
+  margin: 10rem 1rem 2rem !important;
   padding: 2rem !important;
   height: auto !important;
   background-color: #f8f3f0;
@@ -450,7 +452,7 @@ h4 {
 
 .div-courses {
   position: relative !important;
-  margin: 15rem 1rem 3rem !important;
+  margin: 18rem 1rem 10rem !important;
   padding: 1rem 4rem !important;
   height: auto !important;
   display: block;
@@ -522,7 +524,7 @@ h4 {
 }
 
 .btn-success {
-  background-color: rgb(249, 182, 13) l !important;
+  background-color: #000000 !important;
 }
 
 .form-label {
@@ -541,7 +543,7 @@ h4 {
     height: auto !important;
   }
   .content-contacto .padding-form {
-    padding: 5rem 10rem;
+    padding: 5rem 15rem;
   }
   .img-contacto img {
     width: 100%;
@@ -619,7 +621,6 @@ h4 {
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
   .image-workshop {
     width: 100% !important;
-    height: 25rem !important;
     display: block !important;
     position: relative !important;
   }
@@ -689,14 +690,42 @@ h4 {
   height: auto !important;
   background-color: #f8f3f0;
 }
+.content-nos ul {
+  padding: 1rem;
+}
 .content-nos ul li {
   margin-top: 4rem;
+  padding: 1rem;
+  list-style: none;
+}
+.content-nos ul #li-1 {
+  border: 5px double #0f0d57;
+}
+.content-nos ul #li-2 {
+  border: 5px double #008000;
+}
+.content-nos ul #li-3 {
+  border: 5px double #000000;
+}
+.content-nos ul #li-4 {
+  border: 5px double #F81878;
+}
+.content-nos ul #li-5 {
+  border: 5px double #008000;
+}
+.content-nos ul #li-6 {
+  border: 5px double #0f0d57;
 }
 
 /* desktop */
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
   .content-nos {
     margin: 10rem 2rem !important;
-    padding: 1rem 20% !important;
+    padding: 1rem 10% !important;
+    font-size: 1.2rem;
+  }
+  .content-nos ul li {
+    margin-top: 3rem;
+    padding: 1rem;
   }
 }/*# sourceMappingURL=styles.css.map */

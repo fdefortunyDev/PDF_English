@@ -17,16 +17,14 @@
 
 
 .aside {
-    margin: 3rem 0;
-    padding: 3rem .8rem 3rem 0;
 
-    div{
-        span{
+    div {
+        span {
             display: flex;
             width: 100%;
             justify-content: center;
 
-            a{
+            a {
                 display: block;
                 position: relative;
                 margin: 0 0 8rem 0;
@@ -34,23 +32,24 @@
                 width: 100%;
                 text-decoration: none;
                 font-size: 1.2rem;
-                color: map-get($map: $colors, $key: _blue );
+                color: map-get($map: $colors, $key: _blue);
                 font-family: $principalFont;
                 justify-content: center;
                 text-align: center;
                 font-weight: bolder;
-                background-color: map-get($map: $colors, $key: _bgColor );
-                border: 1px solid map-get($map: $colors, $key: _gray );
-                filter: drop-shadow(5px 10px 3px map-get($map: $colors, $key: _gray));
+                background-color: map-get($map: $colors, $key: _bgColor);
+                border: 1px solid map-get($map: $colors, $key: _gray);
+                filter: drop-shadow(2px 2px 4px map-get($map: $colors, $key: _gray));
             }
 
         }
-        img{
+
+        img {
             width: 100%;
-            border: .1rem solid map-get($map: $colors, $key: _gray );
-            filter: drop-shadow(5px 10px 3px map-get($map: $colors, $key: _gray));
+            border: .1rem solid map-get($map: $colors, $key: _gray);
+            filter: drop-shadow(2px 2px 4px map-get($map: $colors, $key: _gray));
         }
-        
+
     }
 }
 
@@ -97,7 +96,7 @@
         font-size: 1rem;
         height: auto;
 
-        p{
+        p {
             margin-top: 3rem;
         }
     }
@@ -106,21 +105,28 @@
     .aside {
         margin: 5rem 0 0;
         padding: 6rem;
-        div{
-            span{
-                a{
+
+        div {
+            span {
+                a {
                     display: flex;
                     position: relative;
                     width: 100%;
                     text-decoration: none;
                     font-size: 2rem;
-                    color:  map-get($map:$colors, $key: _blue );
+                    color: map-get($map: $colors, $key: _blue);
                     font-family: $titleFont;
                     justify-content: center;
                     text-align: center;
                     font-weight: bolder;
-                    background-color: map-get($map: $colors, $key: _bgColor );
+                    background-color: map-get($map: $colors, $key: _bgColor);
+                    filter: drop-shadow(5px 10px 3px map-get($map: $colors, $key: _gray));
                 }
+            }
+            img{
+                width: 100%;
+                border: .1rem solid map-get($map: $colors, $key: _gray );
+                filter: drop-shadow(5px 10px 3px map-get($map: $colors, $key: _gray));
             }
         }
     }

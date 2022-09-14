@@ -18,7 +18,7 @@
 }
 
 .btn-success {
-    background-color: map-get($map: $colors, $key: _orange) !important;
+    background-color: map-get($map: $colors, $key: _black) !important;
 }
 
 .form-label {
@@ -40,7 +40,7 @@
         @include containters(relative, 8rem 20rem 5rem, 0, auto);
 
         .padding-form {
-            padding: 5rem 10rem;
+            padding: 5rem 15rem;
         }
     }
 
