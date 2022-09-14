@@ -243,7 +243,7 @@ h4 {
   width: auto;
   margin-top: 15rem;
   padding-bottom: 1rem;
-  filter: drop-shadow(0 -1rem 20rem #1ad4f6);
+  filter: drop-shadow(0 -1rem 4rem #1ad4f6);
 }
 .foot .row {
   --bs-gutter-x: 0;
@@ -280,7 +280,7 @@ h4 {
     height: 100%;
     bottom: 0px;
     margin-top: 8rem;
-    filter: drop-shadow(0 -5rem 30rem #1ad4f6);
+    filter: drop-shadow(0 -2rem 6rem #1ad4f6);
   }
   .listFooter {
     display: flex;
