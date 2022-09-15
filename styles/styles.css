@@ -272,7 +272,7 @@ h4 {
   font-size: 1.1rem;
 }
 .listFooter li {
-  margin: 1.2rem 0;
+  margin: 1rem 0;
 }
 
 /* desktop */
@@ -305,7 +305,7 @@ h4 {
 
 .imagenPrincipalMovil {
   margin-top: 11rem;
-  width: 120vw;
+  width: 99vw;
   margin-left: -1rem;
 }
 
@@ -442,6 +442,10 @@ h4 {
 
 nav {
   --bs-gutter-x: 0;
+}
+
+section .row {
+  --bs-gutter-x: 0 !important;
 }
 
 .tower {

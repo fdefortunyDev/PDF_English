@@ -14,6 +14,11 @@ nav{
     --bs-gutter-x: 0;
 }
 
+section {
+    .row{
+        --bs-gutter-x: 0 !important;
+    }
+}
 .tower{
     display: none;
 }
@@ -52,6 +57,7 @@ nav{
         }
     }
 }
+
 
 .div-courses {
     @include containters(relative,20rem 0 3rem, 1rem 2rem, auto);
