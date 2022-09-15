@@ -1,5 +1,5 @@
 .content-nos {
-    @include containters(relative, 20rem 0, 1rem, auto);
+    @include containters(relative, 16.5rem 0 0, 1rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
 
@@ -7,7 +7,7 @@
         padding: 1rem;
 
         li {
-            margin-top: 4rem;
+            margin-bottom: 4rem;
             padding: 1rem;
             list-style: none;
         }
@@ -44,11 +44,12 @@
     .content-nos {
         margin: 10rem 2rem !important;
         padding: 1rem 10% !important;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
 
         ul {
+            
             li {
-                margin-top: 3rem;
+                margin-top: 2rem;
                 padding: 1rem;
             }
         }

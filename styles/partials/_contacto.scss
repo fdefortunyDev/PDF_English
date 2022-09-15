@@ -1,12 +1,12 @@
 // bootstrap///
 .form-control {
     &:focus {
-        border: 3px solid map-get($map: $colors, $key: _pink);
+        border: 6px solid map-get($map: $colors, $key: _pink);
     }
 }
 
 .content-contacto {
-    @include containters(relative, 20rem 1rem 0, 1rem, auto);
+    @include containters(relative, 17rem 1rem 0, 1rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
 
@@ -19,7 +19,7 @@
 }
 
 .btn-success {
-    background-color: map-get($map: $colors, $key: _black) !important;
+    background-color: map-get($map: $colors, $key: _blue) !important;
 }
 
 .form-label {
@@ -38,7 +38,7 @@
 
 
     .content-contacto {
-        @include containters(relative, 8rem 20rem 5rem, 0, auto);
+        @include containters(relative, 5rem 20rem 5rem, 0, auto);
 
         .padding-form {
             padding: 5rem 15rem;
