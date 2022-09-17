@@ -1,5 +1,5 @@
 .content-examenes {
-    @include containters(relative,18rem 0 10rem, 0, auto);
+    @include containters(relative,18rem 0 0, 0, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
 
@@ -10,6 +10,7 @@
     }
     p{
         padding: 1rem 2rem 0;
+        font-size: 1.1rem;
     }
 }
 
@@ -25,7 +26,7 @@
 @media only screen and (min-width: 1150px) and (orientation:landscape) {
 
     .content-examenes {
-        margin: 8rem 0 5rem !important;
+        margin: 5rem 0 5rem !important;
         padding: 0 20rem;
         p{
             padding: 1rem 10rem;

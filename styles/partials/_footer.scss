@@ -32,6 +32,9 @@
         font-family: $principalFont;
         text-decoration: none;
         font-weight: bold;
+        &:hover{
+            color: map-get($map: $colors, $key: _skyBlue );
+        }
     }
 }
 

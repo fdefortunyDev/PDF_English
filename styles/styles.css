@@ -90,6 +90,12 @@
   background-color: #ffffff;
 }
 
+#workshop {
+  color: #000000;
+  filter: drop-shadow(0 0 0 #000000);
+  background-color: #ffffff;
+}
+
 .logo-index {
   position: absolute;
   margin: 1.5rem;
@@ -265,6 +271,9 @@ h4 {
   text-decoration: none;
   font-weight: bold;
 }
+.menuFooter .LinkFoot:hover {
+  color: #1ad4f6;
+}
 
 .listFooter {
   display: block;
@@ -381,7 +390,7 @@ h4 {
     justify-content: center;
   }
   .imagenPrincipal {
-    margin: 5rem auto 0 auto;
+    margin: 7rem auto 0 auto;
     width: 80vw;
     z-index: -10;
     display: block;
@@ -452,9 +461,13 @@ section .row {
   display: none;
 }
 
+.teacher {
+  display: none;
+}
+
 .content-courses {
   position: relative !important;
-  margin: 20rem 1rem 2rem !important;
+  margin: 5rem 1rem 0 !important;
   padding: 2rem !important;
   height: auto !important;
   background-color: #FDFAF5;
@@ -517,6 +530,14 @@ section .row {
     height: 70%;
     bottom: -2rem;
   }
+  .teacher {
+    display: block;
+    width: 25rem;
+    position: fixed;
+    right: 2rem;
+    bottom: 0;
+    z-index: 10;
+  }
   .image-courses {
     display: inline-flex;
     width: 30rem;
@@ -525,13 +546,13 @@ section .row {
   }
   .content-courses-1 {
     position: relative;
-    margin: 10rem 0 2rem;
+    margin: 8rem 0 4rem !important;
     padding: 2rem;
     width: 50%;
     filter: drop-shadow(1px 1px 6px);
   }
   .content-courses {
-    margin: 5rem 0 2rem;
+    margin: 3rem 0 4rem !important;
     padding: 2rem;
     width: 50%;
     filter: drop-shadow(1px 1px 6px);
@@ -546,14 +567,14 @@ section .row {
     margin: 15rem 0 6rem !important;
   }
   .div-courses h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
   }
   .div-courses span {
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 }
 .form-control:focus {
@@ -695,7 +716,7 @@ section .row {
 }
 .content-examenes {
   position: relative !important;
-  margin: 18rem 0 10rem !important;
+  margin: 18rem 0 0 !important;
   padding: 0 !important;
   height: auto !important;
   background-color: #FDFAF5;
@@ -707,6 +728,7 @@ section .row {
 }
 .content-examenes p {
   padding: 1rem 2rem 0;
+  font-size: 1.1rem;
 }
 
 .center {
@@ -717,7 +739,7 @@ section .row {
 /* desktop */
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
   .content-examenes {
-    margin: 8rem 0 5rem !important;
+    margin: 5rem 0 5rem !important;
     padding: 0 20rem;
   }
   .content-examenes p {
@@ -764,6 +786,7 @@ section .row {
 }
 .content-nos ul #li-6 {
   border: 5px double #0f0d57;
+  margin-bottom: 0;
 }
 
 /* desktop */
