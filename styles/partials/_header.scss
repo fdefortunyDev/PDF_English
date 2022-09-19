@@ -150,7 +150,8 @@
         margin: 10px;
         font-size: 1.3rem;
         display: inline;
-        border-radius: 0.3rem;
+        border-radius: 1.2rem;
+        font-style: normal;
         filter: drop-shadow(3px 3px 1px map-get($map: $colors, $key: _black));
         
     }

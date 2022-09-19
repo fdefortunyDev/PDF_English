@@ -70,6 +70,7 @@
         bottom: 0px;
         margin-top: 8rem;
         filter: drop-shadow(0 -2rem 6rem map-get($colors, _skyBlue));
+        z-index: 20;
     }
 
     .listFooter {

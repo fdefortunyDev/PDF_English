@@ -45,7 +45,7 @@
   color: #333333;
   padding: 0.2rem 1.4rem;
   margin: 0.4rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Ibarra Real Nova", serif;
   font-style: italic;
   text-decoration: none;
   font-weight: 900;
@@ -137,7 +137,8 @@
     margin: 10px;
     font-size: 1.3rem;
     display: inline;
-    border-radius: 0.3rem;
+    border-radius: 1.2rem;
+    font-style: normal;
     filter: drop-shadow(3px 3px 1px #000000);
   }
   .logo-index {
@@ -298,6 +299,7 @@ h4 {
     bottom: 0px;
     margin-top: 8rem;
     filter: drop-shadow(0 -2rem 6rem #1ad4f6);
+    z-index: 20;
   }
   .listFooter {
     display: flex;
@@ -413,8 +415,8 @@ h4 {
   }
   .content-index {
     position: relative;
-    margin: 5rem 0 4rem 0;
-    padding: 2rem 5rem;
+    margin: 5rem 0 0 0;
+    padding: 2rem 5rem 0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 1rem;
     height: auto;
@@ -428,13 +430,13 @@ h4 {
   }
   .content-index img {
     display: block;
-    margin-top: 1rem;
+    margin-top: 6rem;
     width: 90%;
     margin-left: 1rem;
   }
   .aside {
     margin: 5rem 0 0;
-    padding: 6rem;
+    padding: 12rem 6rem 0;
   }
   .aside div span a {
     display: flex;
@@ -454,6 +456,8 @@ h4 {
     width: 100%;
     border: 0.1rem solid #333333;
     filter: drop-shadow(10px 10px 6px #333333);
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 .image-courses {

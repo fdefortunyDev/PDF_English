@@ -109,8 +109,8 @@
 
     .content-index {
         position: relative;
-        margin: 5rem 0 4rem 0;
-        padding: 2rem 5rem;
+        margin: 5rem 0 0 0;
+        padding: 2rem 5rem 0;
         font-family: Verdana, Tahoma, sans-serif;
         font-size: 1rem;
         height: auto;
@@ -125,7 +125,7 @@
 
         img{
             display: block;
-            margin-top: 1rem;
+            margin-top: 6rem;
             width: 90%;
             margin-left: 1rem;
         }
@@ -134,7 +134,7 @@
 
     .aside {
         margin: 5rem 0 0;
-        padding: 6rem;
+        padding: 12rem 6rem 0;
 
         div {
             span {
@@ -157,6 +157,8 @@
                 width: 100%;
                 border: .1rem solid map-get($map: $colors, $key: _gray );
                 filter: drop-shadow(10px 10px 6px map-get($map: $colors, $key: _gray));
+                margin-bottom: 0;
+                padding-bottom: 0;
             }
         }
     }
