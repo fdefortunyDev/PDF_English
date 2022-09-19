@@ -301,6 +301,7 @@ h4 {
     bottom: 0px;
     margin-top: 8rem;
     filter: drop-shadow(0 -2rem 6rem #1ad4f6);
+    border-top: 0.5rem solid #1ad4f6;
     z-index: 20;
   }
   .listFooter {
