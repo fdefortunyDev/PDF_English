@@ -84,12 +84,6 @@
   background-color: #ffffff;
 }
 
-#nosotros {
-  color: #000000;
-  filter: drop-shadow(0 0 0 #000000);
-  background-color: #ffffff;
-}
-
 #workshop {
   color: #000000;
   filter: drop-shadow(0 0 0 #000000);
@@ -330,6 +324,9 @@ h4 {
 .content-index h1 {
   text-decoration: none;
 }
+.content-index img {
+  display: none;
+}
 
 .aside div span {
   display: flex;
@@ -412,6 +409,12 @@ h4 {
   }
   .content-index p {
     margin-top: 3rem;
+  }
+  .content-index img {
+    display: block;
+    margin-top: 1rem;
+    width: 90%;
+    margin-left: 1rem;
   }
   .aside {
     margin: 5rem 0 0;

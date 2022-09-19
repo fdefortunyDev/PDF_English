@@ -82,11 +82,6 @@
     background-color: map-get($map: $colors, $key: _withe);
 }
 
-#nosotros {
-    color:  map-get($map:$colors, $key: _black );
-    filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
-    background-color: map-get($map: $colors, $key: _withe);
-}
 
 #workshop {
     color:  map-get($map:$colors, $key: _black );
