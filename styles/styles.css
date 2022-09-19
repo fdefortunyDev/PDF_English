@@ -32,11 +32,11 @@
   position: absolute;
   right: -4px;
   padding: 0.2rem 0.5rem;
-  margin-top: 17rem;
+  margin-top: 17.1rem;
   border: 1px solid #333333;
   border-right: 4px solid #333333;
   border-bottom: 2px solid #333333;
-  border-top: 0;
+  border-top: 1px solid;
   border-radius: 0 0 2rem 2rem;
 }
 
@@ -51,43 +51,45 @@
   font-weight: 900;
   text-align: center;
   font-size: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   background-color: #ebebeb;
-  border: 1px solid #929292;
-  filter: drop-shadow(2px 1px 1px #000000);
-}
-.LinkNav:hover {
   border: 1px solid #000000;
+  filter: drop-shadow(2px 1px 1px #000000);
 }
 
 #index {
   color: #000000;
   filter: drop-shadow(0 0 0 #000000);
   background-color: #ffffff;
+  border: 1px solid #929292;
 }
 
 #contacto {
   color: #000000;
   filter: drop-shadow(0 0 0 #000000);
   background-color: #ffffff;
+  border: 1px solid #929292;
 }
 
 #cursos {
   color: #000000;
   filter: drop-shadow(0 0 0 #000000);
   background-color: #ffffff;
+  border: 1px solid #929292;
 }
 
 #examenes {
   color: #000000;
   filter: drop-shadow(0 0 0 #000000);
   background-color: #ffffff;
+  border: 1px solid #929292;
 }
 
 #workshop {
   color: #000000;
   filter: drop-shadow(0 0 0 #000000);
   background-color: #ffffff;
+  border: 1px solid #929292;
 }
 
 .logo-index {
@@ -306,7 +308,7 @@ h4 {
     text-decoration: none;
   }
   .menuFooter {
-    margin: 0px 1rem;
+    margin: auto;
     padding: 2rem 0.2rem 0;
     display: flex;
   }
@@ -674,8 +676,45 @@ section .row {
   background-size: cover;
   width: 40%;
   border: 15px double;
+  -webkit-animation: rgb 20s infinite;
+          animation: rgb 20s infinite;
 }
 
+@-webkit-keyframes rgb {
+  0% {
+    filter: drop-shadow(0 0 0.2rem #1ad4f6);
+  }
+  25% {
+    filter: drop-shadow(0 0 0.2rem #F81878);
+  }
+  50% {
+    filter: drop-shadow(0 0 0.2rem #fff700);
+  }
+  75% {
+    filter: drop-shadow(0 0 0.2rem #008000);
+  }
+  100% {
+    filter: drop-shadow(0 0 0.2rem #1ad4f6);
+  }
+}
+
+@keyframes rgb {
+  0% {
+    filter: drop-shadow(0 0 0.2rem #1ad4f6);
+  }
+  25% {
+    filter: drop-shadow(0 0 0.2rem #F81878);
+  }
+  50% {
+    filter: drop-shadow(0 0 0.2rem #fff700);
+  }
+  75% {
+    filter: drop-shadow(0 0 0.2rem #008000);
+  }
+  100% {
+    filter: drop-shadow(0 0 0.2rem #1ad4f6);
+  }
+}
 .content-work {
   position: relative !important;
   margin: 20rem 0 1rem !important;
