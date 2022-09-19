@@ -166,6 +166,7 @@
         width: 11rem !important;
         border-top: solid 2px map-get($map: $colors, $key: _gray) !important;
         border-left: solid 2px map-get($map: $colors, $key: _gray) !important;
+        z-index: 50;
     }
     
 

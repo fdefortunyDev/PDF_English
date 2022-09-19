@@ -149,6 +149,7 @@
     width: 11rem !important;
     border-top: solid 2px #333333 !important;
     border-left: solid 2px #333333 !important;
+    z-index: 50;
   }
 }
 .body-index {
@@ -238,11 +239,22 @@ h4 {
   color: #FDFAF5;
 }
 
+.redesSociales {
+  display: block;
+  height: 80px;
+  width: 250px;
+  margin: 0 auto 3rem;
+}
+.redesSociales img {
+  display: inline-flex;
+  height: 100%;
+}
+
 .foot {
   position: relative;
   background-color: #000000;
   width: auto;
-  margin-top: 15rem;
+  margin-top: 10rem;
   padding-bottom: 1rem;
   filter: drop-shadow(0 -1rem 4rem #1ad4f6);
 }
@@ -273,6 +285,7 @@ h4 {
   display: block;
   list-style: none;
   font-size: 1.1rem;
+  padding: 0;
 }
 .listFooter li {
   margin: 1rem 0;
@@ -291,13 +304,16 @@ h4 {
     text-decoration: none;
   }
   .menuFooter {
-    margin: 0px 10px;
-    padding: 2rem 0.2rem;
+    margin: 0px 1rem;
+    padding: 2rem 0.2rem 0;
     display: flex;
   }
   .menuFooter .LinkFoot {
     margin: 0px 20px;
     font-size: medium;
+  }
+  .copyright {
+    font-size: 0.7rem;
   }
 }
 .carrousel {
