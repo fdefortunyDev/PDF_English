@@ -4,30 +4,30 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 40%;
-    border: 15px double map-get($map: $colors, $key: _lighGray );
-    animation: rgb 20s infinite;
+    border: .5rem double map-get($map: $colors, $key: _lighGray );
+    animation: rgb 15s infinite;
     
 }
 
 @keyframes rgb {
     0% {
-        filter: drop-shadow(0 0 .2rem map-get($colors, _skyBlue));
+        filter: drop-shadow(0 0 .1rem map-get($colors, _skyBlue));
     }
 
     25% {
-        filter: drop-shadow(0 0 .2rem map-get($colors, _pink));
+        filter: drop-shadow(0 0 .1rem map-get($colors, _pink));
     }
 
     50% {
-        filter: drop-shadow(0 0 .2rem map-get($colors, _yellow));
+        filter: drop-shadow(0 0 .1rem map-get($colors, _yellow));
     }
 
     75%{
-        filter: drop-shadow(0 0 .2rem map-get($colors, _green));
+        filter: drop-shadow(0 0 .1rem map-get($colors, _green));
     }
 
     100% {
-        filter: drop-shadow(0 0 .2rem map-get($colors, _skyBlue));
+        filter: drop-shadow(0 0 .1rem map-get($colors, _skyBlue));
     }
 
 
@@ -68,6 +68,7 @@
 
 /* desktop */
 @media only screen and (min-width: 1150px) and (orientation:landscape) {
+
 
     .image-workshop {
         width: 100% !important;

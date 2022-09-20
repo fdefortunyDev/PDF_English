@@ -681,44 +681,44 @@ section .row {
   background-repeat: no-repeat;
   background-size: cover;
   width: 40%;
-  border: 15px double;
-  -webkit-animation: rgb 20s infinite;
-          animation: rgb 20s infinite;
+  border: 0.5rem double;
+  -webkit-animation: rgb 15s infinite;
+          animation: rgb 15s infinite;
 }
 
 @-webkit-keyframes rgb {
   0% {
-    filter: drop-shadow(0 0 0.2rem #1ad4f6);
+    filter: drop-shadow(0 0 0.1rem #1ad4f6);
   }
   25% {
-    filter: drop-shadow(0 0 0.2rem #F81878);
+    filter: drop-shadow(0 0 0.1rem #F81878);
   }
   50% {
-    filter: drop-shadow(0 0 0.2rem #fff700);
+    filter: drop-shadow(0 0 0.1rem #fff700);
   }
   75% {
-    filter: drop-shadow(0 0 0.2rem #008000);
+    filter: drop-shadow(0 0 0.1rem #008000);
   }
   100% {
-    filter: drop-shadow(0 0 0.2rem #1ad4f6);
+    filter: drop-shadow(0 0 0.1rem #1ad4f6);
   }
 }
 
 @keyframes rgb {
   0% {
-    filter: drop-shadow(0 0 0.2rem #1ad4f6);
+    filter: drop-shadow(0 0 0.1rem #1ad4f6);
   }
   25% {
-    filter: drop-shadow(0 0 0.2rem #F81878);
+    filter: drop-shadow(0 0 0.1rem #F81878);
   }
   50% {
-    filter: drop-shadow(0 0 0.2rem #fff700);
+    filter: drop-shadow(0 0 0.1rem #fff700);
   }
   75% {
-    filter: drop-shadow(0 0 0.2rem #008000);
+    filter: drop-shadow(0 0 0.1rem #008000);
   }
   100% {
-    filter: drop-shadow(0 0 0.2rem #1ad4f6);
+    filter: drop-shadow(0 0 0.1rem #1ad4f6);
   }
 }
 .content-work {
