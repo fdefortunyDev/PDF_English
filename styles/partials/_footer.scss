@@ -2,7 +2,7 @@
     position: absolute;
     font-size: .5rem;
     left: 1.5rem;
-    bottom: 1.5rem;
+    bottom: 2.5rem;
     color: map-get($map: $colors, $key: _bgColor);
 }
 
@@ -70,7 +70,7 @@
         bottom: 0px;
         margin-top: 8rem;
         filter: drop-shadow(0 -2rem 6rem map-get($colors, _skyBlue));
-        border-top: .5rem solid map-get($map: $colors, $key: _skyBlue);
+        // border-top: .3rem dashed map-get($map: $colors, $key: _skyBlue);
         z-index: 20;
     }
 
@@ -92,6 +92,7 @@
 
     .copyright{
         font-size: .7rem;
+        justify-content: center;
     }
 
 

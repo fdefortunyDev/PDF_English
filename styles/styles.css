@@ -238,7 +238,7 @@ h4 {
   position: absolute;
   font-size: 0.5rem;
   left: 1.5rem;
-  bottom: 1.5rem;
+  bottom: 2.5rem;
   color: #FDFAF5;
 }
 
@@ -301,7 +301,6 @@ h4 {
     bottom: 0px;
     margin-top: 8rem;
     filter: drop-shadow(0 -2rem 6rem #1ad4f6);
-    border-top: 0.5rem solid #1ad4f6;
     z-index: 20;
   }
   .listFooter {
@@ -319,6 +318,7 @@ h4 {
   }
   .copyright {
     font-size: 0.7rem;
+    justify-content: center;
   }
 }
 .carrousel {
@@ -545,6 +545,7 @@ section .row {
 /* desktop */
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
   .center {
+    display: flex;
     justify-content: center;
   }
   .tower {
@@ -552,17 +553,21 @@ section .row {
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
-    z-index: -10;
-    height: 70%;
-    bottom: -2rem;
+    z-index: -30;
+    height: 80%;
+    bottom: -12rem;
+    margin-left: -1rem;
+    filter: drop-shadow(1rem 1rem 3px #929292);
   }
   .teacher {
-    display: block;
-    width: 25rem;
     position: fixed;
-    right: 2rem;
+    display: block;
+    width: 20rem;
+    height: 25rem;
+    right: 0.5rem;
     bottom: 0;
-    z-index: 10;
+    z-index: 30;
+    filter: drop-shadow(0.3rem 0.3rem 3px #929292);
   }
   .image-courses {
     display: inline-flex;
@@ -797,21 +802,25 @@ section .row {
 .center {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* desktop */
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
   .content-examenes {
-    margin: 5rem 0 5rem !important;
+    margin: 6.5rem 0 0 !important;
     padding: 0 20rem;
   }
   .content-examenes p {
     padding: 1rem 10rem;
   }
   .content-examenes img {
-    margin: 0rem 2rem;
-    width: 14rem;
+    margin: 2rem 2rem;
+    width: 12rem;
     padding-bottom: 4rem;
+  }
+  .content-examenes .center {
+    margin-top: 1.5rem;
   }
   #cambridge {
     width: 20rem;

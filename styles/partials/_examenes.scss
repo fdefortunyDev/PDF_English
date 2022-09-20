@@ -17,7 +17,9 @@
 .center {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
 
 
 
@@ -26,7 +28,7 @@
 @media only screen and (min-width: 1150px) and (orientation:landscape) {
 
     .content-examenes {
-        margin: 5rem 0 5rem !important;
+        margin: 6.5rem 0 0 !important;
         padding: 0 20rem;
         p{
             padding: 1rem 10rem;
@@ -36,9 +38,12 @@
     
     .content-examenes{
         img {
-            margin: 0rem 2rem;
-            width: 14rem;
+            margin: 2rem 2rem;
+            width: 12rem;
             padding-bottom: 4rem;
+        }
+        .center{
+            margin-top: 1.5rem;
         }
     }
         
@@ -46,5 +51,6 @@
     #cambridge {
         width: 20rem;
     }
+
 }
 
