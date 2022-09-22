@@ -10,20 +10,34 @@
     filter: drop-shadow(0 0 1px map-get($map: $colors, $key: _lightGray));
 }
 
-nav{
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#cambridge {
+    width: 10rem;
+}
+
+#path {
+    width: 7rem;
+}
+
+nav {
     --bs-gutter-x: 0;
 }
 
 section {
-    .row{
+    .row {
         --bs-gutter-x: 0 !important;
     }
 }
-.tower{
+
+.tower {
     display: none;
 }
 
-.teacher{
+.teacher {
     display: none;
 }
 
@@ -31,32 +45,36 @@ section {
     @include containters(relative, 5rem 1rem 0, 2rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
-    span{
-        b{
+
+    span {
+        b {
             font-size: 1.1rem;
             text-align: center;
             margin: 1.5rem 0;
             display: block;
         }
-        h3{
+
+        h3 {
             font-size: 3rem !important;
         }
     }
 }
 
 .content-courses-1 {
-    @include containters(relative,5rem 1rem 2rem, 2rem, auto);
+    @include containters(relative, 5rem 1rem 2rem, 2rem, auto);
     justify-content: center;
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
-    span{
-        b{
+
+    span {
+        b {
             font-size: 1.1rem;
             text-align: center;
             margin: 1.5rem 0;
             display: block;
         }
-        h3{
+
+        h3 {
             font-size: 3rem !important;
         }
     }
@@ -64,14 +82,19 @@ section {
 
 
 .div-courses {
-    @include containters(relative,20rem 0 3rem, 1rem 2rem, auto);
+    @include containters(relative, 17rem 0 .5rem, 1rem 1rem, auto);
     display: block;
     text-align: center;
-    h2{
-        font-size: 1.1rem;
+
+    h2 {
+        font-size: 1.6rem;
+        line-height: 2.7rem;
         margin-bottom: .3rem;
+        padding-bottom: 1rem;
     }
-    span{
+
+    span {
+        padding-top: .3rem;;
         font-size: .8rem;
     }
 }
@@ -83,24 +106,28 @@ section {
 /* desktop */
 @media only screen and (min-width: 1150px) and (orientation:landscape) {
 
-    .center{
-        display: flex;
-        justify-content: center;
+
+    #cambridge {
+        width: 15rem;
     }
     
-    .tower{
+    #path {
+        width: 10rem;
+    }
+
+    .tower {
         display: block;
-        background-repeat: no-repeat; 
-        background-size: cover; 
-        position:fixed; 
-        z-index: -30; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        z-index: -30;
         height: 80%;
-        bottom:-12rem;
+        bottom: -12rem;
         margin-left: -1rem;
         filter: drop-shadow(1rem 1rem 3px map-get($map: $colors, $key: _lightGray));
     }
 
-    .teacher{
+    .teacher {
         position: fixed;
         display: block;
         width: 20rem;
@@ -134,19 +161,19 @@ section {
         width: 50%;
         filter: drop-shadow(1px 1px 6px map-get($map: $colors, $key: _lighGray));
 
-        p{
+        p {
             padding: .5rem 0;
         }
 
-        span{
+        span {
             padding: .5rem 0;
         }
     }
-    
-    .div-courses {
-        margin: 15rem 0 6rem !important;
 
-        h2{
+    .div-courses {
+        margin: 13rem 0 1rem !important;
+
+        h2 {
             font-size: 2.3rem;
             margin-bottom: 1.5rem;
         }
@@ -155,8 +182,7 @@ section {
             display: block;
             font-family: $principalFont;
             font-size: 1rem;
-            padding-top: 2rem;
-    
+            padding: .5rem 10rem 0;
         }
     }
 }

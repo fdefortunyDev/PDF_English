@@ -7,13 +7,12 @@
 }
 
 .redesSociales{
-    display: block;
     height: 80px;
-    width: 250px;
-    margin: 0 auto 3rem;
+    width: 205px;
+    margin: 0 auto 2rem;
     img{
         display: inline-flex;
-        height: 100%;
+        height: 80%;
     }
 }
 
@@ -81,11 +80,11 @@
 
     .menuFooter {
         margin: auto;
-        padding: 2rem .2rem 0;
+        padding: 1rem .2rem 0;
         display: flex;
 
         .LinkFoot {
-            margin: 0px 20px;
+            margin: 0 1rem;
             font-size: 1.2rem;
         }
     }
@@ -94,6 +93,5 @@
         font-size: .7rem;
         justify-content: center;
     }
-
 
 }

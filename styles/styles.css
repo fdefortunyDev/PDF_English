@@ -1,4 +1,4 @@
-.content-nos, .content-examenes, .content-works, .content-work, .content-faq, .content-contacto, .content-courses-1, .content-courses, .content-index {
+.content-nos, .content-works, .content-work, .content-faq, .content-contacto, .content-courses-1, .content-courses, .content-index {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
   text-indent: 0.2rem;
@@ -78,7 +78,7 @@
   border: 1px solid #929292;
 }
 
-#examenes {
+#nosotros {
   color: #000000;
   filter: drop-shadow(0 0 0 #000000);
   background-color: #ffffff;
@@ -243,14 +243,13 @@ h4 {
 }
 
 .redesSociales {
-  display: block;
   height: 80px;
-  width: 250px;
-  margin: 0 auto 3rem;
+  width: 205px;
+  margin: 0 auto 2rem;
 }
 .redesSociales img {
   display: inline-flex;
-  height: 100%;
+  height: 80%;
 }
 
 .foot {
@@ -309,11 +308,11 @@ h4 {
   }
   .menuFooter {
     margin: auto;
-    padding: 2rem 0.2rem 0;
+    padding: 1rem 0.2rem 0;
     display: flex;
   }
   .menuFooter .LinkFoot {
-    margin: 0px 20px;
+    margin: 0 1rem;
     font-size: 1.2rem;
   }
   .copyright {
@@ -475,6 +474,19 @@ h4 {
   filter: drop-shadow(0 0 1px #929292);
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+#cambridge {
+  width: 10rem;
+}
+
+#path {
+  width: 7rem;
+}
+
 nav {
   --bs-gutter-x: 0;
 }
@@ -528,25 +540,30 @@ section .row {
 
 .div-courses {
   position: relative !important;
-  margin: 20rem 0 3rem !important;
-  padding: 1rem 2rem !important;
+  margin: 17rem 0 0.5rem !important;
+  padding: 1rem 1rem !important;
   height: auto !important;
   display: block;
   text-align: center;
 }
 .div-courses h2 {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
+  line-height: 2.7rem;
   margin-bottom: 0.3rem;
+  padding-bottom: 1rem;
 }
 .div-courses span {
+  padding-top: 0.3rem;
   font-size: 0.8rem;
 }
 
 /* desktop */
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
-  .center {
-    display: flex;
-    justify-content: center;
+  #cambridge {
+    width: 15rem;
+  }
+  #path {
+    width: 10rem;
   }
   .tower {
     display: block;
@@ -595,7 +612,7 @@ section .row {
     padding: 0.5rem 0;
   }
   .div-courses {
-    margin: 15rem 0 6rem !important;
+    margin: 13rem 0 1rem !important;
   }
   .div-courses h2 {
     font-size: 2.3rem;
@@ -605,7 +622,7 @@ section .row {
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
-    padding-top: 2rem;
+    padding: 0.5rem 10rem 0;
   }
 }
 .form-control:focus {
@@ -653,13 +670,13 @@ section .row {
 }
 .content-faq {
   position: relative !important;
-  margin: 20rem 0 4rem 0 !important;
+  margin: 20rem 0 2rem 0 !important;
   padding: 2rem !important;
   height: auto !important;
   background-color: #FDFAF5;
 }
 .content-faq p {
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 
 .center {
@@ -670,8 +687,10 @@ section .row {
 /* desktop */
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
   .content-faq {
-    margin: 15rem 0 5rem;
-    padding: 4em 20rem;
+    position: relative !important;
+    margin: 8rem 0 2rem 0 !important;
+    padding: 2rem 15rem !important;
+    height: auto !important;
     justify-content: center;
   }
 }
@@ -723,7 +742,7 @@ section .row {
 }
 .content-work {
   position: relative !important;
-  margin: 20rem 0 1rem !important;
+  margin: 17rem 0 1rem !important;
   padding: 2rem 1rem !important;
   height: auto !important;
   background-color: #FDFAF5;
@@ -780,50 +799,6 @@ section .row {
   .bottom {
     position: relative !important;
     bottom: 1rem !important;
-  }
-}
-.content-examenes {
-  position: relative !important;
-  margin: 18rem 0 0 !important;
-  padding: 0 !important;
-  height: auto !important;
-  background-color: #FDFAF5;
-}
-.content-examenes img {
-  display: inline-flex;
-  margin: 0rem 1rem 2rem;
-  width: 8rem;
-}
-.content-examenes p {
-  padding: 1rem 2rem 0;
-  font-size: 1.1rem;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* desktop */
-@media only screen and (min-width: 1150px) and (orientation: landscape) {
-  .content-examenes {
-    margin: 6.5rem 0 0 !important;
-    padding: 0 20rem;
-  }
-  .content-examenes p {
-    padding: 1rem 10rem;
-  }
-  .content-examenes img {
-    margin: 2rem 2rem;
-    width: 12rem;
-    padding-bottom: 4rem;
-  }
-  .content-examenes .center {
-    margin-top: 1.5rem;
-  }
-  #cambridge {
-    width: 20rem;
   }
 }
 .content-nos {

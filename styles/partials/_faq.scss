@@ -1,10 +1,10 @@
 .content-faq {
-    @include containters(relative, 20rem 0 4rem 0, 2rem, auto);
+    @include containters(relative, 20rem 0 2rem 0, 2rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
 
     p{
-        padding-top: 5rem;
+        padding-top: 1rem;
     }
 }
 
@@ -17,8 +17,7 @@
 @media only screen and (min-width: 1150px) and (orientation:landscape) {
 
     .content-faq {
-        margin: 15rem 0 5rem;
-        padding: 4em 20rem;
+        @include containters(relative, 8rem 0 2rem 0, 2rem 15rem, auto);
         justify-content: center;
     }
 
