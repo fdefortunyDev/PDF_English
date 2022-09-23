@@ -32,7 +32,7 @@
   position: absolute;
   right: -4px;
   padding: 0.2rem 0.5rem;
-  margin-top: 17.1rem;
+  margin-top: 18.55rem;
   border: 1px solid #333333;
   border-right: 4px solid #333333;
   border-bottom: 2px solid #333333;
@@ -48,9 +48,9 @@
   font-family: "Ibarra Real Nova", serif;
   font-style: italic;
   text-decoration: none;
-  font-weight: 900;
+  font-weight: bold;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-radius: 1rem;
   background-color: #ebebeb;
   border: 1px solid #000000;
@@ -286,7 +286,7 @@ h4 {
 .listFooter {
   display: block;
   list-style: none;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: 0;
 }
 .listFooter li {
@@ -477,6 +477,7 @@ h4 {
 .center {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #cambridge {
@@ -764,7 +765,7 @@ section .row {
 }
 
 .content-work-imgs {
-  margin: 2rem 0 9rem;
+  margin: 2rem 0 15rem;
 }
 .content-work-imgs img {
   width: 92%;
