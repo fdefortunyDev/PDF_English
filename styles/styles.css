@@ -245,7 +245,7 @@ h4 {
 .redesSociales {
   height: 80px;
   width: 205px;
-  margin: 0 auto 2rem;
+  margin: 0 auto 4rem;
 }
 .redesSociales img {
   display: inline-flex;
@@ -286,7 +286,7 @@ h4 {
 .listFooter {
   display: block;
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: 0;
 }
 .listFooter li {
