@@ -1,5 +1,5 @@
 .content-nos {
-    @include containters(relative, 16.5rem 0 0, 1rem, auto);
+    @include containters(relative, 18rem 0 0, 1rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
 
@@ -14,6 +14,29 @@
 
         #li-1 {
             border: 5px double map-get($map: $colors, $key: _blue);
+
+            #libreta {
+                position: absolute;
+                top: .5rem;
+                left: -1.5rem;
+                width: 30%;
+            }
+
+            #lapiz {
+                position: absolute;
+                top: 15rem;
+                right: -1rem;
+                width: 30%;
+                rotate: (60deg);
+            }
+
+            #libroAbierto {
+                position: absolute;
+                top: 30rem;
+                right: -1rem;
+                width: 20%;
+            }
+
         }
 
         #li-2 {
@@ -33,7 +56,7 @@
         }
 
         #li-6 {
-            border: 5px double map-get($map: $colors, $key: _blue); 
+            border: 5px double map-get($map: $colors, $key: _blue);
             margin-bottom: 0;
         }
     }
@@ -48,13 +71,32 @@
         font-size: 1.1rem;
 
         ul {
-            
+
             li {
                 margin-top: 2rem;
                 padding: 1rem;
             }
+
+            #li-1 {
+                #libreta {
+                    top: 4rem;
+                    left: 2rem;
+                    width: 10% !important;
+                }
+    
+                #lapiz {
+                    top: 17rem;
+                    right: 4rem;
+                    width: 10% !important;
+                }
+
+                #libroAbierto {
+                    top: 40rem;
+                    right: 5rem;
+                    width: 8% !important;
+                }
         }
     }
-
+}
 
 }

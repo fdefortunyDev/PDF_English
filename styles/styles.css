@@ -706,6 +706,18 @@ section .row {
           animation: rgb 15s infinite;
 }
 
+.titles {
+  margin-top: 20rem;
+}
+.titles h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-decoration: none;
+}
+.titles h2 {
+  font-size: 1.4rem;
+}
+
 @-webkit-keyframes rgb {
   0% {
     filter: drop-shadow(0 0 0.1rem #1ad4f6);
@@ -743,7 +755,7 @@ section .row {
 }
 .content-work {
   position: relative !important;
-  margin: 17rem 0 1rem !important;
+  margin: 10rem 0 1rem !important;
   padding: 2rem 1rem !important;
   height: auto !important;
   background-color: #FDFAF5;
@@ -777,6 +789,9 @@ section .row {
 
 /* desktop */
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
+  .titles {
+    margin-top: 20rem;
+  }
   .image-workshop {
     width: 100% !important;
     display: block !important;
@@ -789,7 +804,7 @@ section .row {
     margin: 2rem 0 5rem !important;
   }
   .content-work {
-    margin: 10rem 0 0 !important;
+    margin: 15rem 0 0 !important;
     padding: 2rem 30% 0 !important;
   }
   .content-works {
@@ -804,7 +819,7 @@ section .row {
 }
 .content-nos {
   position: relative !important;
-  margin: 16.5rem 0 0 !important;
+  margin: 18rem 0 0 !important;
   padding: 1rem !important;
   height: auto !important;
   background-color: #FDFAF5;
@@ -819,6 +834,25 @@ section .row {
 }
 .content-nos ul #li-1 {
   border: 5px double #0f0d57;
+}
+.content-nos ul #li-1 #libreta {
+  position: absolute;
+  top: 0.5rem;
+  left: -1.5rem;
+  width: 30%;
+}
+.content-nos ul #li-1 #lapiz {
+  position: absolute;
+  top: 15rem;
+  right: -1rem;
+  width: 30%;
+  rotate: 60deg;
+}
+.content-nos ul #li-1 #libroAbierto {
+  position: absolute;
+  top: 30rem;
+  right: -1rem;
+  width: 20%;
 }
 .content-nos ul #li-2 {
   border: 5px double #008000;
@@ -847,5 +881,20 @@ section .row {
   .content-nos ul li {
     margin-top: 2rem;
     padding: 1rem;
+  }
+  .content-nos ul #li-1 #libreta {
+    top: 4rem;
+    left: 2rem;
+    width: 10% !important;
+  }
+  .content-nos ul #li-1 #lapiz {
+    top: 17rem;
+    right: 4rem;
+    width: 10% !important;
+  }
+  .content-nos ul #li-1 #libroAbierto {
+    top: 40rem;
+    right: 5rem;
+    width: 8% !important;
   }
 }/*# sourceMappingURL=styles.css.map */

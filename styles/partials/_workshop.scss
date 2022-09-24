@@ -6,9 +6,24 @@
     width: 40%;
     border: .5rem double map-get($map: $colors, $key: _lighGray );
     animation: rgb 15s infinite;
-
-    
 }
+
+
+.titles{
+    margin-top: 20rem;
+    h1{
+        font-size: 2rem;
+        line-height: 3rem;
+        text-decoration: none;
+    }
+
+    h2{
+        font-size: 1.4rem;
+    }
+
+}
+
+
 
 @keyframes rgb {
     0% {
@@ -36,7 +51,7 @@
 
 
 .content-work {
-    @include containters(relative,17rem 0 1rem,2rem 1rem,auto);
+    @include containters(relative,10rem 0 1rem,2rem 1rem,auto);
     background-color: map-get($map: $colors, $key: _bgColor );
     @extend %principalFonts;
 }
@@ -71,6 +86,9 @@
 @media only screen and (min-width: 1150px) and (orientation:landscape) {
 
 
+    .titles{
+        margin-top: 20rem;
+    }
     .image-workshop {
         width: 100% !important;
         display: block !important;
@@ -86,7 +104,7 @@
     }
 
     .content-work {
-        margin: 10rem 0 0 !important;
+        margin: 15rem 0 0 !important;
         padding: 2rem 30% 0 !important;
     }
 
