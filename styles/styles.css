@@ -632,7 +632,7 @@ section .row {
 
 .content-contacto {
   position: relative !important;
-  margin: 17rem 1rem 0 !important;
+  margin: 20rem 1rem 0 !important;
   padding: 1rem !important;
   height: auto !important;
   background-color: #FDFAF5;
@@ -839,20 +839,20 @@ section .row {
   position: absolute;
   top: 0.5rem;
   left: -1.5rem;
-  width: 30%;
+  width: 100px;
 }
 .content-nos ul #li-1 #lapiz {
   position: absolute;
   top: 15rem;
   right: -1rem;
-  width: 30%;
+  width: 100px;
   rotate: 60deg;
 }
 .content-nos ul #li-1 #libroAbierto {
   position: absolute;
   top: 30rem;
   right: -1rem;
-  width: 20%;
+  width: 80px;
 }
 .content-nos ul #li-2 {
   border: 5px double #008000;
