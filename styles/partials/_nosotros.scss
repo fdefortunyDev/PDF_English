@@ -11,32 +11,47 @@
             padding: 1rem;
             list-style: none;
         }
+        #libreta {
+            position: absolute;
+            top: .5rem;
+            left: -1.5rem;
+            width: 100px;
+            rotate: (-60deg);
+        }
+
+        #lapiz {
+            position: absolute;
+            top: 30rem;
+            right: -1rem;
+            width: 100px;
+            rotate: (60deg);
+        }
+
+        #libroAbierto {
+            position: absolute;
+            top: 50rem;
+            right: -1rem;
+            width: 70px;
+        }
+
+        #tablet {
+            position: absolute;
+            top: 70rem;
+            left: -1.8rem;
+            width: 100px;
+            rotate: (-60deg);
+        }
+
+        #libro2{
+            position: absolute;
+            top: 90rem;
+            right: -1.8rem;
+            width: 100px;
+            rotate: (45deg);
+        }
 
         #li-1 {
             border: 5px double map-get($map: $colors, $key: _blue);
-
-            #libreta {
-                position: absolute;
-                top: .5rem;
-                left: -1.5rem;
-                width: 100px;
-            }
-
-            #lapiz {
-                position: absolute;
-                top: 15rem;
-                right: -1rem;
-                width: 100px;
-                rotate: (60deg);
-            }
-
-            #libroAbierto {
-                position: absolute;
-                top: 30rem;
-                right: -1rem;
-                width: 80px;
-            }
-
         }
 
         #li-2 {
@@ -77,25 +92,37 @@
                 padding: 1rem;
             }
 
-            #li-1 {
-                #libreta {
-                    top: 4rem;
-                    left: 2rem;
-                    width: 10% !important;
-                }
-    
-                #lapiz {
-                    top: 17rem;
-                    right: 4rem;
-                    width: 10% !important;
-                }
+            #libreta {
+                top: 6rem;
+                left: 4rem;
+                width: 10% !important;
+            }
 
-                #libroAbierto {
-                    top: 40rem;
-                    right: 5rem;
-                    width: 8% !important;
-                }
-        }
+            #lapiz {
+                top: 17rem;
+                right: 4rem;
+                width: 10% !important;
+            }
+
+            #libroAbierto {
+                top: 40rem;
+                right: 4rem;
+                width: 8% !important;
+            }
+
+            #tablet {
+                top: 50rem;
+                left: 3em;
+                width: 11% !important;
+                rotate: (-20deg);;
+            }
+
+            #libro2{
+                top: 60rem;
+                right: 5rem;
+                width: 10%;
+                rotate: (40deg);
+            }
     }
 }
 

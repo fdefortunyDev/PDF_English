@@ -832,27 +832,42 @@ section .row {
   padding: 1rem;
   list-style: none;
 }
-.content-nos ul #li-1 {
-  border: 5px double #0f0d57;
-}
-.content-nos ul #li-1 #libreta {
+.content-nos ul #libreta {
   position: absolute;
   top: 0.5rem;
   left: -1.5rem;
   width: 100px;
+  rotate: -60deg;
 }
-.content-nos ul #li-1 #lapiz {
+.content-nos ul #lapiz {
   position: absolute;
-  top: 15rem;
+  top: 30rem;
   right: -1rem;
   width: 100px;
   rotate: 60deg;
 }
-.content-nos ul #li-1 #libroAbierto {
+.content-nos ul #libroAbierto {
   position: absolute;
-  top: 30rem;
+  top: 50rem;
   right: -1rem;
-  width: 80px;
+  width: 70px;
+}
+.content-nos ul #tablet {
+  position: absolute;
+  top: 70rem;
+  left: -1.8rem;
+  width: 100px;
+  rotate: -60deg;
+}
+.content-nos ul #libro2 {
+  position: absolute;
+  top: 90rem;
+  right: -1.8rem;
+  width: 100px;
+  rotate: 45deg;
+}
+.content-nos ul #li-1 {
+  border: 5px double #0f0d57;
 }
 .content-nos ul #li-2 {
   border: 5px double #008000;
@@ -882,19 +897,31 @@ section .row {
     margin-top: 2rem;
     padding: 1rem;
   }
-  .content-nos ul #li-1 #libreta {
-    top: 4rem;
-    left: 2rem;
+  .content-nos ul #libreta {
+    top: 6rem;
+    left: 4rem;
     width: 10% !important;
   }
-  .content-nos ul #li-1 #lapiz {
+  .content-nos ul #lapiz {
     top: 17rem;
     right: 4rem;
     width: 10% !important;
   }
-  .content-nos ul #li-1 #libroAbierto {
+  .content-nos ul #libroAbierto {
     top: 40rem;
-    right: 5rem;
+    right: 4rem;
     width: 8% !important;
+  }
+  .content-nos ul #tablet {
+    top: 50rem;
+    left: 3em;
+    width: 11% !important;
+    rotate: -20deg;
+  }
+  .content-nos ul #libro2 {
+    top: 60rem;
+    right: 5rem;
+    width: 10%;
+    rotate: 40deg;
   }
 }/*# sourceMappingURL=styles.css.map */
