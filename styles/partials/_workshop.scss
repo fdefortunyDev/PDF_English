@@ -56,20 +56,6 @@
     @extend %principalFonts;
 }
 
-.content-works {
-    @include containters(relative,0,2rem 1rem,auto);
-    background-color: map-get($map: $colors, $key: _bgColor );
-    @extend %principalFonts;
-
-}
-
-.content-work-img {
-    margin: 2rem 0 8rem;
-    img{
-        width: 92%;
-    }
-}
-
 .content-work-imgs {
     margin: 2rem 0 15rem;
     img{

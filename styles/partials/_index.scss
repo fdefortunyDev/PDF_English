@@ -52,7 +52,7 @@
                 font-weight: bolder;
                 background-color: map-get($map: $colors, $key: _bgColor );
                 border: 1px solid map-get($map: $colors, $key: _gray );
-                filter: drop-shadow(2px 2px 4px map-get($map: $colors, $key: _gray));
+                filter: drop-shadow(0 0 3px map-get($map: $colors, $key: _gray));
             }
 
         }

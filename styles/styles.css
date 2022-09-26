@@ -1,4 +1,4 @@
-.content-nos, .content-works, .content-work, .content-faq, .content-contacto, .content-courses-1, .content-courses, .content-index {
+.content-nos, .content-work, .content-faq, .content-contacto, .content-courses-1, .content-courses, .content-index {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
   text-indent: 0.2rem;
@@ -7,12 +7,12 @@
 .barNav {
   position: absolute;
   background-color: #1ad4f6;
-  width: 100%;
+  width: 98%;
   height: 3rem;
   top: 0px;
   border-radius: 0 2rem 0 0;
   border: 1px solid #333333;
-  border-right: 4px solid #333333;
+  border-right: 6px solid #333333;
   border-top: 0;
 }
 .barNav .row {
@@ -30,12 +30,12 @@
   list-style-type: none;
   background-color: #F81878;
   position: absolute;
-  right: -4px;
+  right: -6px;
   padding: 0.2rem 0.5rem;
   margin-top: 18.55rem;
   border: 1px solid #333333;
-  border-right: 4px solid #333333;
-  border-bottom: 2px solid #333333;
+  border-right: 6px solid #333333;
+  border-bottom: 3px solid #333333;
   border-top: 1px solid;
   border-radius: 0 0 2rem 2rem;
 }
@@ -120,6 +120,7 @@
   .barNav {
     position: relative;
     height: 4em;
+    width: 95%;
   }
   .barDecoration {
     justify-content: end;
@@ -130,7 +131,7 @@
     background-color: #F81878;
     padding: 1.2rem 1.4rem;
     margin-top: 9.5rem;
-    right: -4px;
+    right: -6px;
     border-top: 0 solid;
     border-radius: 0rem 0 2rem 2rem;
   }
@@ -368,7 +369,7 @@ h4 {
   font-weight: bolder;
   background-color: #FDFAF5;
   border: 1px solid #333333;
-  filter: drop-shadow(2px 2px 4px #333333);
+  filter: drop-shadow(0 0 3px #333333);
 }
 .aside div img {
   width: 100%;
@@ -759,21 +760,6 @@ section .row {
   padding: 2rem 1rem !important;
   height: auto !important;
   background-color: #FDFAF5;
-}
-
-.content-works {
-  position: relative !important;
-  margin: 0 !important;
-  padding: 2rem 1rem !important;
-  height: auto !important;
-  background-color: #FDFAF5;
-}
-
-.content-work-img {
-  margin: 2rem 0 8rem;
-}
-.content-work-img img {
-  width: 92%;
 }
 
 .content-work-imgs {

@@ -1,12 +1,12 @@
 .barNav {
     position: absolute;
     background-color: map-get($map: $colors, $key: _skyBlue );
-    width: 100%;
+    width: 98%;
     height: 3rem;
     top: 0px;
     border-radius: 0 2rem 0 0;
     border: 1px solid map-get($map: $colors, $key: _gray );
-    border-right: 4px solid map-get($map: $colors, $key: _gray );
+    border-right: 6px solid map-get($map: $colors, $key: _gray );
     border-top: 0;
 
     .row{
@@ -26,12 +26,12 @@
     list-style-type: none;
     background-color: map-get($map: $colors, $key: _pink );
     position: absolute;
-    right: -4px;
+    right: -6px;
     padding: .2rem .5rem;
     margin-top: 18.55rem;
     border: 1px solid map-get($map: $colors, $key: _gray );
-    border-right: 4px solid map-get($map: $colors, $key: _gray );
-    border-bottom: 2px solid map-get($map: $colors, $key: _gray );
+    border-right: 6px solid map-get($map: $colors, $key: _gray );
+    border-bottom: 3px solid map-get($map: $colors, $key: _gray );
     border-top: 1px solid;
     border-radius: 0 0 2rem 2rem;
     
@@ -126,6 +126,7 @@
     .barNav {
         position: relative;
         height: 4em;
+        width: 95%;
     }
 
     .barDecoration {
@@ -139,7 +140,7 @@
         background-color:  map-get($map: $colors, $key: _pink);
         padding: 1.2rem 1.4rem;
         margin-top: 9.5rem;
-        right: -4px;
+        right: -6px;
         border-top: 0 solid;
         border-radius: 0rem 0 2rem 2rem;
     }
