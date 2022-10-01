@@ -8,18 +8,34 @@
     animation: rgb 15s infinite;
 }
 
+#manos{
+    display: block;
+    position: absolute;
+    z-index: -100;
+    height: 20rem;
+    margin-top: 23rem;
+    width: 100vw;
+    scale: 110%;
+    filter: opacity(80%);
+    border-bottom: 5px ridge ;
+}
+
 
 .titles{
-    margin-top: 20rem;
+    margin-top: 18rem;
     h1{
         font-size: 2rem;
         line-height: 3rem;
         text-decoration: none;
+        padding: .5rem;
+        background-color: map-get($map: $colors, $key: _bgColor)
     }
 
     h2{
-        font-size: 1.4rem;
-    }
+        font-size: 1.2rem;
+        padding: .5rem;
+        background-color: map-get($map: $colors, $key: _bgColor)
+        }
 
 }
 
@@ -51,7 +67,7 @@
 
 
 .content-work {
-    @include containters(relative,10rem 0 1rem,2rem 1rem,auto);
+    @include containters(relative,9rem 0 1rem,2rem 1rem,auto);
     background-color: map-get($map: $colors, $key: _bgColor );
     @extend %principalFonts;
 }
@@ -60,6 +76,7 @@
     margin: 2rem 0 15rem;
     img{
         width: 92%;
+        height: 50%;
     }
 }
 
@@ -85,16 +102,35 @@
         position: relative !important;
     }
 
+    #manos{
+        display: block;
+        position: absolute;
+        z-index: -100;
+        height: 50rem;
+        margin-top: 1rem;
+        width: 80vw;
+        filter: opacity(80%);
+        border-bottom: 10px ridge ;
+    }
+
+    .centrarManos{
+        justify-content: center;
+        display: flex;
+    }
+
     .content-work-img {
         margin: 2rem 0 5rem !important;
     }
 
     .content-work-imgs {
-        margin: 2rem 0 5rem !important;
-    }
+
+        img{
+            height: 26% !important;
+        }
+    } 
 
     .content-work {
-        margin: 9rem 0 0 !important;
+        margin: 12rem 0 0 !important;
         padding: 2rem 30% 0 !important;
     }
 

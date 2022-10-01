@@ -9,13 +9,6 @@
     @include containters(relative, 20rem 1rem 0, 1rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
-
-    .img-contacto {
-        img {
-            display: flex;
-            width: 100%;
-        }
-    }
 }
 
 .btn-success {
@@ -38,19 +31,17 @@
 
 
     .content-contacto {
-        @include containters(relative, 5rem 20rem 5rem, 0, auto);
+        @include containters(relative, 5rem 8rem 5rem, 0, auto);
+        position: absolute;
 
+        margin: 0;
         .padding-form {
-            padding: 5rem 15rem;
+            right: 0;
+            justify-content: right;
+            padding: 5rem 25rem;
         }
     }
 
-    .img-contacto {
-        img {
-            width: 75% !important;
-            margin-left: 5rem;
-        }
-    }
 
 
 }

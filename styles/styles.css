@@ -563,9 +563,11 @@ section .row {
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
   #cambridge {
     width: 15rem;
+    margin: 0 2rem;
   }
   #path {
     width: 10rem;
+    margin: 0 2rem;
   }
   .tower {
     display: block;
@@ -614,7 +616,7 @@ section .row {
     padding: 0.5rem 0;
   }
   .div-courses {
-    margin: 13rem 0 1rem !important;
+    margin: 13rem 0 4rem !important;
   }
   .div-courses h2 {
     font-size: 2.3rem;
@@ -638,10 +640,6 @@ section .row {
   height: auto !important;
   background-color: #FDFAF5;
 }
-.content-contacto .img-contacto img {
-  display: flex;
-  width: 100%;
-}
 
 .btn-success {
   background-color: #0f0d57 !important;
@@ -658,16 +656,16 @@ section .row {
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
   .content-contacto {
     position: relative !important;
-    margin: 5rem 20rem 5rem !important;
+    margin: 5rem 8rem 5rem !important;
     padding: 0 !important;
     height: auto !important;
+    position: absolute;
+    margin: 0;
   }
   .content-contacto .padding-form {
-    padding: 5rem 15rem;
-  }
-  .img-contacto img {
-    width: 75% !important;
-    margin-left: 5rem;
+    right: 0;
+    justify-content: right;
+    padding: 5rem 25rem;
   }
 }
 .content-faq {
@@ -707,16 +705,32 @@ section .row {
           animation: rgb 15s infinite;
 }
 
+#manos {
+  display: block;
+  position: absolute;
+  z-index: -100;
+  height: 20rem;
+  margin-top: 23rem;
+  width: 100vw;
+  scale: 110%;
+  filter: opacity(80%);
+  border-bottom: 5px ridge;
+}
+
 .titles {
-  margin-top: 20rem;
+  margin-top: 18rem;
 }
 .titles h1 {
   font-size: 2rem;
   line-height: 3rem;
   text-decoration: none;
+  padding: 0.5rem;
+  background-color: #FDFAF5;
 }
 .titles h2 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  background-color: #FDFAF5;
 }
 
 @-webkit-keyframes rgb {
@@ -756,7 +770,7 @@ section .row {
 }
 .content-work {
   position: relative !important;
-  margin: 10rem 0 1rem !important;
+  margin: 9rem 0 1rem !important;
   padding: 2rem 1rem !important;
   height: auto !important;
   background-color: #FDFAF5;
@@ -767,6 +781,7 @@ section .row {
 }
 .content-work-imgs img {
   width: 92%;
+  height: 50%;
 }
 
 .space {
@@ -787,14 +802,28 @@ section .row {
     display: block !important;
     position: relative !important;
   }
+  #manos {
+    display: block;
+    position: absolute;
+    z-index: -100;
+    height: 50rem;
+    margin-top: 1rem;
+    width: 80vw;
+    filter: opacity(80%);
+    border-bottom: 10px ridge;
+  }
+  .centrarManos {
+    justify-content: center;
+    display: flex;
+  }
   .content-work-img {
     margin: 2rem 0 5rem !important;
   }
-  .content-work-imgs {
-    margin: 2rem 0 5rem !important;
+  .content-work-imgs img {
+    height: 26% !important;
   }
   .content-work {
-    margin: 9rem 0 0 !important;
+    margin: 12rem 0 0 !important;
     padding: 2rem 30% 0 !important;
   }
   .content-works {
@@ -838,20 +867,20 @@ section .row {
 }
 .content-nos ul #libroAbierto {
   position: absolute;
-  top: 50rem;
+  top: 60rem;
   right: -1rem;
   width: 70px;
 }
 .content-nos ul #tablet {
   position: absolute;
-  top: 70rem;
+  top: 80rem;
   left: -1.8rem;
   width: 100px;
   rotate: -60deg;
 }
 .content-nos ul #libro2 {
   position: absolute;
-  top: 90rem;
+  top: 100rem;
   right: -1.8rem;
   width: 100px;
   rotate: 45deg;
