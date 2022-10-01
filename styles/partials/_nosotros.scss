@@ -13,7 +13,7 @@
         }
         #libreta {
             position: absolute;
-            top: .5rem;
+            top: 10rem;
             left: -1.5rem;
             width: 100px;
             rotate: (-60deg);
@@ -21,22 +21,22 @@
 
         #lapiz {
             position: absolute;
-            top: 30rem;
-            right: -1rem;
+            top: 35rem;
+            right: -2rem;
             width: 100px;
             rotate: (60deg);
         }
 
         #libroAbierto {
             position: absolute;
-            top: 60rem;
+            top: 65rem;
             right: -1rem;
             width: 70px;
         }
 
         #tablet {
             position: absolute;
-            top: 80rem;
+            top: 85rem;
             left: -1.8rem;
             width: 100px;
             rotate: (-60deg);
@@ -44,7 +44,7 @@
 
         #libro2{
             position: absolute;
-            top: 100rem;
+            top: 110rem;
             right: -1.8rem;
             width: 100px;
             rotate: (45deg);
@@ -93,13 +93,13 @@
             }
 
             #libreta {
-                top: 6rem;
+                top: 10rem;
                 left: 4rem;
                 width: 10% !important;
             }
 
             #lapiz {
-                top: 17rem;
+                top: 20rem;
                 right: 4rem;
                 width: 10% !important;
             }
@@ -118,7 +118,7 @@
             }
 
             #libro2{
-                top: 60rem;
+                top: 65rem;
                 right: 5rem;
                 width: 10%;
                 rotate: (40deg);
