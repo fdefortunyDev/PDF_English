@@ -61,26 +61,6 @@ section {
     }
 }
 
-.content-courses-1 {
-    @include containters(relative, 5rem 1rem 2rem, 2rem, auto);
-    justify-content: center;
-    background-color: map-get($map: $colors, $key: _bgColor);
-    @extend %principalFonts;
-
-    span {
-        b {
-            font-size: 1.1rem;
-            text-align: center;
-            margin: 1.5rem 0;
-            display: block;
-        }
-
-        h3 {
-            font-size: 3rem !important;
-        }
-    }
-}
-
 
 .div-courses {
     @include containters(relative, 17rem 0 .5rem, 1rem 1rem, auto);
@@ -147,15 +127,6 @@ section {
         width: 30rem;
         height: 30rem;
         margin: 12rem auto 1rem auto;
-    }
-
-
-    .content-courses-1 {
-        position: relative;
-        margin: 8rem 0 4rem !important;
-        padding: 2rem;
-        width: 50%;
-        filter: drop-shadow(1px 1px 6px map-get($map: $colors, $key: _lighGray));
     }
 
     .content-courses {

@@ -72,6 +72,12 @@
     @extend %principalFonts;
 }
 
+.content-works {
+    @include containters(relative,9rem 0 1rem,2rem 1rem,auto);
+    background-color: map-get($map: $colors, $key: _bgColor );
+    @extend %principalFonts;
+}
+
 .content-work-imgs {
     margin: 2rem 0 15rem;
     img{
@@ -136,8 +142,8 @@
 
     .content-works {
         position: relative !important;
-        margin: 2rem 0 !important;
-        padding: 2rem 30% !important;
+        margin:0 !important;
+        padding:0 30% !important;
     }
 
     .bottom {

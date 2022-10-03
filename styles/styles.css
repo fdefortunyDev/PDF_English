@@ -1,4 +1,4 @@
-.content-nos, .content-work, .content-faq, .content-contacto, .content-courses-1, .content-courses, .content-index {
+.content-nos, .content-works, .content-work, .content-faq, .content-contacto, .content-courses-1, .content-courses, .content-index {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
   text-indent: 0.2rem;
@@ -776,6 +776,14 @@ section .row {
   background-color: #FDFAF5;
 }
 
+.content-works {
+  position: relative !important;
+  margin: 9rem 0 1rem !important;
+  padding: 2rem 1rem !important;
+  height: auto !important;
+  background-color: #FDFAF5;
+}
+
 .content-work-imgs {
   margin: 2rem 0 15rem;
 }
@@ -828,8 +836,8 @@ section .row {
   }
   .content-works {
     position: relative !important;
-    margin: 2rem 0 !important;
-    padding: 2rem 30% !important;
+    margin: 0 !important;
+    padding: 0 30% !important;
   }
   .bottom {
     position: relative !important;
