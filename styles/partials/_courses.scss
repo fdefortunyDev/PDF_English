@@ -10,6 +10,10 @@
     filter: drop-shadow(0 0 1px map-get($map: $colors, $key: _lightGray));
 }
 
+h1{
+    display: none;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -130,7 +134,7 @@ section {
     }
 
     .content-courses {
-        margin: 3rem 0 4rem !important;
+        margin: 10rem 0 2rem !important;
         padding: 2rem;
         width: 50%;
         filter: drop-shadow(1px 1px 6px map-get($map: $colors, $key: _lighGray));

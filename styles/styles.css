@@ -1,4 +1,4 @@
-.content-nos, .content-works, .content-work, .content-faq, .content-contacto, .content-courses-1, .content-courses, .content-index {
+.content-nos, .content-works, .content-work, .content-faq, .content-contacto, .content-courses, .content-index {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
   text-indent: 0.2rem;
@@ -475,6 +475,10 @@ h4 {
   filter: drop-shadow(0 0 1px #929292);
 }
 
+h1 {
+  display: none;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -519,24 +523,6 @@ section .row {
   display: block;
 }
 .content-courses span h3 {
-  font-size: 3rem !important;
-}
-
-.content-courses-1 {
-  position: relative !important;
-  margin: 5rem 1rem 2rem !important;
-  padding: 2rem !important;
-  height: auto !important;
-  justify-content: center;
-  background-color: #FDFAF5;
-}
-.content-courses-1 span b {
-  font-size: 1.1rem;
-  text-align: center;
-  margin: 1.5rem 0;
-  display: block;
-}
-.content-courses-1 span h3 {
   font-size: 3rem !important;
 }
 
@@ -596,15 +582,8 @@ section .row {
     height: 30rem;
     margin: 12rem auto 1rem auto;
   }
-  .content-courses-1 {
-    position: relative;
-    margin: 8rem 0 4rem !important;
-    padding: 2rem;
-    width: 50%;
-    filter: drop-shadow(1px 1px 6px);
-  }
   .content-courses {
-    margin: 3rem 0 4rem !important;
+    margin: 10rem 0 2rem !important;
     padding: 2rem;
     width: 50%;
     filter: drop-shadow(1px 1px 6px);
@@ -630,7 +609,7 @@ section .row {
   }
 }
 .form-control:focus {
-  border: 6px solid #F81878;
+  border: 3px solid #F81878;
 }
 
 .content-contacto {
