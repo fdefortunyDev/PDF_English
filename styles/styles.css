@@ -688,10 +688,10 @@ section .row {
   display: block;
   position: absolute;
   z-index: -100;
-  height: 20rem;
+  height: 19rem;
   margin-top: 23rem;
   margin-left: 1rem;
-  width: 90vw;
+  width: 85vw;
   scale: 110%;
   filter: opacity(80%);
   border-bottom: 5px ridge;
