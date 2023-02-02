@@ -45,7 +45,7 @@
   color: #333333;
   padding: 0.2rem 1.4rem;
   margin: 0.4rem;
-  font-family: "Ibarra Real Nova", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   text-decoration: none;
   font-weight: bold;
@@ -96,9 +96,6 @@
   position: absolute;
   margin: 1.5rem;
   border-radius: 1.5em;
-  border-top: solid 1px #333333 !important;
-  border-left: solid 1px #333333 !important;
-  border-color: #000000;
   width: 8.5rem !important;
   -webkit-animation: rotacion 1.6s 1;
           animation: rotacion 1.6s 1;
@@ -109,9 +106,6 @@
   position: absolute;
   margin: 1.5rem;
   border-radius: 1.5em;
-  border-top: solid 1px #333333 !important;
-  border-left: solid 1px #333333 !important;
-  border-color: #000000;
   width: 8.5rem;
   filter: drop-shadow(2px 4px 6px #333333);
 }
@@ -146,13 +140,9 @@
   }
   .logo-index {
     width: 11rem !important;
-    border-top: solid 2px #333333 !important;
-    border-left: solid 2px #333333 !important;
   }
   .logo {
     width: 11rem !important;
-    border-top: solid 2px #333333 !important;
-    border-left: solid 2px #333333 !important;
     z-index: 50;
   }
 }

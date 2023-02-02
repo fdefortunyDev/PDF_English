@@ -42,7 +42,7 @@
     color: map-get($map:$colors, $key: _gray );
     padding: .2rem 1.4rem;
     margin: 0.4rem;
-    font-family: $linksFonts;
+    font-family: $principalFont;
     font-style: italic;
     text-decoration: none;
     font-weight: bold;
@@ -95,9 +95,6 @@
     position: absolute;
     margin: 1.5rem;
     border-radius: 1.5em;
-    border-top: solid 1px map-get($map: $colors, $key: _gray) !important;
-    border-left: solid 1px map-get($map: $colors, $key: _gray) !important;
-    border-color:  map-get($map: $colors, $key: _black);
     width: 8.5rem !important;
     animation: rotacion 1.6s 1;
     filter: drop-shadow(2px 4px 6px map-get($map: $colors, $key: _black));
@@ -108,9 +105,6 @@
     position: absolute;
     margin: 1.5rem;
     border-radius: 1.5em;
-    border-top: solid 1px map-get($map: $colors, $key: _gray) !important;
-    border-left: solid 1px map-get($map: $colors, $key: _gray) !important;
-    border-color:  map-get($map: $colors, $key: _black);
     width: 8.5rem;
     filter: drop-shadow(2px 4px 6px map-get($map: $colors, $key: _gray));
 }
@@ -160,14 +154,10 @@
 
     .logo-index {
         width: 11rem !important;
-        border-top: solid 2px map-get($map: $colors, $key: _gray) !important;
-        border-left: solid 2px map-get($map: $colors, $key: _gray) !important;
     }
 
     .logo {
         width: 11rem !important;
-        border-top: solid 2px map-get($map: $colors, $key: _gray) !important;
-        border-left: solid 2px map-get($map: $colors, $key: _gray) !important;
         z-index: 50;
     }
     
