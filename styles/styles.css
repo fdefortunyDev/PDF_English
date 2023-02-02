@@ -1,4 +1,4 @@
-.content-nos, .content-works, .content-work, .content-faq, .content-contacto, .content-courses, .content-index {
+.content-nos, .content-works, .content-work, .content-faq, .content-courses, .content-index {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9rem;
   text-indent: 0.2rem;
@@ -58,13 +58,6 @@
 }
 
 #index {
-  color: #000000;
-  filter: drop-shadow(0 0 0 #000000);
-  background-color: #ffffff;
-  border: 1px solid #929292;
-}
-
-#contacto {
   color: #000000;
   filter: drop-shadow(0 0 0 #000000);
   background-color: #ffffff;
@@ -596,45 +589,6 @@ section .row {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     padding: 0.5rem 10rem 0;
-  }
-}
-.form-control:focus {
-  border: 3px solid #F81878;
-}
-
-.content-contacto {
-  position: relative !important;
-  margin: 20rem 1rem 0 !important;
-  padding: 1rem !important;
-  height: auto !important;
-  background-color: #FDFAF5;
-}
-
-.btn-success {
-  background-color: #0f0d57 !important;
-}
-
-.form-label {
-  font-size: 1.2rem;
-  color: #0f0d57;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  margin-top: 1rem;
-}
-
-/* desktop */
-@media only screen and (min-width: 1150px) and (orientation: landscape) {
-  .content-contacto {
-    position: relative !important;
-    margin: 5rem 8rem 5rem !important;
-    padding: 0 !important;
-    height: auto !important;
-    position: absolute;
-    margin: 0;
-  }
-  .content-contacto .padding-form {
-    right: 0;
-    justify-content: right;
-    padding: 5rem 25rem;
   }
 }
 .content-faq {
