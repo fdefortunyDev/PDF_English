@@ -144,13 +144,13 @@
   }
 }
 .body-index {
-  background-color: #FDFAF5;
+  background-color: #ffffff;
   overflow-x: hidden;
   width: 100%;
 }
 
 .body {
-  background-color: #FDFAF5;
+  background-color: #ffffff;
   overflow-x: hidden;
   width: 100%;
 }
@@ -227,7 +227,7 @@ h4 {
   font-size: 0.5rem;
   left: 1.5rem;
   bottom: 2.5rem;
-  color: #FDFAF5;
+  color: #ffffff;
 }
 
 .redesSociales {
@@ -354,7 +354,7 @@ h4 {
   justify-content: center;
   text-align: center;
   font-weight: bolder;
-  background-color: #FDFAF5;
+  background-color: #ffffff;
   border: 1px solid #333333;
   filter: drop-shadow(0 0 3px #333333);
 }
@@ -398,7 +398,7 @@ h4 {
     margin: 7rem auto 0 auto;
     width: 80vw;
     z-index: -10;
-    display: block;
+    display: none;
   }
   .imagenPrincipalMovil {
     display: none;
@@ -439,7 +439,7 @@ h4 {
     justify-content: center;
     text-align: center;
     font-weight: bolder;
-    background-color: #FDFAF5;
+    background-color: #ffffff;
     filter: drop-shadow(10px 10px 10px #333333);
   }
   .aside div img {
@@ -501,7 +501,7 @@ section .row {
   margin: 5rem 1rem 0 !important;
   padding: 2rem !important;
   height: auto !important;
-  background-color: #FDFAF5;
+  background-color: #ffffff;
 }
 .content-courses span b {
   font-size: 1.1rem;
@@ -600,7 +600,7 @@ section .row {
   margin: 20rem 0 2rem 0 !important;
   padding: 2rem !important;
   height: auto !important;
-  background-color: #FDFAF5;
+  background-color: #ffffff;
 }
 .content-faq p {
   padding-top: 1rem;
@@ -653,12 +653,12 @@ section .row {
   line-height: 3rem;
   text-decoration: none;
   padding: 0.5rem;
-  background-color: #FDFAF5;
+  background-color: #ffffff;
 }
 .titles h2 {
   font-size: 1.2rem;
   padding: 0.5rem;
-  background-color: #FDFAF5;
+  background-color: #ffffff;
 }
 
 @-webkit-keyframes rgb {
@@ -701,7 +701,7 @@ section .row {
   margin: 9rem 0 1rem !important;
   padding: 2rem 1rem !important;
   height: auto !important;
-  background-color: #FDFAF5;
+  background-color: #ffffff;
 }
 
 .content-works {
@@ -709,7 +709,7 @@ section .row {
   margin: 9rem 0 1rem !important;
   padding: 2rem 1rem !important;
   height: auto !important;
-  background-color: #FDFAF5;
+  background-color: #ffffff;
 }
 
 .content-work-imgs {
@@ -777,7 +777,7 @@ section .row {
   margin: 18rem 0 0 !important;
   padding: 1rem !important;
   height: auto !important;
-  background-color: #FDFAF5;
+  background-color: #ffffff;
 }
 .content-nos ul {
   padding: 1rem;
@@ -789,33 +789,33 @@ section .row {
 }
 .content-nos ul #libreta {
   position: absolute;
-  top: 10rem;
-  left: 0;
+  top: 16rem;
+  left: -1rem;
   width: 80px;
   rotate: -10deg;
 }
 .content-nos ul #lapiz {
   position: absolute;
   top: 35rem;
-  right: 0;
+  right: -1rem;
   width: 100px;
 }
 .content-nos ul #libroAbierto {
   position: absolute;
   top: 65rem;
-  right: 0;
+  right: -1rem;
   width: 70px;
 }
 .content-nos ul #tablet {
   position: absolute;
   top: 84rem;
-  left: 0;
+  left: -2rem;
   width: 100px;
 }
 .content-nos ul #libro2 {
   position: absolute;
-  top: 110rem;
-  right: 0;
+  top: 115rem;
+  right: -1.5rem;
   width: 100px;
 }
 .content-nos ul #li-1 {

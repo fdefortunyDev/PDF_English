@@ -13,8 +13,8 @@
         }
         #libreta {
             position: absolute;
-            top: 10rem;
-            left: 0;
+            top: 16rem;
+            left: -1rem;
             width: 80px;
             rotate: (-10deg);
         }
@@ -22,7 +22,7 @@
         #lapiz {
             position: absolute;
             top: 35rem;
-            right: 0;
+            right: -1rem;
             width: 100px;
 
         }
@@ -30,21 +30,21 @@
         #libroAbierto {
             position: absolute;
             top: 65rem;
-            right: 0;
+            right: -1rem;
             width: 70px;
         }
 
         #tablet {
             position: absolute;
             top: 84rem;
-            left: 0;
+            left: -2rem;
             width: 100px;
         }
 
         #libro2{
             position: absolute;
-            top: 110rem;
-            right: 0;
+            top: 115rem;
+            right: -1.5rem;
             width: 100px;
         }
 
