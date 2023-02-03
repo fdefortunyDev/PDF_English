@@ -7,7 +7,7 @@
 .barNav {
   position: absolute;
   background-color: #1ad4f6;
-  width: 98%;
+  width: 100%;
   height: 3rem;
   top: 0px;
   border-radius: 0 2rem 0 0;
@@ -32,7 +32,7 @@
   position: absolute;
   right: -6px;
   padding: 0.2rem 0.5rem;
-  margin-top: 18.55rem;
+  margin-top: 14.69rem;
   border: 1px solid #333333;
   border-right: 6px solid #333333;
   border-bottom: 3px solid #333333;
@@ -43,18 +43,18 @@
 .LinkNav {
   display: block;
   color: #333333;
-  padding: 0.2rem 1.4rem;
+  padding: 0.2rem 1rem;
   margin: 0.4rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border-radius: 1rem;
   background-color: #ebebeb;
   border: 1px solid #000000;
-  filter: drop-shadow(2px 1px 1px #000000);
+  filter: drop-shadow(1px 1px 1px #000000);
 }
 
 #index {
@@ -88,8 +88,9 @@
 .logo-index {
   position: absolute;
   margin: 1.5rem;
-  border-radius: 1.5em;
-  width: 8.5rem !important;
+  border-radius: 2rem;
+  width: 8rem !important;
+  height: 7.5rem !important;
   -webkit-animation: rotacion 1.6s 1;
           animation: rotacion 1.6s 1;
   filter: drop-shadow(2px 4px 6px #000000);
@@ -99,7 +100,8 @@
   position: absolute;
   margin: 1.5rem;
   border-radius: 1.5em;
-  width: 8.5rem;
+  width: 8rem;
+  height: 7.5rem;
   filter: drop-shadow(2px 4px 6px #333333);
 }
 
@@ -133,9 +135,11 @@
   }
   .logo-index {
     width: 11rem !important;
+    height: 10rem !important;
   }
   .logo {
     width: 11rem !important;
+    height: 10rem !important;
     z-index: 50;
   }
 }
