@@ -110,7 +110,7 @@ section {
         z-index: -30;
         height: 80%;
         bottom: -12rem;
-        margin-left: -1rem;
+        right: .5rem;
         filter: drop-shadow(1rem 1rem 3px map-get($map: $colors, $key: _lightGray));
     }
 
@@ -118,12 +118,12 @@ section {
         position: fixed;
         display: block;
         width: 20rem;
-        height: 25rem;
-        right: .5rem;
+        
+        margin-left: 2rem;
         bottom: 0;
-        z-index: 30;
+        z-index: 0;
         filter: drop-shadow(.3rem .3rem 3px map-get($map: $colors, $key: _lightGray));
-
+        filter: opacity(20%)
     }
 
     .image-courses {
@@ -137,7 +137,7 @@ section {
         margin: 10rem 0 2rem !important;
         padding: 2rem;
         width: 50%;
-        filter: drop-shadow(1px 1px 6px map-get($map: $colors, $key: _lighGray));
+        filter: drop-shadow(1px 1px 30px map-get($map: $colors, $key: _lighGray));
 
         p {
             padding: .5rem 0;

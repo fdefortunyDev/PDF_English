@@ -564,18 +564,18 @@ section .row {
     z-index: -30;
     height: 80%;
     bottom: -12rem;
-    margin-left: -1rem;
+    right: 0.5rem;
     filter: drop-shadow(1rem 1rem 3px #929292);
   }
   .teacher {
     position: fixed;
     display: block;
     width: 20rem;
-    height: 25rem;
-    right: 0.5rem;
+    margin-left: 2rem;
     bottom: 0;
-    z-index: 30;
+    z-index: 0;
     filter: drop-shadow(0.3rem 0.3rem 3px #929292);
+    filter: opacity(20%);
   }
   .image-courses {
     display: inline-flex;
@@ -587,7 +587,7 @@ section .row {
     margin: 10rem 0 2rem !important;
     padding: 2rem;
     width: 50%;
-    filter: drop-shadow(1px 1px 6px);
+    filter: drop-shadow(1px 1px 30px);
   }
   .content-courses p {
     padding: 0.5rem 0;
