@@ -17,7 +17,7 @@
 @media only screen and (min-width: 1150px) and (orientation:landscape) {
 
     .content-faq {
-        @include containters(relative, 8rem 0 2rem 0, 2rem 15rem, auto);
+        @include containters(relative, 6rem 0 2rem 0, 2rem 15rem, auto);
         justify-content: center;
     }
 

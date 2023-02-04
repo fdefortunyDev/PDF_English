@@ -28,7 +28,7 @@
     position: absolute;
     right: -6px;
     padding: .2rem .5rem;
-    margin-top: 14.67rem;
+    margin-top: 17.12rem;
     border: 1px 2px solid map-get($map: $colors, $key: _gray );
     border-right: 6px solid map-get($map: $colors, $key: _gray );
     border-bottom: 3px solid map-get($map: $colors, $key: _gray );
@@ -96,8 +96,8 @@
     margin: 1.5rem;
     border-radius: 2rem;
     width: 8rem !important;
-    height: 7.5rem !important;
-    animation: rotacion 1.6s 1;
+    height: 7rem !important;
+    animation: rotacion 1.4s 1;
     filter: drop-shadow(2px 4px 6px map-get($map: $colors, $key: _black));
 }
 
@@ -105,10 +105,10 @@
 .logo {
     position: absolute;
     margin: 1.5rem;
-    border-radius: 1.5em;
+    border-radius: 2rem;
     width: 8rem;
-    height: 7.5rem;
-    filter: drop-shadow(2px 4px 6px map-get($map: $colors, $key: _gray));
+    height: 7rem;
+    filter: drop-shadow(2px 4px 6px map-get($map: $colors, $key: _black));
 }
 
 
@@ -157,6 +157,7 @@
     .logo-index {
         width: 9rem !important;
         height: 8rem !important;
+        z-index: 50;
     }
 
     .logo {

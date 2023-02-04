@@ -6,7 +6,7 @@
 
 .imagenPrincipalMovil {
     margin-top: 13rem;
-    width: 99vw;
+    width: 100vw;
     margin-left: -1rem;
 }
 
@@ -18,10 +18,14 @@
     @extend %principalFonts;
     position: relative;
     margin: .5rem 0 5rem;
-    padding: 2rem 1rem;
+    z-index: -50;
 
     h1 {
-        text-decoration: none;
+        margin-bottom: .2rem;
+    }
+
+    h2{
+        margin-top: .2rem
     }
 
     .smallFont {
@@ -123,14 +127,6 @@
         font-size: 1.2rem;
         height: auto;
 
-        h1 {
-            margin-top: 5rem !important;
-            padding-top: 0 !important;
-            margin-bottom: .2rem;
-        }
-        h2{
-            margin-top: .2rem
-        }
 
         p {
             margin-top: 1.2rem;

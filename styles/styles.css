@@ -32,7 +32,7 @@
   position: absolute;
   right: -6px;
   padding: 0.2rem 0.5rem;
-  margin-top: 14.67rem;
+  margin-top: 17.12rem;
   border: 1px 2px solid #333333;
   border-right: 6px solid #333333;
   border-bottom: 3px solid #333333;
@@ -97,19 +97,19 @@
   margin: 1.5rem;
   border-radius: 2rem;
   width: 8rem !important;
-  height: 7.5rem !important;
-  -webkit-animation: rotacion 1.6s 1;
-          animation: rotacion 1.6s 1;
+  height: 7rem !important;
+  -webkit-animation: rotacion 1.4s 1;
+          animation: rotacion 1.4s 1;
   filter: drop-shadow(2px 4px 6px #000000);
 }
 
 .logo {
   position: absolute;
   margin: 1.5rem;
-  border-radius: 1.5em;
+  border-radius: 2rem;
   width: 8rem;
-  height: 7.5rem;
-  filter: drop-shadow(2px 4px 6px #333333);
+  height: 7rem;
+  filter: drop-shadow(2px 4px 6px #000000);
 }
 
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
@@ -143,6 +143,7 @@
   .logo-index {
     width: 9rem !important;
     height: 8rem !important;
+    z-index: 50;
   }
   .logo {
     width: 9rem !important;
@@ -321,7 +322,7 @@ h4 {
 
 .imagenPrincipalMovil {
   margin-top: 13rem;
-  width: 99vw;
+  width: 100vw;
   margin-left: -1rem;
 }
 
@@ -332,10 +333,13 @@ h4 {
 .content-index {
   position: relative;
   margin: 0.5rem 0 5rem;
-  padding: 2rem 1rem;
+  z-index: -50;
 }
 .content-index h1 {
-  text-decoration: none;
+  margin-bottom: 0.2rem;
+}
+.content-index h2 {
+  margin-top: 0.2rem;
 }
 .content-index .smallFont {
   font-size: 0.8rem !important;
@@ -420,14 +424,6 @@ h4 {
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 1.2rem;
     height: auto;
-  }
-  .content-index h1 {
-    margin-top: 5rem !important;
-    padding-top: 0 !important;
-    margin-bottom: 0.2rem;
-  }
-  .content-index h2 {
-    margin-top: 0.2rem;
   }
   .content-index p {
     margin-top: 1.2rem;
@@ -570,12 +566,12 @@ section .row {
   .teacher {
     position: fixed;
     display: block;
-    width: 20rem;
+    width: 30rem;
     margin-left: 2rem;
-    bottom: 0;
+    bottom: 0rem;
     z-index: 0;
     filter: drop-shadow(0.3rem 0.3rem 3px #929292);
-    filter: opacity(20%);
+    filter: opacity(15%);
   }
   .image-courses {
     display: inline-flex;
@@ -629,7 +625,7 @@ section .row {
 @media only screen and (min-width: 1150px) and (orientation: landscape) {
   .content-faq {
     position: relative !important;
-    margin: 8rem 0 2rem 0 !important;
+    margin: 6rem 0 2rem 0 !important;
     padding: 2rem 15rem !important;
     height: auto !important;
     justify-content: center;
@@ -649,30 +645,25 @@ section .row {
   display: block;
   position: absolute;
   z-index: -100;
-  height: 19rem;
-  margin-top: 15rem;
+  margin-top: 3rem;
   margin-left: 0;
   width: 100%;
-  height: 70vh !important;
-  scale: 100%;
-  filter: opacity(80%);
-  border-bottom: 5px ridge;
+  height: 50%;
+  margin-left: -0.75rem;
+  border-bottom: 6px ridge;
 }
 
 .titles {
-  margin-top: 18rem;
+  margin-top: 24rem;
 }
 .titles h1 {
   font-size: 2rem;
   line-height: 3rem;
-  text-decoration: none;
-  padding: 0.5rem;
+  padding: 0.7rem;
   background-color: #ffffff;
 }
 .titles h2 {
   font-size: 1.2rem;
-  padding: 0.5rem;
-  background-color: #ffffff;
 }
 
 @-webkit-keyframes rgb {
@@ -756,15 +747,12 @@ section .row {
     display: block;
     position: absolute;
     z-index: -100;
-    height: 50rem;
-    margin-top: 1rem;
-    width: 80vw;
+    height: 50rem !important;
+    margin-top: -6rem;
+    margin-left: -3rem;
+    width: 110vw;
     filter: opacity(80%);
     border-bottom: 10px ridge;
-  }
-  .centrarManos {
-    justify-content: center;
-    display: flex;
   }
   .content-work-img {
     margin: 2rem 0 5rem !important;

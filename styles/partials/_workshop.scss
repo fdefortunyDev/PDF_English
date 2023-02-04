@@ -12,31 +12,26 @@
     display: block;
     position: absolute;
     z-index: -100;
-    height: 19rem;
-    margin-top: 15rem;
+    margin-top: 3rem;
     margin-left: 0;
     width: 100%;
-    height: 70vh !important;
-    scale: 100%;
-    filter: opacity(80%);
-    border-bottom: 5px ridge ;
+    height: 50%;
+    margin-left: -.75rem;
+    border-bottom: 6px ridge ;
 }
 
 
 .titles{
-    margin-top: 18rem;
+    margin-top: 24rem;
     h1{
         font-size: 2rem;
         line-height: 3rem;
-        text-decoration: none;
-        padding: .5rem;
+        padding: .7rem;
         background-color: map-get($map: $colors, $key: _bgColor)
     }
 
     h2{
         font-size: 1.2rem;
-        padding: .5rem;
-        background-color: map-get($map: $colors, $key: _bgColor)
         }
 
 }
@@ -114,17 +109,18 @@
         display: block;
         position: absolute;
         z-index: -100;
-        height: 50rem;
-        margin-top: 1rem;
-        width: 80vw;
+        height: 50rem !important;
+        margin-top: -6rem;
+        margin-left: -3rem;
+        width: 110vw;
         filter: opacity(80%);
         border-bottom: 10px ridge ;
     }
 
-    .centrarManos{
-        justify-content: center;
-        display: flex;
-    }
+    // .centrarManos{
+    //     justify-content: center;
+    //     display: flex;
+    // }
 
     .content-work-img {
         margin: 2rem 0 5rem !important;

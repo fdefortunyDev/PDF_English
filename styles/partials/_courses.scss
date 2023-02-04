@@ -117,13 +117,12 @@ section {
     .teacher {
         position: fixed;
         display: block;
-        width: 20rem;
-        
+        width: 30rem;
         margin-left: 2rem;
-        bottom: 0;
+        bottom: 0rem;
         z-index: 0;
         filter: drop-shadow(.3rem .3rem 3px map-get($map: $colors, $key: _lightGray));
-        filter: opacity(20%)
+        filter: opacity(15%)
     }
 
     .image-courses {
