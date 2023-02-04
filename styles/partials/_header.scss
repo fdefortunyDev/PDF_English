@@ -28,8 +28,8 @@
     position: absolute;
     right: -6px;
     padding: .2rem .5rem;
-    margin-top: 14.69rem;
-    border: 1px solid map-get($map: $colors, $key: _gray );
+    margin-top: 14.67rem;
+    border: 1px 2px solid map-get($map: $colors, $key: _gray );
     border-right: 6px solid map-get($map: $colors, $key: _gray );
     border-bottom: 3px solid map-get($map: $colors, $key: _gray );
     border-top: 1px solid;
@@ -78,6 +78,13 @@
 
 
 #workshop {
+    color:  map-get($map:$colors, $key: _black );
+    filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
+    background-color: map-get($map: $colors, $key: _withe);
+    border: 1px solid  map-get($map:$colors, $key: _lightGray );
+}
+
+#preguntas {
     color:  map-get($map:$colors, $key: _black );
     filter: drop-shadow(0 0 0 map-get($map: $colors, $key: _black));
     background-color: map-get($map: $colors, $key: _withe);
@@ -148,13 +155,13 @@
 
 
     .logo-index {
-        width: 11rem !important;
-        height: 10rem !important;
+        width: 9rem !important;
+        height: 8rem !important;
     }
 
     .logo {
-        width: 11rem !important;
-        height: 10rem !important;
+        width: 9rem !important;
+        height: 8rem !important;
         z-index: 50;
     }
     

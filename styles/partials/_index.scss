@@ -10,7 +10,7 @@
     margin-left: -1rem;
 }
 
-.imagenPrincipal{
+.imagenPrincipal {
     display: none;
 }
 
@@ -19,18 +19,26 @@
     position: relative;
     margin: .5rem 0 5rem;
     padding: 2rem 1rem;
-    h1{
+
+    h1 {
         text-decoration: none;
     }
 
-    img{
+    .smallFont {
+        font-size: .8rem !important;
+    }
+
+    .comments{
+        background-color: rgb(241, 241, 241);
+    }
+
+    img {
         display: none;
     }
 }
 
 
 .aside {
-
     div {
         span {
             display: flex;
@@ -45,20 +53,21 @@
                 width: 100%;
                 text-decoration: none;
                 font-size: 2rem;
-                color: map-get($map: $colors, $key: _blue );
+                color: map-get($map: $colors, $key: _blue);
                 font-family: $titleFont;
                 justify-content: center;
                 text-align: center;
                 font-weight: bolder;
-                background-color: map-get($map: $colors, $key: _bgColor );
-                border: 1px solid map-get($map: $colors, $key: _gray );
+                background-color: map-get($map: $colors, $key: _bgColor);
+                border: 1px solid map-get($map: $colors, $key: _gray);
                 filter: drop-shadow(0 0 3px map-get($map: $colors, $key: _gray));
             }
 
         }
-        img{
+
+        img {
             width: 100%;
-            border: .1rem solid map-get($map: $colors, $key: _gray );
+            border: .1rem solid map-get($map: $colors, $key: _gray);
             filter: drop-shadow(2px 2px 4px map-get($map: $colors, $key: _gray));
         }
 
@@ -96,34 +105,38 @@
     }
 
     .imagenPrincipal {
-        margin: 7rem auto 0 auto;
-        width: 80vw;
+        width: 60vw;
         z-index: -10;
-        display: none;
+        display: block;
     }
 
     .imagenPrincipalMovil {
-       display: none;
+        display: none;
     }
-    
+
 
     .content-index {
         position: relative;
-        margin: 5rem 0 0 0;
-        padding: 2rem 5rem 0;
+        margin: 0 0 0 0;
+        padding: 0 5rem 0;
         font-family: Verdana, Tahoma, sans-serif;
-        font-size: 1rem;
+        font-size: 1.2rem;
         height: auto;
 
-        h1{
-            text-decoration: 2px overline;
+        h1 {
+            margin-top: 5rem !important;
+            padding-top: 0 !important;
+            margin-bottom: .2rem;
+        }
+        h2{
+            margin-top: .2rem
         }
 
         p {
-            margin-top: 3rem;
+            margin-top: 1.2rem;
         }
 
-        img{
+        img {
             display: block;
             margin-top: 3rem;
             width: 80%;
@@ -133,8 +146,8 @@
 
 
     .aside {
-        margin: 0;
-        padding: 12rem 6rem 0 0;
+        margin-top: 15rem;
+        padding: 0rem 6rem 0 0;
 
         div {
             span {
@@ -153,9 +166,10 @@
                     filter: drop-shadow(10px 10px 10px map-get($map: $colors, $key: _gray));
                 }
             }
-            img{
+
+            img {
                 width: 100%;
-                border: .1rem solid map-get($map: $colors, $key: _gray );
+                border: .1rem solid map-get($map: $colors, $key: _gray);
                 filter: drop-shadow(10px 10px 6px map-get($map: $colors, $key: _gray));
                 margin-bottom: 0;
                 padding-bottom: 0;
