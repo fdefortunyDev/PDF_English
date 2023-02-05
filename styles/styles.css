@@ -815,7 +815,7 @@ section .row {
 }
 .content-nos ul #libreta {
   position: absolute;
-  top: 13rem;
+  top: 10rem;
   left: -1rem;
   width: 80px;
   rotate: -10deg;
@@ -842,7 +842,7 @@ section .row {
 }
 .content-nos ul #libro2 {
   position: absolute;
-  top: 90rem;
+  top: 95rem;
   right: 0rem;
   width: 90px;
   rotate: 30deg;
