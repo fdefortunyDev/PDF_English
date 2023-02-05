@@ -636,6 +636,10 @@ section .row {
           animation: rgb 5s infinite;
 }
 
+.notes {
+  display: none;
+}
+
 .content-work-imgs img {
   height: 18rem !important;
 }
@@ -757,6 +761,15 @@ section .row {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(255, 255, 255);
+  }
+  .notes {
+    display: block;
+    position: absolute;
+    width: 10rem;
+    right: 8rem;
+    top: 32.62rem;
+    z-index: 500;
+    filter: opacity(70%);
   }
   .image-workshop {
     width: 100% !important;
