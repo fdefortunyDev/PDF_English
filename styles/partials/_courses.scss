@@ -102,17 +102,17 @@ section {
         margin: 0 2rem;
     }
 
-    .tower {
-        display: block;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: fixed;
-        z-index: -30;
-        height: 80%;
-        bottom: -12rem;
-        right: .5rem;
-        filter: drop-shadow(1rem 1rem 3px map-get($map: $colors, $key: _lightGray));
-    }
+    // .tower {
+    //     display: none;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     position: fixed;
+    //     z-index: -30;
+    //     height: 80%;
+    //     bottom: -12rem;
+    //     right: .5rem;
+    //     filter: drop-shadow(1rem 1rem 3px map-get($map: $colors, $key: _lightGray));
+    // }
 
     .teacher {
         position: fixed;
