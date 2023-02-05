@@ -1,5 +1,5 @@
 .content-nos {
-    @include containters(relative, 18rem 0 0, 1rem, auto);
+    @include containters(relative, 18rem 1rem 1rem 0rem, 1rem 1.5rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
 
@@ -22,15 +22,16 @@
         #lapiz {
             position: absolute;
             top: 35rem;
-            right: -1rem;
-            width: 100px;
+            right: 0;
+            width: 80px;
+            rotate: (30deg);
 
         }
 
         #libroAbierto {
             position: absolute;
             top: 65rem;
-            right: -1rem;
+            right: 0;
             width: 70px;
         }
 
@@ -44,8 +45,9 @@
         #libro2{
             position: absolute;
             top: 115rem;
-            right: -1.5rem;
-            width: 100px;
+            right: 0rem;
+            width: 80px;
+            rotate: (30deg);
         }
 
         #li-1 {

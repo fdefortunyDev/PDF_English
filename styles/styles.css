@@ -595,10 +595,13 @@ section .row {
 }
 .content-faq {
   position: relative !important;
-  margin: 20rem 0 2rem 0 !important;
-  padding: 2rem !important;
+  margin: 18rem 0 2rem 0 !important;
+  padding: 0 2rem !important;
   height: auto !important;
   background-color: #ffffff;
+}
+.content-faq h1 {
+  margin-top: 0;
 }
 .content-faq p {
   padding-top: 1rem;
@@ -797,8 +800,8 @@ section .row {
 }
 .content-nos {
   position: relative !important;
-  margin: 18rem 0 0 !important;
-  padding: 1rem !important;
+  margin: 18rem 1rem 1rem 0rem !important;
+  padding: 1rem 1.5rem !important;
   height: auto !important;
   background-color: #ffffff;
 }
@@ -820,13 +823,14 @@ section .row {
 .content-nos ul #lapiz {
   position: absolute;
   top: 35rem;
-  right: -1rem;
-  width: 100px;
+  right: 0;
+  width: 80px;
+  rotate: 30deg;
 }
 .content-nos ul #libroAbierto {
   position: absolute;
   top: 65rem;
-  right: -1rem;
+  right: 0;
   width: 70px;
 }
 .content-nos ul #tablet {
@@ -838,8 +842,9 @@ section .row {
 .content-nos ul #libro2 {
   position: absolute;
   top: 115rem;
-  right: -1.5rem;
-  width: 100px;
+  right: 0rem;
+  width: 80px;
+  rotate: 30deg;
 }
 .content-nos ul #li-1 {
   border: 5px double #0f0d57;
