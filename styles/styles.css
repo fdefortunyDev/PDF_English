@@ -559,7 +559,7 @@ section .row {
     bottom: 0rem;
     z-index: 0;
     filter: drop-shadow(0.3rem 0.3rem 3px #929292);
-    filter: opacity(15%);
+    filter: opacity(8%);
   }
   .image-courses {
     display: inline-flex;
