@@ -97,8 +97,7 @@
   border-radius: 2rem;
   width: 8rem !important;
   height: 7rem !important;
-  -webkit-animation: rotacion 1.4s 1;
-          animation: rotacion 1.4s 1;
+  animation: rotacion 1.4s 1;
   filter: drop-shadow(2px 4px 6px #000000);
 }
 
@@ -319,6 +318,11 @@ h4 {
   margin-top: 2rem;
 }
 
+.hrTitle {
+  margin: auto;
+  width: 17rem;
+}
+
 .imagenPrincipalMovil {
   margin-top: 13rem;
   width: 100vw;
@@ -378,19 +382,6 @@ h4 {
   filter: drop-shadow(2px 2px 4px #333333);
 }
 
-@-webkit-keyframes rotacion {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    margin-left: 3rem;
-    transform: rotate(35deg);
-  }
-  100% {
-    transform: rotate(-360deg);
-  }
-}
-
 @keyframes rotacion {
   0% {
     transform: rotate(0deg);
@@ -415,6 +406,10 @@ h4 {
   }
   .imagenPrincipalMovil {
     display: none;
+  }
+  .hrTitle {
+    margin: auto;
+    width: 20rem;
   }
   .content-index {
     position: relative;
@@ -632,8 +627,7 @@ section .row {
   background-repeat: no-repeat;
   background-size: cover;
   width: 40%;
-  -webkit-animation: rgb 5s infinite;
-          animation: rgb 5s infinite;
+  animation: rgb 5s infinite;
 }
 
 .notes {
@@ -671,7 +665,6 @@ section .row {
   font-size: 2rem;
   border-radius: 1.2rem !important;
   border: 2px ridge #008000;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.7rem;
@@ -680,24 +673,6 @@ section .row {
 }
 .titles h2 {
   font-size: 1.2rem;
-}
-
-@-webkit-keyframes rgb {
-  0% {
-    filter: drop-shadow(0 0 0.3rem #1ad4f6);
-  }
-  25% {
-    filter: drop-shadow(0 0 0.3rem #F81878);
-  }
-  50% {
-    filter: drop-shadow(0 0 0.3rem #fff700);
-  }
-  75% {
-    filter: drop-shadow(0 0 0.3rem #008000);
-  }
-  100% {
-    filter: drop-shadow(0 0 0.3rem #1ad4f6);
-  }
 }
 
 @keyframes rgb {
@@ -754,7 +729,6 @@ section .row {
     font-size: 3.5rem;
     border-radius: 1.2rem !important;
     border: 3px ridge #008000;
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     padding: 1rem 4rem;
@@ -829,36 +803,36 @@ section .row {
 .content-nos ul #libreta {
   position: absolute;
   top: 10rem;
-  left: -1rem;
+  left: 0rem;
   width: 80px;
-  rotate: -10deg;
+  rotate: -30deg;
 }
 .content-nos ul #lapiz {
   position: absolute;
   top: 35rem;
-  right: 0;
+  right: 0.5rem;
   width: 80px;
   rotate: 30deg;
 }
 .content-nos ul #libroAbierto {
   position: absolute;
   top: 67rem;
-  right: 0;
+  right: 0rem;
   width: 70px;
-}
-.content-nos ul #tablet {
-  position: absolute;
-  top: 84rem;
-  left: -2rem;
-  width: 100px;
-  rotate: -30deg;
 }
 .content-nos ul #libro2 {
   position: absolute;
-  top: 95rem;
+  bottom: 10rem;
   right: 0rem;
   width: 90px;
   rotate: 30deg;
+}
+.content-nos ul #tablet {
+  position: absolute;
+  bottom: -1rem;
+  left: -1rem;
+  width: 100px;
+  rotate: -30deg;
 }
 .content-nos ul #li-1 {
   border: 5px double #0f0d57;

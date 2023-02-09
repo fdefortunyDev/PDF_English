@@ -14,15 +14,15 @@
         #libreta {
             position: absolute;
             top: 10rem;
-            left: -1rem;
+            left: 0rem;
             width: 80px;
-            rotate: (-10deg);
+            rotate: (-30deg);
         }
 
         #lapiz {
             position: absolute;
             top: 35rem;
-            right: 0;
+            right: .5rem;
             width: 80px;
             rotate: (30deg);
 
@@ -31,25 +31,28 @@
         #libroAbierto {
             position: absolute;
             top: 67rem;
-            right: 0;
+            right: 0rem
+            ;
             width: 70px;
-        }
-
-        #tablet {
-            position: absolute;
-            top: 84rem;
-            left: -2rem;
-            width: 100px;
-            rotate: (-30deg);
         }
 
         #libro2{
             position: absolute;
-            top: 95rem;
+            bottom: 10rem;
             right: 0rem;
             width: 90px;
             rotate: (30deg);
         }
+
+        
+        #tablet {
+            position: absolute;
+            bottom: -1rem;
+            left: -1rem;
+            width: 100px;
+            rotate: (-30deg);
+        }
+
 
         #li-1 {
             border: 5px double map-get($map: $colors, $key: _blue);
