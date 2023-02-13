@@ -602,6 +602,10 @@ section .row {
   padding-top: 1rem;
 }
 
+.accordion-button {
+  display: block;
+}
+
 .center {
   display: flex;
   justify-content: center;
