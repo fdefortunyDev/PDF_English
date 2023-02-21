@@ -33,7 +33,7 @@
     border-right: 6px solid map-get($map: $colors, $key: _gray );
     border-bottom: 3px solid map-get($map: $colors, $key: _gray );
     border-radius: 0 0 2rem 2rem;
-    
+    z-index: 100;
 }
 
 .LinkNav {
@@ -43,7 +43,7 @@
     margin: 0.4rem;
     font-family: $principalFont;
     font-style: italic;
-    text-decoration: none;
+    text-decoration: none !important;
     font-weight: 500;
     text-align: center;
     font-size: 1rem;

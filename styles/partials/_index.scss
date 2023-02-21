@@ -4,13 +4,54 @@
     margin-top: 2rem;
 }
 
+.bannerIndex{
+    background-color: rgb(255, 255, 73);
+    margin-bottom: 5rem;
+    height: 5rem;
+    padding: .6rem;
+
+    #linkIndexWpp{
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+    
+    #inscripciones{
+        font-size: 1.5rem;
+    }
+}
+
+.modal{
+    display: block !important;
+    position: absolute !important;
+    margin: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(0, 0, 0, 0.799);
+
+    .imgModal{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: -webkit-fill-available;
+        margin-top: 10rem;
+        animation: rgbb 1s infinite;
+    }
+
+}
+
+.intro{
+    font-size: 1rem;
+}
+
 .hrTitle{
     margin: auto;
     width: 17rem;
 }
 
 .imagenPrincipalMovil {
-    margin-top: 13rem;
+    margin-top: 15rem;
     width: 100vw;
     margin-left: -1rem;
 }
@@ -100,6 +141,29 @@
     }
 }
 
+@keyframes rgbb {
+    0% {
+        filter: drop-shadow(0 0 1rem map-get($colors, _yellow));
+    }
+
+    25% {
+        filter: drop-shadow(0 0 .3rem map-get($colors, _yellow));
+    }
+
+    50% {
+        filter: drop-shadow(0 0 1rem map-get($colors, _yellow));
+    }
+
+    75% {
+        filter: drop-shadow(0 0 .3rem map-get($colors, _yellow));
+    }
+
+    100% {
+        filter: drop-shadow(0 0 1rem map-get($colors, _yellow));
+    }
+
+}
+
 
 
 
@@ -152,7 +216,7 @@
 
 
     .aside {
-        margin-top: 15rem;
+        margin-top: 10rem;
         padding: 0rem 6rem 0 0;
 
         div {
