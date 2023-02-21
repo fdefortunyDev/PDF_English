@@ -349,7 +349,7 @@ h4 {
   align-items: center;
   width: -webkit-fill-available;
   margin-top: 10rem;
-  animation: rgbb 1s infinite;
+  animation: pulse 1.3s infinite;
 }
 
 .intro {
@@ -432,7 +432,7 @@ h4 {
     transform: rotate(-360deg);
   }
 }
-@keyframes rgbb {
+@keyframes pulse {
   0% {
     filter: drop-shadow(0 0 1rem #fff700);
   }
