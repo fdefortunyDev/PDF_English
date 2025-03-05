@@ -1,133 +1,81 @@
 .content-nos {
-    @include containters(relative, 18rem 1rem 1rem 0rem, 1rem 1.5rem, auto);
+    @include containters(relative, 1rem 0 0 0, 1rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
 
-    ul {
-        padding: 1rem;
+    display: flex;
+    flex-direction: row;
 
-        li {
-            margin-bottom: 4rem;
-            padding: 1rem;
-            list-style: none;
-        }
-        #libreta {
-            position: absolute;
-            top: 10rem;
-            left: 0rem;
-            width: 80px;
-            rotate: (-30deg);
-        }
-
-        #lapiz {
-            position: absolute;
-            top: 35rem;
-            right: .5rem;
-            width: 80px;
-            rotate: (30deg);
-
-        }
-
-        #libroAbierto {
-            position: absolute;
-            top: 67rem;
-            right: 0rem
-            ;
-            width: 70px;
-        }
-
-        #libro2{
-            position: absolute;
-            bottom: 10rem;
-            right: 0rem;
-            width: 90px;
-            rotate: (30deg);
-        }
-
-        
-        #tablet {
-            position: absolute;
-            bottom: -1rem;
-            left: -1rem;
-            width: 100px;
-            rotate: (-30deg);
-        }
-
-
-        #li-1 {
-            border: 5px double map-get($map: $colors, $key: _blue);
-        }
-
-        #li-2 {
-            border: 5px double map-get($map: $colors, $key: _green);
-        }
-
-        #li-3 {
-            border: 5px double map-get($map: $colors, $key: _black);
-        }
-
-        #li-4 {
-            border: 5px double map-get($map: $colors, $key: _pink);
-        }
-
-        #li-5 {
-            border: 5px double map-get($map: $colors, $key: _green);
-        }
-
-        #li-6 {
-            border: 5px double map-get($map: $colors, $key: _blue);
-            margin-bottom: 0;
-        }
+    img{
+        width: 4rem;
+        height: 4rem;
+        margin: 0 1rem 0 -1rem;
     }
+}
+
+#question{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.first{
+    @include containters(relative, 18rem 0 0 0, 1rem, auto);
+}
+
+.paragraph-nos{
+    p{
+        text-indent: 0;
+        margin-bottom: 1rem;
+        b{
+            font-size: 1.1rem;
+            color: map-get($map: $colors, $key: _skyBlue);
+        }
+
+        .black{
+          color: black;
+        }
+        
+    }
+}
+
+.black{
+    color: black;
+  }
+
+.text-center{
+    text-align: center;
 }
 
 /* desktop */
 @media only screen and (min-width: 1150px) and (orientation:landscape) {
+    #question{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
 
     .content-nos {
-        margin: 10rem 2rem !important;
-        padding: 1rem 10% !important;
-        font-size: 1.1rem;
-
-        ul {
-
-            li {
-                margin-top: 2rem;
-                padding: 1rem;
-            }
-
-            #libreta {
-                top: 10rem;
-                left: 4rem;
-                width: 10% !important;
-            }
-
-            #lapiz {
-                top: 20rem;
-                right: 4rem;
-                width: 10% !important;
-            }
-
-            #libroAbierto {
-                top: 40rem;
-                right: 4rem;
-                width: 8% !important;
-            }
-
-            #tablet {
-                top: 50rem;
-                left: 3em;
-                width: 11% !important;
-                rotate: (-20deg);;
-            }
-
-            #libro2{
-                top: 65rem;
-                right: 5rem;
-                width: 10%;
-                rotate: (40deg);
-            }
+        @include containters(relative, 1rem 0 0 0, 2rem 10rem, auto);
+        img{
+            width: 8rem;
+            height: 8rem;
+            margin: 0 3rem 0 -4rem;
+        }
     }
-}
+    .first{
+        @include containters(relative, 10rem 0 0 0, 5rem 10rem 2rem, auto);
+    }
 
+    .mt2{
+        margin-top: 2rem;
+    }
+
+    .paragraph-nos{
+
+        p{
+            font-size: 1.1rem;
+            b{
+                font-size: 1.2rem;
+            }            
+        }
+    }
 }

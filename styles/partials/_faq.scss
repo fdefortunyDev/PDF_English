@@ -11,8 +11,15 @@
     }
 }
 
-.accordion-button{
-    display: block;
+.accordion-button {
+    &::after{
+        display: none !important;
+    }
+}
+
+.accordion-button::after {
+  transform: none !important;
+  transition: none !important;
 }
 
 .center {
@@ -28,7 +35,7 @@
 @media only screen and (min-width: 1150px) and (orientation:landscape) {
 
     .content-faq {
-        @include containters(relative, 6rem 0 2rem 0, 2rem 15rem, auto);
+        @include containters(relative, 6rem 0 2rem 0, 2rem 20rem, auto);
         justify-content: center;
     }
 

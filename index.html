@@ -9,6 +9,8 @@
     <meta name="description" content="Clases de inglés online." />
     <meta name="author" content="Federico de Fortuny" />
     <meta name="copyright" content="PDF English" />
+    <meta name="robors" content="index, follow" />
+    <meta name="description" content="Academia de ingles online pdf english">
     <meta name="keywords"
         content="CLASES,INGLES,CURSO,ONLINE,LEARN, CLASSES, APRENDER, PDF, PDF ENGLISH, EXAMEN,
                 IDIOMAS, A1,A2,B1,B2,C1,C2, INTERMEDIO, INTERMEDIATE, ADVANCED, AVANZADO, FIRST, CAMBDRIDGE, COURSES, WORKSHOPS">
@@ -18,11 +20,10 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@600&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body class="body-index">
@@ -35,9 +36,9 @@
                 <ul class="listNav">
                     <li><a id="index" class="LinkNav" href="./index.html">Inicio</a></li>
                     <li><a class="LinkNav" href="./pages/cursos.html">Cursos</a></li>
-                    <li><a class="LinkNav" href="./pages/workshops.html">Talleres</a></li>
+                    <li><a class="LinkNav" href="./pages/workshops.html">Workshops</a></li>
                     <li><a class="LinkNav" href="./pages/nosotros.html">Nosotros</a></li>
-                    <li><a class="LinkNav" href="./preguntas.html">FAQ</a></li>
+                    <li><a class="LinkNav" href="./pages/preguntas.html">FAQ</a></li>
                 </ul>
             </div>
         </nav>
@@ -45,39 +46,65 @@
     <div class="modal fade" id="exampleModalCenter" onclick="modal(event)" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                </div>
-                    <img class="imgModal" src="/images/descuento.png" alt="">
-            </div>
+            <img class="imgModal" src="./images/banner2025.jpeg" alt="promoción">
         </div>
+    </div>
     </div>
     <section class="container-fluid">
         <div class="row">
             <div class="carrousel col-12">
-                <img class="imagenPrincipalMovil" src="./images/portada3.jpeg" alt="imagen carrousel">
+                <!-- <img class="imagenPrincipalMovil" src="./images/portada3.jpeg" alt="imagen carrousel"> -->
             </div>
         </div>
     </section>
-    <section class="container-fluid">
+    <section class="container-fluid main-page">
         <div class="row">
             <div class="content-index col-sm-12 col-lg-7">
-                <h1>PDF ENGLISH</h1>
+                <!-- <h1>PDF ENGLISH</h1>
                 <hr class="hrTitle">
-                <h2>Inglés Online</h2>
+                <h2>Inglés Online</h2> -->
+                <img id="principalTitle" src="images/pdfEnglish.jpeg">
                 <img class="imagenPrincipal" src="./images/portada.jpeg" alt="imagen carrousel">
                 <div>
+                    <!-- <p class="intro" style="font-size: 1.4rem; margin-top: 0; text-align: center;">
+                        🌍 ¡Bienvenidos!
+                    </p> -->
                     <p class="intro">
-                        Somos un instituto de inglés online con una mirada innovadora sobre la educación y el
-                        aprendizaje del idioma para que tanto niños, jóvenes y adultos disfruten de las clases.
+                      Cursos de inglés online y EN VIVO para alumnos de todas las edades y niveles. 
                     </p>
                     <p class="intro">
-                        ¿Cómo nos valora nuestra comunidad?
+                        Si estás buscando aprender inglés de manera dinámica y desde la comodidad de tu hogar u oficina, ¡somos la opción perfecta para ti! 👩‍🏫👨‍🏫
+                    </p>
+                    <p class="intro">
+                        <ul>
+                            <li>
+                                🗣️ Clases personalizadas.
+                            </li>
+                            <li>
+                                📅 Flexibilidad de horarios.
+                            </li>
+                            <li>
+                                🎓 Profesores altamente capacitados.
+                            </li>
+                                
+                        </ul>
+                    </p>
+                    <p class="intro">
+                        📲 ¡Sumáte a nuestra comunidad y empezá hoy mismo!
                     </p>
                     <br>
+                    <p class="intro" style="font-size: 2.5rem; font-family: cursive; font-weight: 900; text-align: center;">
+                        ¿Cómo nos valoran?
+                    </p>
                 </div>
                 <div class="comments">
                     <p>
                         «Los cursos son super dinámicos, accesibles y los chicos se enganchan rapidísimo...»
+                    </p>
+                </div>
+                <div class="comments">
+                    <p>
+                        "La atención, la calidez en responder las dudas, la forma de hacer que el conocimiento se afiance"
                     </p>
                 </div>
                 <div class="comments">
@@ -92,8 +119,18 @@
                 </div>
                 <div class="comments">
                     <p>
+                        "Tener la oportunidad de practicar y mejorar mi inglés"
+                    </p>
+                </div>
+                <div class="comments">
+                    <p>
                         «Destaco la paciencia y buena predisposición de los profes, y que se utilizan varios métodos
                         para incorporar los conocimientos y que ayudan mucho para aprender…»
+                    </p>
+                </div>
+                <div class="comments">
+                    <p>
+                        "La MARAVILLOSA forma de enseñar. Aun de vacaciones mi hija quiere llevar sus cosas de inglés para no perderse las clases. La verdad estamos felices con este lugar."
                     </p>
                 </div>
                 <div class="comments">
@@ -102,24 +139,119 @@
                         mejor…»
                     </p>
                 </div>
-                <p class="smallFont">
+                <div class="comments">
+                    <p>
+                        "Conversación constante en inglés durante las clases"
+                    </p>
+                </div>
+                <p class="smallFont addLastYear">
                     Gracias a alumnos y familias que anónimamente respondieron nuestra encuesta de satisfacción
-                    haciéndonos saber su opinión y experiencia en nuestros cursos ciclo 2022.
+                    haciéndonos saber su opinión y experiencia en nuestros cursos ciclo
                 </p>
-                <img src="./images/footIndex.png" alt="imagen animada">
             </div>
-            <div class="aside col-sm-12 col-lg-5 ">
-                <div>
-                    <div class="bannerIndex">
-                        <span id="inscripciones">INSCRIPCIONES 2023</span>
-                        <a id="linkIndexWpp" href="https://wa.me/+5491126943816" target="_blank">Más información aquí</a>
-                    </div>
-                    <img src="./images/children.jpg" alt="Imagen de niña">
-                    <span><a href="./pages/cursos.html">Cursos</a></span>
+            <div class="aside col-sm-12 col-lg-5">
+                <div class="bannerIndex">
+                    <span id="inscripciones" class="addYear">INSCRIPCIONES</span>
+                    <a class='tel' href='https://wa.me/+5491126943816' id="linkIndexWpp" target="_blank">Más información aquí</a>
                 </div>
                 <div>
-                    <img src="./images/cursos-ingles-online.jpg" alt="Cursos">
-                    <span><a href="./pages/workshops.html">Talleres</a></span>
+                    <div id="carousel-indicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-indicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-indicators" data-slide-to="1"></li>
+                            <li data-target="#carousel-indicators" data-slide-to="2"></li>
+                        </ol>
+                        <a href="https://www.instagram.com/pdf.english/" target="_blank">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 image-carousel"
+                                        src="./images/carrousel-1/1-ingles-laboral.webp" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 image-carousel"
+                                        src="./images/carrousel-1/2-idioma-mas-hablado.webp" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 image-carousel"
+                                        src="./images/carrousel-1/3-musica-en-ingles.webp" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 image-carousel" src="./images/carrousel-1/4-pelis.webp"
+                                        alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 image-carousel"
+                                        src="./images/carrousel-1/5-IDIOMA-PERSONALIDAD.webp" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 image-carousel"
+                                        src="./images/carrousel-1/6-ser-bilingue.webp" alt="Third slide">
+                                </div>
+                            </div>
+                        </a>
+                        <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-indicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <div id="carousel-indicators-2" class="carousel slide" data-ride="carousel">
+                        <a href="https://www.instagram.com/pdf.english/" target="_blank">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-indicators-2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-indicators-2" data-slide-to="1"></li>
+                                <li data-target="#carousel-indicators-2" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 image-carousel" src="./images/carrousel-2/1-b2-first.webp"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 image-carousel"
+                                        src="./images/carrousel-2/2-nivel-de-ingles.webp" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 image-carousel"
+                                        src="./images/carrousel-2/3-USA-IDIOMA-oficial.webp" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 image-carousel"
+                                        src="./images/carrousel-2/4-ingles-aviacion.webp" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 image-carousel"
+                                        src="./images/carrousel-2/5-palabras-OUGH.webp" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 image-carousel"
+                                        src="./images/carrousel-2/6-4000-palabras-nuevas.webp" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 image-carousel"
+                                        src="./images/carrousel-2/7-400-definiciones.webp" alt="First slide">
+                                </div>
+                            </div>
+                        </a>
+                        <a class="carousel-control-prev" href="#carousel-indicators-2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-indicators-2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    
+                    <br>
+                    <img id="footIndexImage" src="./images/footIndex.png" alt="imagen animada">
                 </div>
             </div>
         </div>
@@ -130,40 +262,63 @@
                 <ul class="listFooter">
                     <li><a class="LinkFoot " href="./index.html">Inicio</a></li>
                     <li><a class="LinkFoot" href="./pages/cursos.html">Cursos</a></li>
-                    <li><a class="LinkFoot" href="./pages/workshops.html">Talleres</a></li>
+                    <li><a class="LinkFoot" href="./pages/workshops.html">Workshops</a></li>
                     <li><a class="LinkFoot" href="./pages/nosotros.html">Nosotros</a></li>
                     <li><a class="LinkFoot" href="./pages/preguntas.html">FAQ</a></li>
                 </ul>
-                <span class="copyright">© Copyright 2022. All Rights Reserved.</span>
-            </div>
-            <div class="redesSociales">
-                <a href="https://www.instagram.com/pdf.english/" target="_blank"><img src="./images/insta.png"
-                        alt="Logotipo instagram"></a>
-                <a href="https://www.facebook.com/pdefortuny.english/" target="_blank"><img src="./images/fb.png"
-                        alt="Logotipo Facebook"></a>
-                <a href="https://wa.me/+5491126943816" target="_blank"><img src="./images/wpp.png"
-                        alt="Logotipo Whatsapp"></a>
             </div>
         </nav>
+        <div class="redesSociales">
+            <a href="https://www.instagram.com/pdf.english/" target="_blank"><img src="./images/insta.png"
+                    alt="Logotipo instagram"></a>
+            <a href="https://www.facebook.com/pdefortuny.english/" target="_blank"><img src="./images/fb.png"
+                    alt="Logotipo Facebook"></a>
+            <a class='tel' href='https://wa.me/+5491126943816' target="_blank"><img src="./images/wpp.png"
+                    alt="Logotipo Whatsapp"></a>
+        </div>
+        <span class="copyright">© Copyright - All Rights Reserved</span>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-      $('#exampleModalCenter').modal('show')
-  });
-  function modal(event) {
-    event.preventDefault();
-    $('.modal-backdrop').remove();
-    $('.fade').remove();
-    $('body').removeClass('modal-open');
-  }
-  
-  </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#exampleModalCenter').modal('show')
+        });
+        function modal(event) {
+            event.preventDefault();
+            $('.modal-backdrop').remove();
+            $('.fade').remove();
+            $('body').removeClass('modal-open');
+        }
+
+   // Cambio de número de Whatsapp según país
+        fetch("https://ipinfo.io/json?token=efccb43b4ccc59")
+            .then((response) => response.json())
+            .then((data) => {
+                const pais = data.country;
+                const btnWpp = document.getElementsByClassName("tel");
+                for (let i = 0; i < btnWpp.length; i++) {
+                    if (pais === "UY") {
+                        btnWpp[i].setAttribute("href", "https://wa.me/+59897076838");
+                    } else {
+                        btnWpp[i].setAttribute("href", "https://wa.me/+5491126943816");
+                    }   
+                }
+            })
+        .catch((error) => {
+        });
+    </script>
+    <script src="./js/get-year.js"></script>
 </body>
 
 </html>

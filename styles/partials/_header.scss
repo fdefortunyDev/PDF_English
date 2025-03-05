@@ -93,9 +93,9 @@
 .logo-index {
     position: absolute;
     margin: 1.5rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 8rem !important;
-    height: 7rem !important;
+    height: auto !important;
     animation: rotacion 1.4s 1;
     filter: drop-shadow(2px 4px 6px map-get($map: $colors, $key: _black));
 }
@@ -104,9 +104,9 @@
 .logo {
     position: absolute;
     margin: 1.5rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 8rem;
-    height: 7rem;
+    height: auto;
     filter: drop-shadow(2px 4px 6px map-get($map: $colors, $key: _black));
 }
 
