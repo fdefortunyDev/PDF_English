@@ -21,11 +21,19 @@
 }
 
 #cambridge {
-    width: 10rem;
+    width: 8rem;
+}
+
+#mcer{
+    width: 7rem;
+}
+#utn{
+    width: 8rem;
+    margin-right: .5rem;
 }
 
 #path {
-    width: 7rem;
+    width: 6rem;
 }
 
 nav {
@@ -46,8 +54,12 @@ section {
     display: none;
 }
 
+.child-courses  {
+    display: none;
+}
+
 .content-courses {
-    @include containters(relative, 5rem 1rem 0, 2rem, auto);
+    @include containters(relative, 3rem 1rem 0, 2rem, auto);
     background-color: map-get($map: $colors, $key: _bgColor);
     @extend %principalFonts;
 
@@ -91,38 +103,50 @@ section {
 /* desktop */
 @media only screen and (min-width: 1150px) and (orientation:landscape) {
 
+    #mcer{
+        width: 15rem;
+    }
 
     #cambridge {
-        width: 15rem;
-        margin: 0 2rem;
-    }
-    
-    #path {
-        width: 10rem;
+        width: 20rem;
         margin: 0 2rem;
     }
 
-    // .tower {
-    //     display: none;
-    //     background-repeat: no-repeat;
-    //     background-size: cover;
-    //     position: fixed;
-    //     z-index: -30;
-    //     height: 80%;
-    //     bottom: -12rem;
-    //     right: .5rem;
-    //     filter: drop-shadow(1rem 1rem 3px map-get($map: $colors, $key: _lightGray));
-    // }
+    #utn{
+        width: 20rem;
+        margin: 0 2rem 0  0;
+    }
+
+    #path {
+        width: 11rem;
+        margin: 0 2rem;
+    }
 
     .teacher {
         position: fixed;
         display: block;
-        width: 30rem;
-        margin-left: 2rem;
+        width: 20rem;
         bottom: 0rem;
-        z-index: 0;
+        z-index: -10;
         filter: drop-shadow(.3rem .3rem 3px map-get($map: $colors, $key: _lightGray));
-        filter: opacity(8%)
+        filter: opacity(90%)
+    }
+
+
+.child-courses {
+        position: fixed;
+        display: block;
+        right: 0;
+        width: 20rem;
+        bottom: 0rem;
+        z-index: -10;
+        filter: drop-shadow(.3rem .3rem 3px map-get($map: $colors, $key: _lightGray));
+        filter: opacity(90%)
+}
+
+    .backgroundCoursesIntro{
+        z-index: 10;
+        background-color: map-get($map: $colors, $key: _bgColor2);
     }
 
     .image-courses {
@@ -136,7 +160,7 @@ section {
         margin: 10rem 0 2rem !important;
         padding: 2rem;
         width: 50%;
-        filter: drop-shadow(1px 1px 30px map-get($map: $colors, $key: _lighGray));
+        filter: drop-shadow(1px 1px 10px map-get($map: $colors, $key: _lighGray));
 
         p {
             padding: .5rem 0;
@@ -146,9 +170,33 @@ section {
             padding: .5rem 0;
         }
     }
+    
+    .courses-1{
+        border: .7rem ridge map-get($map: $colors, $key: _skyBlue);
+    }
+    .courses-2{
+        border: .7rem ridge map-get($map: $colors, $key: _pink);
+    }
+    .courses-3{
+        border: .7rem ridge map-get($map: $colors, $key: _yellow);
+    }
+    .courses-4{
+        border: .7rem ridge map-get($map: $colors, $key: _black);
+    }
+    .courses-5{
+        border: .7rem ridge map-get($map: $colors, $key: _green );
+    }
+
+    .exams-1{
+        border: .7rem double map-get($map: $colors, $key: _skyBlue);
+    }
+
+    .exams-2{
+        border: .7rem double map-get($map: $colors, $key: _skyBlue);
+    }
 
     .div-courses {
-        margin: 13rem 0 4rem !important;
+        margin: 10rem 0 4rem !important;
 
         h2 {
             font-size: 2.3rem;

@@ -27,7 +27,7 @@
     margin: auto !important;
     width: 100% !important;
     height: 100% !important;
-    background-color: rgba(0, 0, 0, 0.799);
+    background-color: rgba(0, 0, 0, 0.2);
 
     .imgModal{
         display: flex;
@@ -50,14 +50,20 @@
     width: 17rem;
 }
 
-.imagenPrincipalMovil {
-    margin-top: 15rem;
-    width: 100vw;
-    margin-left: -1rem;
-}
 
 .imagenPrincipal {
-    display: none;
+    display: block;
+    width: 60vw !important;
+    margin-left: 2rem;
+}
+
+#principalTitle {
+    height: 15rem;
+    justify-self: left;
+    margin-top: 2rem;
+    margin-left: .5rem;
+    // border: 5px black double;
+
 }
 
 .content-index {
@@ -83,8 +89,15 @@
     }
 
     img {
-        display: none;
+        display: block;
+        width: auto;
+        height: 5rem;
+        justify-self: center;
     }
+}
+
+#footIndexImage {
+    display: none;
 }
 
 
@@ -178,9 +191,16 @@
     }
 
     .imagenPrincipal {
-        width: 60vw;
+        width: 50vw !important;
         z-index: -10;
         display: block;
+    }
+
+    #principalTitle {
+        height: 30rem;
+        width: auto;
+        margin-top: -5rem;
+        justify-self: center;
     }
 
     .imagenPrincipalMovil {
@@ -195,8 +215,8 @@
 
     .content-index {
         position: relative;
-        margin: 0 0 0 0;
-        padding: 0 5rem 0;
+        margin: 0;
+        padding: 0 5rem 3rem !important;
         font-family: Verdana, Tahoma, sans-serif;
         font-size: 1.2rem;
         height: auto;
@@ -208,18 +228,18 @@
 
         img {
             display: block;
-            margin-top: 3rem;
-            width: 80%;
-            margin-left: 1rem;
+            width: 70%;
+            height: auto;
+            margin-top: -4rem;
         }
     }
 
 
     .aside {
-        margin-top: 10rem;
-        padding: 0rem 6rem 0 0;
-
+        margin-top: 7rem;
+        padding: 0 6rem 0 0;
         div {
+            margin: 0;
             span {
                 a {
                     display: flex;
@@ -238,13 +258,23 @@
             }
 
             img {
-                width: 100%;
+                width: 70% !important;
+                height: auto;
                 border: .1rem solid map-get($map: $colors, $key: _gray);
                 filter: drop-shadow(10px 10px 6px map-get($map: $colors, $key: _gray));
-                margin-bottom: 0;
+                margin-top: 3rem;
                 padding-bottom: 0;
+                justify-self: center;
             }
         }
+    }
+    #footIndexImage {
+        justify-self: center;
+        border: none;
+        display: block;
+        margin-bottom: 0;
+        width: 30vw;
+        filter: opacity(80%);
     }
 
 }
