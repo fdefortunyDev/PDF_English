@@ -93,7 +93,7 @@
                         📲 ¡Sumáte a nuestra comunidad y empezá hoy mismo!
                     </p>
                     <br>
-                    <p class="intro" style="font-size: 2.5rem; font-family: cursive; font-weight: 900; text-align: center;">
+                    <p class="intro" style="font-size: 2.5rem; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 900; text-align: center;">
                         ¿Cómo nos valoran?
                     </p>
                 </div>
@@ -290,34 +290,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#exampleModalCenter').modal('show')
-        });
-        function modal(event) {
-            event.preventDefault();
-            $('.modal-backdrop').remove();
-            $('.fade').remove();
-            $('body').removeClass('modal-open');
-        }
-
-   // Cambio de número de Whatsapp según país
-        fetch("https://ipinfo.io/json?token=efccb43b4ccc59")
-            .then((response) => response.json())
-            .then((data) => {
-                const pais = data.country;
-                const btnWpp = document.getElementsByClassName("tel");
-                for (let i = 0; i < btnWpp.length; i++) {
-                    if (pais === "UY") {
-                        btnWpp[i].setAttribute("href", "https://wa.me/+59897076838");
-                    } else {
-                        btnWpp[i].setAttribute("href", "https://wa.me/+5491126943816");
-                    }   
-                }
-            })
-        .catch((error) => {
-        });
-    </script>
+    <script src="./js/modal-popup.js"></script>
+    <script src="./js/get-phone-number.js"></script>
     <script src="./js/get-year.js"></script>
 </body>
 

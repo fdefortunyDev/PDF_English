@@ -140,14 +140,10 @@
     filter: drop-shadow(3px 3px 1px #000000);
   }
   .logo-index {
-    width: 9rem !important;
-    height: 8rem !important;
-    z-index: 50;
+    width: 11rem !important;
   }
   .logo {
-    width: 9rem !important;
-    height: 8rem !important;
-    z-index: 50;
+    width: 11rem !important;
   }
 }
 .body-index {
@@ -1002,6 +998,11 @@ section .row {
   margin: 0;
 }
 
+#exp {
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
 .first {
   position: relative !important;
   margin: 18rem 0 0 0 !important;
@@ -1034,6 +1035,10 @@ section .row {
   #question {
     font-size: 2rem;
     margin-top: 2rem;
+  }
+  #exp {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
   }
   .content-nos {
     position: relative !important;
